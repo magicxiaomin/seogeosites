@@ -26,11 +26,11 @@ Then open `http://127.0.0.1:18766/ai-meeting-notes-workflow.html`.
 
 ```bash
 npm run factory:create-run -- --name 2026-05-12-pilot --from-sample
-npm run factory:run -- --run factory/runs/2026-05-12-pilot
-python3 factory/scripts/validate_factory_run.py factory/runs/2026-05-12-pilot --stage strategy
+npm run factory:run -- --run factory/runs/2026-05-12-pilot --stage full
+python3 factory/scripts/validate_factory_run.py factory/runs/2026-05-12-pilot
 ```
 
-`factory:run` currently performs the strategy-classification stage for a provided opportunity pool. Evidence planning, content briefs, drafts, and QA are intentionally still gated by the fuller sample pipeline until real pilot-site inputs are selected.
+Use `--stage strategy` when you only want SEO/GEO/Risk classification and do not want to generate staging content.
 
 ## MVP workflow
 

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "pilot-001-page-001",
+    "topic": "AI workflow template for meeting notes and action items",
+    "target_site": "productivity-ai-pilot",
+    "search_intent": "informational template",
+    "geo_scenario": "direct answer + reusable workflow extraction",
+    "risk_flags": ["low YMYL", "tool claims need source support"],
+    "recommended_cluster": "AI Workflow Templates for Small Businesses",
+    "source_candidates": ["Official meeting platform docs", "Official task-management tool docs", "Original editorial template"]
+  },
+  {
+    "id": "pilot-001-page-002",
+    "topic": "AI workflow template for customer support triage",
+    "target_site": "productivity-ai-pilot",
+    "search_intent": "informational template",
+    "geo_scenario": "step-by-step workflow extraction",
+    "risk_flags": ["privacy review needed", "tool claims need source support"],
+    "recommended_cluster": "AI Workflow Templates for Small Businesses",
+    "source_candidates": ["Official helpdesk tool docs", "Original editorial template", "Customer data privacy checklist"]
+  },
+  {
+    "id": "pilot-001-page-003",
+    "topic": "AI workflow template for weekly business reporting",
+    "target_site": "productivity-ai-pilot",
+    "search_intent": "informational template",
+    "geo_scenario": "structured checklist extraction",
+    "risk_flags": ["low YMYL", "avoid financial advice"],
+    "recommended_cluster": "AI Workflow Templates for Small Businesses",
+    "source_candidates": ["Official spreadsheet/docs product docs", "Original reporting template"]
+  },
+  {
+    "id": "pilot-001-page-004",
+    "topic": "AI workflow template for content repurposing",
+    "target_site": "productivity-ai-pilot",
+    "search_intent": "informational template",
+    "geo_scenario": "workflow and checklist extraction",
+    "risk_flags": ["copyright/IP caution", "avoid copying source content"],
+    "recommended_cluster": "AI Workflow Templates for Small Businesses",
+    "source_candidates": ["Platform content policy docs", "Original editorial template"]
+  },
+  {
+    "id": "pilot-001-page-005",
+    "topic": "AI workflow template for sales follow-up notes",
+    "target_site": "productivity-ai-pilot",
+    "search_intent": "informational template",
+    "geo_scenario": "direct answer + workflow extraction",
+    "risk_flags": ["privacy review needed", "avoid guaranteed revenue claims"],
+    "recommended_cluster": "AI Workflow Templates for Small Businesses",
+    "source_candidates": ["Official CRM docs", "Original follow-up template"]
+  }
+]
