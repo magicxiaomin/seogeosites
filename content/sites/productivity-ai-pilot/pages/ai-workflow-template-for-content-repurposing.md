@@ -11,20 +11,46 @@ last_reviewed: "2026-05-12"
 
 ## Direct answer
 
-Ai Workflow Template For Content Repurposing should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.
+Use this workflow to transform owned or licensed source material into channel-specific drafts while preserving the original meaning, attribution needs, and review status. Do not use it to rewrite competitor content or bypass copyright restrictions.
 
 ## What this is
 
 This staging draft is a structured SEO/GEO knowledge asset. It is designed to be easy for readers, search engines, and AI answer engines to parse, but it is not approved for production publishing yet.
 
-## Recommended workflow
+## Practical template
 
-1. Confirm the reader intent and target audience.
-2. Verify factual claims against official or primary sources.
-3. Add examples, templates, or decision criteria that create original editorial value.
-4. Separate source-backed facts from editorial recommendations.
-5. Run QA for SEO, GEO readiness, evidence integrity, and scaled-content-abuse risk.
-6. Keep the page in staging until the publish batch is approved.
+### Inputs to collect
+
+- Owned article, webinar transcript, white paper, or newsletter
+- Target channels
+- Brand voice rules
+- Attribution or licensing requirements
+
+### Step-by-step workflow
+
+1. Confirm the source material is owned, licensed, or otherwise approved for reuse.
+2. Extract the core claims, examples, and citations before drafting new formats.
+3. Generate channel-specific versions that add summaries, hooks, or formatting rather than copying paragraphs.
+4. Run copyright, factual, and brand review before scheduling.
+
+### Reusable AI prompt block
+
+```text
+Repurpose the approved source material into the requested formats. Preserve the original meaning, flag claims that need citation, avoid copying long passages verbatim, and list any attribution or rights questions a reviewer must answer.
+```
+
+### Expected outputs
+
+- LinkedIn post draft
+- Newsletter blurb
+- Short video outline
+- Citation and rights-review checklist
+
+### Human QA checks
+
+- The final answer distinguishes source-backed facts from editorial recommendations.
+- Any privacy, copyright, monetization, or disclosure issue remains flagged for production review.
+- The reviewer can trace factual or tool-capability claims to the accepted sources below.
 
 ## Evidence and source notes
 

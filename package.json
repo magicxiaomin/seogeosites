@@ -13,6 +13,7 @@
     "factory:publish-gates": "python3 factory/scripts/validate_publish_gates.py",
     "factory:approve-staging": "python3 factory/scripts/approve_staging_batch.py",
     "factory:inject-evidence": "python3 factory/scripts/inject_page_evidence.py",
+    "factory:enrich-pages": "python3 factory/scripts/enrich_pilot_pages.py",
     "build": "python3 factory/scripts/build_static_site.py",
     "validate": "python3 factory/scripts/validate_factory_run.py factory/runs/sample",
     "validate:pilot": "python3 factory/scripts/validate_factory_run.py factory/runs/pilot-001",

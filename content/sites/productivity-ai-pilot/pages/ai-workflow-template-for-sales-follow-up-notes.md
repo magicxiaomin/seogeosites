@@ -11,20 +11,46 @@ last_reviewed: "2026-05-12"
 
 ## Direct answer
 
-Ai Workflow Template For Sales Follow-Up Notes should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.
+Use this workflow to convert sales-call notes into a CRM-ready summary, next-step plan, and follow-up email. Keep it factual, disclose uncertainty, and avoid promising outcomes or making unsupported ROI claims.
 
 ## What this is
 
 This staging draft is a structured SEO/GEO knowledge asset. It is designed to be easy for readers, search engines, and AI answer engines to parse, but it is not approved for production publishing yet.
 
-## Recommended workflow
+## Practical template
 
-1. Confirm the reader intent and target audience.
-2. Verify factual claims against official or primary sources.
-3. Add examples, templates, or decision criteria that create original editorial value.
-4. Separate source-backed facts from editorial recommendations.
-5. Run QA for SEO, GEO readiness, evidence integrity, and scaled-content-abuse risk.
-6. Keep the page in staging until the publish batch is approved.
+### Inputs to collect
+
+- Call notes or approved transcript excerpt
+- Account and opportunity context
+- Buyer questions and objections
+- Approved product messaging
+
+### Step-by-step workflow
+
+1. Remove confidential or irrelevant personal details before processing.
+2. Extract buyer goals, pain points, decision process, objections, and next steps.
+3. Draft a follow-up message that references only confirmed facts and approved claims.
+4. Have the account owner review before sending or updating CRM fields.
+
+### Reusable AI prompt block
+
+```text
+Summarize this sales conversation for CRM and follow-up. Capture buyer goals, stakeholders, objections, next steps, and open questions. Use only information in the notes. Do not invent budget, authority, timing, ROI, or product commitments.
+```
+
+### Expected outputs
+
+- CRM summary
+- Next-step checklist
+- Follow-up email draft
+- Reviewer notes for claims or disclosure concerns
+
+### Human QA checks
+
+- The final answer distinguishes source-backed facts from editorial recommendations.
+- Any privacy, copyright, monetization, or disclosure issue remains flagged for production review.
+- The reviewer can trace factual or tool-capability claims to the accepted sources below.
 
 ## Evidence and source notes
 

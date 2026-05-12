@@ -11,20 +11,46 @@ last_reviewed: "2026-05-12"
 
 ## Direct answer
 
-Ai Workflow Template For Customer Support Triage should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.
+Use this workflow to classify support messages by issue type, urgency, account impact, and next action. It should assist support agents, not replace human judgment for refunds, security issues, escalations, or sensitive customer data.
 
 ## What this is
 
 This staging draft is a structured SEO/GEO knowledge asset. It is designed to be easy for readers, search engines, and AI answer engines to parse, but it is not approved for production publishing yet.
 
-## Recommended workflow
+## Practical template
 
-1. Confirm the reader intent and target audience.
-2. Verify factual claims against official or primary sources.
-3. Add examples, templates, or decision criteria that create original editorial value.
-4. Separate source-backed facts from editorial recommendations.
-5. Run QA for SEO, GEO readiness, evidence integrity, and scaled-content-abuse risk.
-6. Keep the page in staging until the publish batch is approved.
+### Inputs to collect
+
+- Customer message
+- Product area or plan tier
+- Known incident status
+- Relevant help-center article or internal runbook
+
+### Step-by-step workflow
+
+1. Redact personal data that is not required for classification.
+2. Classify the ticket into issue type, urgency, sentiment, and escalation need.
+3. Suggest the next response path with links to official help or internal runbook material.
+4. Require an agent to review the classification before sending any customer-facing reply.
+
+### Reusable AI prompt block
+
+```text
+Classify this support ticket for triage. Return issue type, urgency, sentiment, likely product area, escalation reason if any, and the next agent action. Do not promise refunds, policy exceptions, legal conclusions, or account-specific outcomes.
+```
+
+### Expected outputs
+
+- Triage label set
+- Escalation recommendation
+- Draft internal note
+- Suggested but human-reviewed customer reply outline
+
+### Human QA checks
+
+- The final answer distinguishes source-backed facts from editorial recommendations.
+- Any privacy, copyright, monetization, or disclosure issue remains flagged for production review.
+- The reviewer can trace factual or tool-capability claims to the accepted sources below.
 
 ## Evidence and source notes
 
