@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main, seo-geo-factory-mvp]
+  pull_request:
+    branches: [main]
+
+jobs:
+  factory-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate sample factory run
+        run: npm run factory:sample
+
+      - name: Build static staging site
+        run: npm run build
+
+      - name: Validate sample factory run
+        run: npm run validate
+
+      - name: Sanity-check generated HTML
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          html = Path('public/ai-meeting-notes-workflow.html').read_text(encoding='utf-8')
+          required = ['schema.org', 'Direct answer', 'Staging draft']
+          missing = [item for item in required if item not in html]
+          if missing:
+              raise SystemExit(f'Missing expected HTML markers: {missing}')
+          print('HTML sanity check passed')
+          PY

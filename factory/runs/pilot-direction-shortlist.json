@@ -1,0 +1,57 @@
+{
+  "directions": [
+    {
+      "id": "pilot-001",
+      "name": "AI workflow templates for small businesses",
+      "target_audience": "small business operators and solo teams",
+      "seo_upside": 4,
+      "geo_upside": 5,
+      "risk_level": "low-medium",
+      "evidence_availability": 4,
+      "cluster_potential": 5,
+      "monetization_fit": "templates, lead magnets, SaaS/tool affiliate only after disclosure policy",
+      "recommendation": "shortlist",
+      "reason": "Workflow/template content is naturally extractable by AI answer engines and can be supported with official product docs plus original templates."
+    },
+    {
+      "id": "pilot-002",
+      "name": "GEO and AI-search education site",
+      "target_audience": "marketers, founders, and content operators learning GEO",
+      "seo_upside": 3,
+      "geo_upside": 5,
+      "risk_level": "low",
+      "evidence_availability": 3,
+      "cluster_potential": 4,
+      "monetization_fit": "consulting, newsletter, courses, tools",
+      "recommendation": "shortlist",
+      "reason": "Directly aligned with the factory itself and creates reusable internal knowledge assets."
+    },
+    {
+      "id": "pilot-003",
+      "name": "Developer AI operations guides",
+      "target_audience": "developers and technical founders",
+      "seo_upside": 4,
+      "geo_upside": 4,
+      "risk_level": "low",
+      "evidence_availability": 5,
+      "cluster_potential": 4,
+      "monetization_fit": "developer tools, templates, repo examples",
+      "recommendation": "consider",
+      "reason": "Strong evidence availability from official docs; requires higher technical quality bar."
+    },
+    {
+      "id": "pilot-004",
+      "name": "High-intent SaaS comparison knowledge base",
+      "target_audience": "buyers comparing SaaS tools",
+      "seo_upside": 5,
+      "geo_upside": 3,
+      "risk_level": "medium",
+      "evidence_availability": 4,
+      "cluster_potential": 5,
+      "monetization_fit": "affiliate/lead-gen with strict disclosure",
+      "recommendation": "defer",
+      "reason": "Good SEO but affiliate bias and thin-roundup risk make it less ideal as the first MVP."
+    }
+  ],
+  "default_recommendation": "Start with pilot-001 or pilot-002. Both are low-risk, evidence-friendly, and naturally compatible with SEO/GEO extraction patterns."
+}

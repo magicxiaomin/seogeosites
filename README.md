@@ -22,6 +22,16 @@ npm run serve
 
 Then open `http://127.0.0.1:18766/ai-meeting-notes-workflow.html`.
 
+## Creating a new run
+
+```bash
+npm run factory:create-run -- --name 2026-05-12-pilot --from-sample
+npm run factory:run -- --run factory/runs/2026-05-12-pilot
+python3 factory/scripts/validate_factory_run.py factory/runs/2026-05-12-pilot --stage strategy
+```
+
+`factory:run` currently performs the strategy-classification stage for a provided opportunity pool. Evidence planning, content briefs, drafts, and QA are intentionally still gated by the fuller sample pipeline until real pilot-site inputs are selected.
+
 ## MVP workflow
 
 1. Opportunity discovery
