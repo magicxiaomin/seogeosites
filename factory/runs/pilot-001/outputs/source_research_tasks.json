@@ -1,0 +1,124 @@
+{
+  "run": "factory/runs/pilot-001",
+  "tasks": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "topic": "AI workflow template for meeting notes and action items",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md",
+      "priority": "high",
+      "required_evidence": [
+        "At least 2 concrete official/source URLs",
+        "One source supporting factual tool/platform capability claims",
+        "One source or original editorial note for workflow/template rationale"
+      ],
+      "recommended_queries": [
+        "official docs AI workflow template for meeting notes and action items",
+        "help center AI workflow template for meeting notes and action items"
+      ],
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "status": "open"
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "topic": "AI workflow template for customer support triage",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
+      "priority": "high",
+      "required_evidence": [
+        "At least 2 concrete official/source URLs",
+        "One source supporting factual tool/platform capability claims",
+        "One source or original editorial note for workflow/template rationale"
+      ],
+      "recommended_queries": [
+        "official docs AI workflow template for customer support triage",
+        "help center AI workflow template for customer support triage",
+        "AI workflow template for customer support triage privacy policy official docs"
+      ],
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "status": "open"
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "topic": "AI workflow template for weekly business reporting",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md",
+      "priority": "high",
+      "required_evidence": [
+        "At least 2 concrete official/source URLs",
+        "One source supporting factual tool/platform capability claims",
+        "One source or original editorial note for workflow/template rationale"
+      ],
+      "recommended_queries": [
+        "official docs AI workflow template for weekly business reporting",
+        "help center AI workflow template for weekly business reporting"
+      ],
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "status": "open"
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "topic": "AI workflow template for content repurposing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md",
+      "priority": "high",
+      "required_evidence": [
+        "At least 2 concrete official/source URLs",
+        "One source supporting factual tool/platform capability claims",
+        "One source or original editorial note for workflow/template rationale"
+      ],
+      "recommended_queries": [
+        "official docs AI workflow template for content repurposing",
+        "help center AI workflow template for content repurposing",
+        "AI workflow template for content repurposing copyright policy official docs"
+      ],
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": true,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "status": "open"
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "topic": "AI workflow template for sales follow-up notes",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md",
+      "priority": "high",
+      "required_evidence": [
+        "At least 2 concrete official/source URLs",
+        "One source supporting factual tool/platform capability claims",
+        "One source or original editorial note for workflow/template rationale"
+      ],
+      "recommended_queries": [
+        "official docs AI workflow template for sales follow-up notes",
+        "help center AI workflow template for sales follow-up notes",
+        "AI workflow template for sales follow-up notes privacy policy official docs",
+        "AI workflow template for sales follow-up notes affiliate disclosure guidelines"
+      ],
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": true,
+        "high_risk_topic": false
+      },
+      "status": "open"
+    }
+  ]
+}
