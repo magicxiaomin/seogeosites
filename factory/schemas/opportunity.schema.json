@@ -1,0 +1,10 @@
+{
+  "required": [
+    "id",
+    "topic",
+    "search_intent",
+    "geo_scenario",
+    "risk_flags",
+    "recommended_cluster"
+  ]
+}

@@ -1,0 +1,35 @@
+# SEO/GEO Sites
+
+A minimal local-first SEO/GEO knowledge-asset factory scaffold.
+
+This repo is intentionally dependency-light so the MVP workflow can run before a CMS or framework is chosen.
+
+## What it does
+
+- Stores opportunity, strategy, evidence, placement, brief, and QA artifacts under `factory/runs/`.
+- Generates staging HTML pages from content Markdown/frontmatter into `public/`.
+- Enforces a publish-readiness gate: `Pass`, `Needs Review`, or `Block`.
+- Starts with one pilot site: `productivity-ai-pilot`.
+
+## Quick start
+
+```bash
+npm run factory:sample
+npm run build
+npm run validate
+npm run serve
+```
+
+Then open `http://127.0.0.1:18766/ai-meeting-notes-workflow.html`.
+
+## MVP workflow
+
+1. Opportunity discovery
+2. SEO/GEO/Risk classification
+3. Evidence / Source / Trust planning
+4. Site placement decision
+5. Cluster/page brief generation
+6. Staging draft generation
+7. QA report
+8. Static preview build
+9. Human approval before production publish

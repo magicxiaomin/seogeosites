@@ -1,0 +1,25 @@
+{
+  "opportunity_id": "opp-001",
+  "recommendation": "new_cluster_in_existing_site",
+  "target_site": "productivity-ai-pilot",
+  "target_section": "AI Meeting Workflows",
+  "target_page_type": "pillar_page",
+  "fit_scores": {
+    "audience_fit": 5,
+    "topical_fit": 5,
+    "entity_fit": 5,
+    "intent_fit": 4,
+    "internal_link_fit": 4,
+    "trust_fit": 4,
+    "risk_fit": 5,
+    "monetization_fit": 4,
+    "language_region_fit": 5,
+    "scale_potential": 3
+  },
+  "reasoning": {
+    "summary": "Natural extension of the AI productivity pilot site.",
+    "why_not_new_site": "No distinct audience, risk class, or brand posture requiring a standalone site.",
+    "why_not_existing_page_update": "No existing page in this repo yet."
+  },
+  "human_review_required": false
+}

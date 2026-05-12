@@ -1,0 +1,36 @@
+{
+  "opportunity_id": "opp-001",
+  "source_plan": [
+    "Zoom official support/docs",
+    "Google Meet official help docs",
+    "Notion/Google Docs docs",
+    "Vendor feature/pricing pages only for factual claims",
+    "Community questions as intent signals only"
+  ],
+  "entity_map": [
+    "remote teams",
+    "meeting transcripts",
+    "AI summarization",
+    "Zoom",
+    "Google Meet",
+    "Notion",
+    "action items",
+    "decision log"
+  ],
+  "claim_policy": "Make workflow claims only when grounded in official docs or labeled as editorial guidance.",
+  "forbidden_claims": [
+    "guaranteed productivity gains",
+    "unverified tool feature claims",
+    "legal/compliance promises"
+  ],
+  "evidence_requirements": [
+    "cite official docs for platform capabilities",
+    "include dated criteria",
+    "separate factual claims from recommendations"
+  ],
+  "update_requirements": "Review quarterly or when major meeting-tool features/pricing change.",
+  "human_review_triggers": [
+    "new tool claims without official source",
+    "privacy/security claims"
+  ]
+}

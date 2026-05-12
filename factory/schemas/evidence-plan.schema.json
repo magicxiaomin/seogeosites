@@ -1,0 +1,12 @@
+{
+  "required": [
+    "opportunity_id",
+    "source_plan",
+    "entity_map",
+    "claim_policy",
+    "forbidden_claims",
+    "evidence_requirements",
+    "update_requirements",
+    "human_review_triggers"
+  ]
+}

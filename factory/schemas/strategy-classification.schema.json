@@ -1,0 +1,10 @@
+{
+  "required": [
+    "opportunity_id",
+    "seo_score",
+    "geo_score",
+    "risk_fit_score",
+    "classification",
+    "recommendation"
+  ]
+}

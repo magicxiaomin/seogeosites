@@ -1,0 +1,9 @@
+{
+  "required": [
+    "opportunity_id",
+    "recommendation",
+    "target_site",
+    "fit_scores",
+    "reasoning"
+  ]
+}

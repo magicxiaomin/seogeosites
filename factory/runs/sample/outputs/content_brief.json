@@ -1,0 +1,56 @@
+{
+  "cluster_brief": {
+    "cluster_name": "AI Meeting Workflows",
+    "pillar_page": "/ai-meeting-notes-workflow/",
+    "supporting_pages": [
+      "/ai-meeting-notes-action-items/",
+      "/ai-meeting-notes-decision-log/",
+      "/zoom-meeting-summary-workflow/"
+    ],
+    "internal_link_plan": [
+      "homepage -> pillar",
+      "pillar -> supporting pages",
+      "supporting pages -> pillar"
+    ],
+    "geo_structure_requirements": [
+      "direct answer block",
+      "definition box",
+      "step-by-step workflow",
+      "FAQ",
+      "claim/evidence table"
+    ],
+    "schema_plan": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "page_brief": {
+    "page_title": "AI Meeting Notes Workflow for Small Remote Teams",
+    "slug": "ai-meeting-notes-workflow",
+    "search_intent": "Learn how to set up a practical AI meeting notes workflow",
+    "direct_answer_block": "A reliable AI meeting notes workflow captures the transcript, summarizes decisions and action items, routes notes to a shared workspace, and includes a human review step for important meetings.",
+    "outline": [
+      "What the workflow is",
+      "Recommended workflow",
+      "Evidence and source notes",
+      "Privacy and trust checklist",
+      "FAQ"
+    ],
+    "faq_questions": [
+      "What should AI meeting notes include?",
+      "Do AI meeting notes need human review?",
+      "Where should action items go?"
+    ],
+    "source_notes": [
+      "Zoom official support/docs",
+      "Google Meet official help docs",
+      "Notion/Google Docs docs",
+      "Vendor feature/pricing pages only for factual claims",
+      "Community questions as intent signals only"
+    ],
+    "update_notes": [
+      "Review quarterly or when major meeting-tool features/pricing change."
+    ]
+  }
+}

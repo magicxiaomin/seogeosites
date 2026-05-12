@@ -1,0 +1,17 @@
+{
+  "page": "content/sites/productivity-ai-pilot/pages/ai-meeting-notes-workflow.md",
+  "status": "Needs Review",
+  "checks": {
+    "seo_quality": "Pass",
+    "content_usefulness": "Pass",
+    "evidence_source_integrity": "Needs Review: official URLs not verified in sample run",
+    "geo_readiness": "Pass",
+    "anti_spam_scaled_abuse": "Pass",
+    "technical_publishing": "Pass"
+  },
+  "blockers": [],
+  "required_before_publish": [
+    "Replace source-plan placeholders with concrete official URLs",
+    "Human review privacy/security wording before production"
+  ]
+}

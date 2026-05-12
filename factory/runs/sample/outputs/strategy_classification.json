@@ -1,0 +1,36 @@
+[
+  {
+    "opportunity_id": "opp-001",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  },
+  {
+    "opportunity_id": "opp-002",
+    "seo_score": 3,
+    "geo_score": 3,
+    "risk_fit_score": 1,
+    "classification": "Reject",
+    "recommendation": "no-go: risk veto",
+    "required_evidence_level": "high",
+    "human_review_triggers": [
+      "risk/strategy review"
+    ]
+  },
+  {
+    "opportunity_id": "opp-003",
+    "seo_score": 3,
+    "geo_score": 3,
+    "risk_fit_score": 3,
+    "classification": "Defer",
+    "recommendation": "defer until stronger evidence/fit",
+    "required_evidence_level": "high",
+    "human_review_triggers": [
+      "risk/strategy review"
+    ]
+  }
+]

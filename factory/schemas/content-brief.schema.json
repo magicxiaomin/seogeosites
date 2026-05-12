@@ -1,0 +1,6 @@
+{
+  "required": [
+    "cluster_brief",
+    "page_brief"
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "opp-001",
+    "topic": "AI meeting notes workflow for small remote teams",
+    "search_intent": "informational/commercial investigation",
+    "geo_scenario": "direct answer + workflow extraction",
+    "risk_flags": [
+      "low YMYL",
+      "tool claims need source support"
+    ],
+    "recommended_cluster": "AI Meeting Workflows"
+  },
+  {
+    "id": "opp-002",
+    "topic": "AI legal advice for employee termination",
+    "search_intent": "legal advice",
+    "geo_scenario": "answer engine citation potential",
+    "risk_flags": [
+      "high YMYL/legal",
+      "jurisdiction-specific"
+    ],
+    "recommended_cluster": "AI HR Workflows"
+  },
+  {
+    "id": "opp-003",
+    "topic": "Best AI coupon generators for ecommerce stores",
+    "search_intent": "commercial",
+    "geo_scenario": "list extraction",
+    "risk_flags": [
+      "affiliate bias risk",
+      "thin roundup risk"
+    ],
+    "recommended_cluster": "AI Ecommerce Tools"
+  }
+]

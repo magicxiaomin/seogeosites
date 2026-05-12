@@ -1,0 +1,9 @@
+{
+  "required": [
+    "page",
+    "status",
+    "checks",
+    "blockers",
+    "required_before_publish"
+  ]
+}
