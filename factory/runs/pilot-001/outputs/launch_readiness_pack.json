@@ -1,0 +1,109 @@
+{
+  "run": "factory/runs/pilot-001",
+  "production_publish_allowed": false,
+  "current_publish_allowed_field": false,
+  "publish_readiness": "Needs Review",
+  "candidate_page_count": 0,
+  "candidate_pages": [],
+  "trust_pages": [
+    {
+      "slug": "about-and-editorial-standards",
+      "title": "About and Editorial Standards",
+      "purpose": "Explain who the site is for, what the editorial promise is, and how AI-assisted content is reviewed before publication.",
+      "required_sections": [
+        "Audience and scope",
+        "Editorial promise",
+        "AI assistance disclosure",
+        "Human review policy",
+        "Correction and update path"
+      ],
+      "status": "draft_required_before_production"
+    },
+    {
+      "slug": "source-and-update-policy",
+      "title": "Source and Update Policy",
+      "purpose": "Define acceptable source types, claim support expectations, source-review cadence, and update triggers.",
+      "required_sections": [
+        "Accepted source hierarchy",
+        "Claim evidence rules",
+        "Freshness and review dates",
+        "Correction workflow",
+        "Unsupported-claim policy"
+      ],
+      "status": "draft_required_before_production"
+    },
+    {
+      "slug": "contact-and-corrections",
+      "title": "Contact and Corrections",
+      "purpose": "Give readers a way to report errors, request clarifications, or raise source concerns.",
+      "required_sections": [
+        "Contact route",
+        "Correction request format",
+        "Response expectations",
+        "Escalation for sensitive issues"
+      ],
+      "status": "draft_required_before_production"
+    },
+    {
+      "slug": "privacy-and-disclosures",
+      "title": "Privacy and Disclosures",
+      "purpose": "State data handling, affiliate/sponsorship disclosures if any, analytics posture, and privacy contact path.",
+      "required_sections": [
+        "Data collection posture",
+        "Analytics disclosure",
+        "Affiliate/sponsorship disclosure",
+        "Privacy contact",
+        "Policy update date"
+      ],
+      "status": "draft_required_before_production"
+    }
+  ],
+  "robots_indexing_plan": {
+    "current_staging": {
+      "robots_txt": "User-agent: *\\nDisallow: /",
+      "html_meta": "noindex,nofollow",
+      "status": "active_for_preview_only"
+    },
+    "production_required_change": {
+      "robots_txt": "Allow intended public URLs only after publish-batch approval; keep review/admin/artifact paths blocked.",
+      "html_meta": "Remove noindex only from explicitly approved production pages; keep non-approved staging/review artifacts noindex.",
+      "sitemap": "Generate sitemap only for production-approved URLs and exclude review artifacts."
+    },
+    "never_index_paths": [
+      "/qa-dashboard.html",
+      "/editorial-review-pack.md",
+      "/review-decisions-input.json",
+      "/review-decision-application.md",
+      "/production-readiness-simulation.md",
+      "/review-checklists.md"
+    ]
+  },
+  "analytics_plan": {
+    "pre_publish": [
+      "Confirm brand/domain and final URL structure.",
+      "Prepare Search Console property after domain decision.",
+      "Decide analytics tool and privacy disclosure wording.",
+      "Keep staging preview unindexed and exclude it from production metrics."
+    ],
+    "post_publish_metrics": [
+      "Indexing status by URL",
+      "Impressions/clicks/CTR by query group",
+      "Internal-link crawl coverage",
+      "Engagement proxy by page type if analytics credentials exist",
+      "Sampled AI-answer coverage observations",
+      "Source freshness and update backlog"
+    ],
+    "credentials_required": [
+      "Search Console",
+      "Analytics provider if used"
+    ]
+  },
+  "remaining_blockers": [
+    "no_pages_approved_for_publish_batch",
+    "explicit_publish_batch_approval",
+    "final_brand_domain_decision",
+    "trust_pages_finalized",
+    "production_robots_indexing_plan_approved",
+    "analytics_search_console_hooks_if_credentials_exist"
+  ]
+}

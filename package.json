@@ -11,6 +11,7 @@
     "factory:dashboard": "python3 factory/scripts/build_qa_dashboard.py",
     "factory:review-pack": "python3 factory/scripts/build_editorial_review_pack.py",
     "factory:apply-review-decisions": "python3 factory/scripts/apply_review_decisions.py --run factory/runs/pilot-001 --decisions factory/runs/pilot-001/inputs/review_decisions.json",
+    "factory:launch-readiness": "python3 factory/scripts/build_launch_readiness_pack.py --run factory/runs/pilot-001",
     "factory:strategy-artifacts": "python3 factory/scripts/build_strategy_artifacts.py",
     "factory:simulate-production-readiness": "python3 factory/scripts/simulate_production_readiness.py --run factory/runs/pilot-001",
     "factory:review-checklists": "python3 factory/scripts/generate_review_checklists.py",

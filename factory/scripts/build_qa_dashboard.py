@@ -91,6 +91,12 @@ def main():
         public_review_decision_input = public / "review-decisions-input.json"
         public_review_decision_input.write_text(review_decision_input_path.read_text(encoding="utf-8"), encoding="utf-8")
         review_decision_input_rel = public_review_decision_input.relative_to(public)
+    launch_rel = None
+    launch_path = run / "outputs" / "launch_readiness_pack.md"
+    if launch_path.exists():
+        public_launch = public / "launch-readiness-pack.md"
+        public_launch.write_text(launch_path.read_text(encoding="utf-8"), encoding="utf-8")
+        launch_rel = public_launch.relative_to(public)
     simulation_rel = None
     simulation_path = run / "outputs" / "production_readiness_simulation.md"
     if simulation_path.exists():
@@ -138,7 +144,7 @@ code{{white-space:normal}} .status{{font-size:20px;font-weight:700}}
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>{html.escape(str(run.relative_to(root)))}</code></p>
 <p class="status">Staging: {badge('Approved', 'pass') if staging.get('staging_approved') else badge('Pending', 'review')} · Batch publish-readiness: {status_badge(batch.get('status','unknown'))} · Content quality: {badge('Pass', 'pass') if quality.get('ok') else badge('Not checked', 'review')} · production publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
-<p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'} · {'<a href="' + html.escape(str(review_pack_rel)) + '">Editorial review pack</a>' if review_pack_rel else 'Editorial review pack has not been generated yet.'} · {'<a href="' + html.escape(str(review_decision_input_rel)) + '">Review decisions input</a>' if review_decision_input_rel else 'Review decisions input has not been created yet.'} · {'<a href="' + html.escape(str(review_decision_rel)) + '">Review decision application</a>' if review_decision_rel else 'Review decisions have not been applied yet.'} · {'<a href="' + html.escape(str(simulation_rel)) + '">Production readiness simulation</a>' if simulation_rel else 'Production readiness simulation has not been generated yet.'}</p>
+<p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'} · {'<a href="' + html.escape(str(review_pack_rel)) + '">Editorial review pack</a>' if review_pack_rel else 'Editorial review pack has not been generated yet.'} · {'<a href="' + html.escape(str(review_decision_input_rel)) + '">Review decisions input</a>' if review_decision_input_rel else 'Review decisions input has not been created yet.'} · {'<a href="' + html.escape(str(review_decision_rel)) + '">Review decision application</a>' if review_decision_rel else 'Review decisions have not been applied yet.'} · {'<a href="' + html.escape(str(launch_rel)) + '">Launch readiness pack</a>' if launch_rel else 'Launch readiness pack has not been generated yet.'} · {'<a href="' + html.escape(str(simulation_rel)) + '">Production readiness simulation</a>' if simulation_rel else 'Production readiness simulation has not been generated yet.'}</p>
 <h2>Batch summary</h2>
 <pre>{html.escape(json.dumps(summary, indent=2))}</pre>
 <h2>Pages</h2>
