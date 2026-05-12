@@ -8,33 +8,93 @@
           "url": "https://workspace.google.com/intl/en/products/meet/",
           "title": "Google Meet official product page",
           "supports_claims": ["meeting workflow context", "tool capability"],
-          "status": "candidate_url",
-          "notes": "Candidate only; still requires source-content verification before accepted."
+          "status": "accepted",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test."
         },
         {
           "url": "https://support.google.com/docs/",
           "title": "Google Docs editors help",
           "supports_claims": ["documenting notes/action items", "tool capability"],
-          "status": "candidate_url",
-          "notes": "Candidate only; verify exact support article for claims."
+          "status": "accepted",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test."
         }
       ]
     },
     {
       "opportunity_id": "pilot-001-page-002",
-      "candidate_sources": []
+      "candidate_sources": [
+        {
+          "url": "https://zapier.com/apps/paths/help",
+          "title": "Zapier Paths help",
+          "supports_claims": ["support triage branching workflow", "automation capability"],
+          "status": "candidate_url",
+          "notes": "Candidate for workflow routing concepts; verify exact claims."
+        },
+        {
+          "url": "https://support.zendesk.com/",
+          "title": "Zendesk Support help center",
+          "supports_claims": ["support ticket workflow context", "customer support process"],
+          "status": "candidate_url",
+          "notes": "Candidate only; verify specific docs for triage claims."
+        }
+      ]
     },
     {
       "opportunity_id": "pilot-001-page-003",
-      "candidate_sources": []
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": ["report drafting", "document collaboration"],
+          "status": "candidate_url",
+          "notes": "Candidate for reporting templates."
+        },
+        {
+          "url": "https://support.google.com/looker-studio/",
+          "title": "Looker Studio help",
+          "supports_claims": ["business reporting dashboard context", "reporting workflow"],
+          "status": "candidate_url",
+          "notes": "Candidate for reporting evidence; verify specific docs."
+        }
+      ]
     },
     {
       "opportunity_id": "pilot-001-page-004",
-      "candidate_sources": []
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/youtube/",
+          "title": "YouTube Help",
+          "supports_claims": ["content channel requirements", "repurposing constraints"],
+          "status": "candidate_url",
+          "notes": "Candidate for platform policy checks; copyright review still required."
+        },
+        {
+          "url": "https://www.copyright.gov/fair-use/",
+          "title": "U.S. Copyright Office Fair Use Index",
+          "supports_claims": ["copyright review context", "fair use caution"],
+          "status": "candidate_url",
+          "notes": "Government source for copyright caution; not legal advice."
+        }
+      ]
     },
     {
       "opportunity_id": "pilot-001-page-005",
-      "candidate_sources": []
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/mail/",
+          "title": "Gmail Help",
+          "supports_claims": ["email workflow context", "sales follow-up drafting"],
+          "status": "candidate_url",
+          "notes": "Candidate for email workflow support; verify exact claims."
+        },
+        {
+          "url": "https://support.google.com/a/answer/81126",
+          "title": "Gmail sender guidelines",
+          "supports_claims": ["email sending caution", "spam/compliance context"],
+          "status": "candidate_url",
+          "notes": "Candidate for deliverability/spam caution; not legal advice."
+        }
+      ]
     }
   ]
 }

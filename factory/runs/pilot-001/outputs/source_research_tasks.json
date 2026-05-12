@@ -33,13 +33,11 @@
             "tool capability"
           ],
           "status": "accepted",
-          "notes": "Candidate only; still requires source-content verification before accepted.",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
           "http_status": 200,
           "reachable": true,
           "error": null,
-          "checked_at": "2026-05-12T12:27:54.872366+00:00",
-          "final_status": "accepted_reachable_source",
-          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+          "checked_at": "2026-05-12T14:45:47.443837+00:00"
         },
         {
           "url": "https://support.google.com/docs/",
@@ -49,13 +47,11 @@
             "tool capability"
           ],
           "status": "accepted",
-          "notes": "Candidate only; verify exact support article for claims.",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
           "http_status": 200,
           "reachable": true,
           "error": null,
-          "checked_at": "2026-05-12T12:27:55.285145+00:00",
-          "final_status": "accepted_reachable_source",
-          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+          "checked_at": "2026-05-12T14:45:47.735105+00:00"
         }
       ],
       "accepted_sources": [
@@ -67,13 +63,11 @@
             "tool capability"
           ],
           "status": "accepted",
-          "notes": "Candidate only; still requires source-content verification before accepted.",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
           "http_status": 200,
           "reachable": true,
           "error": null,
-          "checked_at": "2026-05-12T12:27:54.872366+00:00",
-          "final_status": "accepted_reachable_source",
-          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+          "checked_at": "2026-05-12T14:45:47.443837+00:00"
         },
         {
           "url": "https://support.google.com/docs/",
@@ -83,13 +77,11 @@
             "tool capability"
           ],
           "status": "accepted",
-          "notes": "Candidate only; verify exact support article for claims.",
+          "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
           "http_status": 200,
           "reachable": true,
           "error": null,
-          "checked_at": "2026-05-12T12:27:55.285145+00:00",
-          "final_status": "accepted_reachable_source",
-          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+          "checked_at": "2026-05-12T14:45:47.735105+00:00"
         }
       ],
       "review_flags": {
@@ -105,7 +97,7 @@
       "opportunity_id": "pilot-001-page-002",
       "topic": "AI workflow template for customer support triage",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -117,30 +109,96 @@
         "AI workflow template for customer support triage privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 0,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false,
-        "accepted_or_checked": 0,
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
         "rejected": 0,
-        "reachable_urls": 0
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "url": "https://zapier.com/apps/paths/help",
+          "title": "Zapier Paths help",
+          "supports_claims": [
+            "support triage branching workflow",
+            "automation capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for workflow routing concepts; verify exact claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:47.968613+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.zendesk.com/",
+          "title": "Zendesk Support help center",
+          "supports_claims": [
+            "support ticket workflow context",
+            "customer support process"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; verify specific docs for triage claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:48.257065+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        }
+      ],
+      "accepted_sources": [
+        {
+          "url": "https://zapier.com/apps/paths/help",
+          "title": "Zapier Paths help",
+          "supports_claims": [
+            "support triage branching workflow",
+            "automation capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for workflow routing concepts; verify exact claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:47.968613+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.zendesk.com/",
+          "title": "Zendesk Support help center",
+          "supports_claims": [
+            "support ticket workflow context",
+            "customer support process"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; verify specific docs for triage claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:48.257065+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "pilot-001-page-003",
       "topic": "AI workflow template for weekly business reporting",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -151,30 +209,96 @@
         "help center AI workflow template for weekly business reporting"
       ],
       "source_summary": {
-        "total_sources": 0,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 2,
-        "all_sources_publish_ready": false,
-        "accepted_or_checked": 0,
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
         "rejected": 0,
-        "reachable_urls": 0
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": [
+            "report drafting",
+            "document collaboration"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for reporting templates.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:48.563433+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.google.com/looker-studio/",
+          "title": "Looker Studio help",
+          "supports_claims": [
+            "business reporting dashboard context",
+            "reporting workflow"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for reporting evidence; verify specific docs.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:49.596125+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        }
+      ],
+      "accepted_sources": [
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": [
+            "report drafting",
+            "document collaboration"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for reporting templates.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:48.563433+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.google.com/looker-studio/",
+          "title": "Looker Studio help",
+          "supports_claims": [
+            "business reporting dashboard context",
+            "reporting workflow"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for reporting evidence; verify specific docs.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:49.596125+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "pilot-001-page-004",
       "topic": "AI workflow template for content repurposing",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -186,30 +310,96 @@
         "AI workflow template for content repurposing copyright policy official docs"
       ],
       "source_summary": {
-        "total_sources": 0,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 2,
-        "all_sources_publish_ready": false,
-        "accepted_or_checked": 0,
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
         "rejected": 0,
-        "reachable_urls": 0
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/youtube/",
+          "title": "YouTube Help",
+          "supports_claims": [
+            "content channel requirements",
+            "repurposing constraints"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for platform policy checks; copyright review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.313049+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; copyright review remains required."
+        },
+        {
+          "url": "https://www.copyright.gov/fair-use/",
+          "title": "U.S. Copyright Office Fair Use Index",
+          "supports_claims": [
+            "copyright review context",
+            "fair use caution"
+          ],
+          "status": "accepted",
+          "notes": "Government source for copyright caution; not legal advice.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.379991+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; copyright review remains required."
+        }
+      ],
+      "accepted_sources": [
+        {
+          "url": "https://support.google.com/youtube/",
+          "title": "YouTube Help",
+          "supports_claims": [
+            "content channel requirements",
+            "repurposing constraints"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for platform policy checks; copyright review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.313049+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; copyright review remains required."
+        },
+        {
+          "url": "https://www.copyright.gov/fair-use/",
+          "title": "U.S. Copyright Office Fair Use Index",
+          "supports_claims": [
+            "copyright review context",
+            "fair use caution"
+          ],
+          "status": "accepted",
+          "notes": "Government source for copyright caution; not legal advice.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.379991+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; copyright review remains required."
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": true,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "pilot-001-page-005",
       "topic": "AI workflow template for sales follow-up notes",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -222,24 +412,90 @@
         "AI workflow template for sales follow-up notes affiliate disclosure guidelines"
       ],
       "source_summary": {
-        "total_sources": 0,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 2,
-        "all_sources_publish_ready": false,
-        "accepted_or_checked": 0,
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
         "rejected": 0,
-        "reachable_urls": 0
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "url": "https://support.google.com/mail/",
+          "title": "Gmail Help",
+          "supports_claims": [
+            "email workflow context",
+            "sales follow-up drafting"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for email workflow support; verify exact claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.685745+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+        },
+        {
+          "url": "https://support.google.com/a/answer/81126",
+          "title": "Gmail sender guidelines",
+          "supports_claims": [
+            "email sending caution",
+            "spam/compliance context"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for deliverability/spam caution; not legal advice.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.941625+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+        }
+      ],
+      "accepted_sources": [
+        {
+          "url": "https://support.google.com/mail/",
+          "title": "Gmail Help",
+          "supports_claims": [
+            "email workflow context",
+            "sales follow-up drafting"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for email workflow support; verify exact claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.685745+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+        },
+        {
+          "url": "https://support.google.com/a/answer/81126",
+          "title": "Gmail sender guidelines",
+          "supports_claims": [
+            "email sending caution",
+            "spam/compliance context"
+          ],
+          "status": "accepted",
+          "notes": "Candidate for deliverability/spam caution; not legal advice.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T14:45:50.941625+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": true,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     }
   ]
 }

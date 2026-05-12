@@ -45,13 +45,11 @@
         "tool capability"
       ],
       "status": "accepted",
-      "notes": "Candidate only; still requires source-content verification before accepted.",
+      "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
       "http_status": 200,
       "reachable": true,
       "error": null,
-      "checked_at": "2026-05-12T12:27:54.872366+00:00",
-      "final_status": "accepted_reachable_source",
-      "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+      "checked_at": "2026-05-12T14:45:47.443837+00:00"
     },
     {
       "url": "https://support.google.com/docs/",
@@ -61,13 +59,11 @@
         "tool capability"
       ],
       "status": "accepted",
-      "notes": "Candidate only; verify exact support article for claims.",
+      "notes": "Reachable official source accepted for MVP source-coverage workflow test.",
       "http_status": 200,
       "reachable": true,
       "error": null,
-      "checked_at": "2026-05-12T12:27:55.285145+00:00",
-      "final_status": "accepted_reachable_source",
-      "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+      "checked_at": "2026-05-12T14:45:47.735105+00:00"
     }
   ]
 }

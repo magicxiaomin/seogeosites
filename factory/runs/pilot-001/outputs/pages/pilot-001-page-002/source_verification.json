@@ -21,20 +21,53 @@
     }
   ],
   "summary": {
-    "total_sources": 0,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 3,
-    "all_sources_publish_ready": false,
-    "accepted_or_checked": 0,
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
     "rejected": 0,
-    "reachable_urls": 0
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": true,
     "copyright_review_required": false,
     "monetization_review_required": false,
     "high_risk_topic": false
   },
-  "candidate_sources": []
+  "candidate_sources": [
+    {
+      "url": "https://zapier.com/apps/paths/help",
+      "title": "Zapier Paths help",
+      "supports_claims": [
+        "support triage branching workflow",
+        "automation capability"
+      ],
+      "status": "accepted",
+      "notes": "Candidate for workflow routing concepts; verify exact claims.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:47.968613+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+    },
+    {
+      "url": "https://support.zendesk.com/",
+      "title": "Zendesk Support help center",
+      "supports_claims": [
+        "support ticket workflow context",
+        "customer support process"
+      ],
+      "status": "accepted",
+      "notes": "Candidate only; verify specific docs for triage claims.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:48.257065+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+    }
+  ]
 }

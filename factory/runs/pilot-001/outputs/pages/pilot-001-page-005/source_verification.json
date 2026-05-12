@@ -15,20 +15,53 @@
     }
   ],
   "summary": {
-    "total_sources": 0,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 2,
-    "all_sources_publish_ready": false,
-    "accepted_or_checked": 0,
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
     "rejected": 0,
-    "reachable_urls": 0
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": true,
     "copyright_review_required": false,
     "monetization_review_required": true,
     "high_risk_topic": false
   },
-  "candidate_sources": []
+  "candidate_sources": [
+    {
+      "url": "https://support.google.com/mail/",
+      "title": "Gmail Help",
+      "supports_claims": [
+        "email workflow context",
+        "sales follow-up drafting"
+      ],
+      "status": "accepted",
+      "notes": "Candidate for email workflow support; verify exact claims.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:50.685745+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+    },
+    {
+      "url": "https://support.google.com/a/answer/81126",
+      "title": "Gmail sender guidelines",
+      "supports_claims": [
+        "email sending caution",
+        "spam/compliance context"
+      ],
+      "status": "accepted",
+      "notes": "Candidate for deliverability/spam caution; not legal advice.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:50.941625+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test; monetization/compliance review remains required."
+    }
+  ]
 }

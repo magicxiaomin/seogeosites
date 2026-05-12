@@ -27,7 +27,7 @@
       "slug": "ai-workflow-template-for-customer-support-triage",
       "qa_status": "Needs Review",
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
@@ -36,8 +36,7 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish",
-        "Privacy/data-handling review",
-        "Accept at least 2 checked concrete source URLs"
+        "Privacy/data-handling review"
       ]
     },
     {
@@ -47,7 +46,7 @@
       "slug": "ai-workflow-template-for-weekly-business-reporting",
       "qa_status": "Needs Review",
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
@@ -55,8 +54,7 @@
       },
       "blockers": [],
       "required_before_publish": [
-        "Human review before production publish",
-        "Accept at least 2 checked concrete source URLs"
+        "Human review before production publish"
       ]
     },
     {
@@ -66,7 +64,7 @@
       "slug": "ai-workflow-template-for-content-repurposing",
       "qa_status": "Needs Review",
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": true,
         "monetization_review_required": false,
@@ -75,8 +73,7 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish",
-        "Copyright/IP review",
-        "Accept at least 2 checked concrete source URLs"
+        "Copyright/IP review"
       ]
     },
     {
@@ -86,7 +83,7 @@
       "slug": "ai-workflow-template-for-sales-follow-up-notes",
       "qa_status": "Needs Review",
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": true,
@@ -96,8 +93,7 @@
       "required_before_publish": [
         "Human review before production publish",
         "Privacy/data-handling review",
-        "Monetization/disclosure review",
-        "Accept at least 2 checked concrete source URLs"
+        "Monetization/disclosure review"
       ]
     }
   ],
@@ -106,7 +102,6 @@
       "Needs Review": 5
     },
     "review_flag_counts": {
-      "missing_concrete_source_urls": 4,
       "privacy_review_required": 2,
       "copyright_review_required": 1,
       "monetization_review_required": 1

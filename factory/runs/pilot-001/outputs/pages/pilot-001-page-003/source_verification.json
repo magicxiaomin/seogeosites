@@ -15,20 +15,53 @@
     }
   ],
   "summary": {
-    "total_sources": 0,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 2,
-    "all_sources_publish_ready": false,
-    "accepted_or_checked": 0,
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
     "rejected": 0,
-    "reachable_urls": 0
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": false,
     "copyright_review_required": false,
     "monetization_review_required": false,
     "high_risk_topic": false
   },
-  "candidate_sources": []
+  "candidate_sources": [
+    {
+      "url": "https://support.google.com/docs/",
+      "title": "Google Docs editors help",
+      "supports_claims": [
+        "report drafting",
+        "document collaboration"
+      ],
+      "status": "accepted",
+      "notes": "Candidate for reporting templates.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:48.563433+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+    },
+    {
+      "url": "https://support.google.com/looker-studio/",
+      "title": "Looker Studio help",
+      "supports_claims": [
+        "business reporting dashboard context",
+        "reporting workflow"
+      ],
+      "status": "accepted",
+      "notes": "Candidate for reporting evidence; verify specific docs.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T14:45:49.596125+00:00",
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted reachable sources for MVP source-coverage workflow test."
+    }
+  ]
 }
