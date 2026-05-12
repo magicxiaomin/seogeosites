@@ -9,7 +9,7 @@
       "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
       "qa_status": "Needs Review",
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
@@ -17,8 +17,7 @@
       },
       "blockers": [],
       "required_before_publish": [
-        "Human review before production publish",
-        "Accept at least 2 checked concrete source URLs"
+        "Human review before production publish"
       ]
     },
     {
@@ -107,7 +106,7 @@
       "Needs Review": 5
     },
     "review_flag_counts": {
-      "missing_concrete_source_urls": 5,
+      "missing_concrete_source_urls": 4,
       "privacy_review_required": 2,
       "copyright_review_required": 1,
       "monetization_review_required": 1

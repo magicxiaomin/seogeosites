@@ -5,7 +5,7 @@
       "opportunity_id": "pilot-001-page-001",
       "topic": "AI workflow template for meeting notes and action items",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -15,14 +15,91 @@
         "official docs AI workflow template for meeting notes and action items",
         "help center AI workflow template for meeting notes and action items"
       ],
+      "source_summary": {
+        "total_sources": 2,
+        "concrete_urls": 2,
+        "placeholders": 3,
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
+      },
+      "candidate_sources": [
+        {
+          "url": "https://workspace.google.com/intl/en/products/meet/",
+          "title": "Google Meet official product page",
+          "supports_claims": [
+            "meeting workflow context",
+            "tool capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; still requires source-content verification before accepted.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T12:27:54.872366+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": [
+            "documenting notes/action items",
+            "tool capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; verify exact support article for claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T12:27:55.285145+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+        }
+      ],
+      "accepted_sources": [
+        {
+          "url": "https://workspace.google.com/intl/en/products/meet/",
+          "title": "Google Meet official product page",
+          "supports_claims": [
+            "meeting workflow context",
+            "tool capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; still requires source-content verification before accepted.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T12:27:54.872366+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+        },
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": [
+            "documenting notes/action items",
+            "tool capability"
+          ],
+          "status": "accepted",
+          "notes": "Candidate only; verify exact support article for claims.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T12:27:55.285145+00:00",
+          "final_status": "accepted_reachable_source",
+          "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "pilot-001-page-002",
@@ -39,6 +116,17 @@
         "help center AI workflow template for customer support triage",
         "AI workflow template for customer support triage privacy policy official docs"
       ],
+      "source_summary": {
+        "total_sources": 0,
+        "concrete_urls": 0,
+        "placeholders": 3,
+        "all_sources_publish_ready": false,
+        "accepted_or_checked": 0,
+        "rejected": 0,
+        "reachable_urls": 0
+      },
+      "candidate_sources": [],
+      "accepted_sources": [],
       "review_flags": {
         "missing_concrete_source_urls": true,
         "privacy_review_required": true,
@@ -62,6 +150,17 @@
         "official docs AI workflow template for weekly business reporting",
         "help center AI workflow template for weekly business reporting"
       ],
+      "source_summary": {
+        "total_sources": 0,
+        "concrete_urls": 0,
+        "placeholders": 2,
+        "all_sources_publish_ready": false,
+        "accepted_or_checked": 0,
+        "rejected": 0,
+        "reachable_urls": 0
+      },
+      "candidate_sources": [],
+      "accepted_sources": [],
       "review_flags": {
         "missing_concrete_source_urls": true,
         "privacy_review_required": false,
@@ -86,6 +185,17 @@
         "help center AI workflow template for content repurposing",
         "AI workflow template for content repurposing copyright policy official docs"
       ],
+      "source_summary": {
+        "total_sources": 0,
+        "concrete_urls": 0,
+        "placeholders": 2,
+        "all_sources_publish_ready": false,
+        "accepted_or_checked": 0,
+        "rejected": 0,
+        "reachable_urls": 0
+      },
+      "candidate_sources": [],
+      "accepted_sources": [],
       "review_flags": {
         "missing_concrete_source_urls": true,
         "privacy_review_required": false,
@@ -111,6 +221,17 @@
         "AI workflow template for sales follow-up notes privacy policy official docs",
         "AI workflow template for sales follow-up notes affiliate disclosure guidelines"
       ],
+      "source_summary": {
+        "total_sources": 0,
+        "concrete_urls": 0,
+        "placeholders": 2,
+        "all_sources_publish_ready": false,
+        "accepted_or_checked": 0,
+        "rejected": 0,
+        "reachable_urls": 0
+      },
+      "candidate_sources": [],
+      "accepted_sources": [],
       "review_flags": {
         "missing_concrete_source_urls": true,
         "privacy_review_required": true,

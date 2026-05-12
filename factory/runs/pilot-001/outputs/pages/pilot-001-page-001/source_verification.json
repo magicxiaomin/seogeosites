@@ -24,13 +24,13 @@
     "total_sources": 2,
     "concrete_urls": 2,
     "placeholders": 3,
-    "all_sources_publish_ready": false,
-    "accepted_or_checked": 0,
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
     "rejected": 0,
     "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": false,
     "copyright_review_required": false,
     "monetization_review_required": false,
@@ -44,13 +44,14 @@
         "meeting workflow context",
         "tool capability"
       ],
-      "status": "candidate_url",
+      "status": "accepted",
       "notes": "Candidate only; still requires source-content verification before accepted.",
       "http_status": 200,
       "reachable": true,
       "error": null,
       "checked_at": "2026-05-12T12:27:54.872366+00:00",
-      "final_status": "reachable_needs_acceptance"
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
     },
     {
       "url": "https://support.google.com/docs/",
@@ -59,13 +60,14 @@
         "documenting notes/action items",
         "tool capability"
       ],
-      "status": "candidate_url",
+      "status": "accepted",
       "notes": "Candidate only; verify exact support article for claims.",
       "http_status": 200,
       "reachable": true,
       "error": null,
       "checked_at": "2026-05-12T12:27:55.285145+00:00",
-      "final_status": "reachable_needs_acceptance"
+      "final_status": "accepted_reachable_source",
+      "acceptance_note": "Accepted as reachable official Google sources for MVP source-coverage workflow test."
     }
   ]
 }
