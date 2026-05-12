@@ -58,6 +58,14 @@ if args.stage == "full":
             raise SystemExit("Missing per-page outputs: " + ", ".join(missing_page_outputs))
         if batch.get("publish_allowed") is True and batch.get("status") != "Pass":
             raise SystemExit("publish_allowed cannot be true unless batch status is Pass")
+        staging_path = run / "outputs/staging_approval.json"
+        if staging_path.exists():
+            staging = json.loads(staging_path.read_text())
+            if staging.get("staging_approved") is not True:
+                raise SystemExit("staging_approval.json exists but staging_approved is not true")
+            if staging.get("production_publish_allowed") is True and batch.get("publish_allowed") is not True:
+                raise SystemExit("staging approval cannot imply production publish approval")
+            result["staging_approved"] = staging.get("staging_approved")
         result["batch_status"] = batch.get("status")
         result["generated_pages"] = len(pages)
         result["publish_allowed"] = batch.get("publish_allowed")

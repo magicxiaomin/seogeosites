@@ -18,7 +18,11 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish"
-      ]
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
     },
     {
       "opportunity_id": "pilot-001-page-002",
@@ -37,7 +41,11 @@
       "required_before_publish": [
         "Human review before production publish",
         "Privacy/data-handling review"
-      ]
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
     },
     {
       "opportunity_id": "pilot-001-page-003",
@@ -55,7 +63,11 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish"
-      ]
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
     },
     {
       "opportunity_id": "pilot-001-page-004",
@@ -74,7 +86,11 @@
       "required_before_publish": [
         "Human review before production publish",
         "Copyright/IP review"
-      ]
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
     },
     {
       "opportunity_id": "pilot-001-page-005",
@@ -94,7 +110,11 @@
         "Human review before production publish",
         "Privacy/data-handling review",
         "Monetization/disclosure review"
-      ]
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
     }
   ],
   "batch_qa_summary": {
@@ -109,5 +129,10 @@
     "publish_readiness": "Needs Review"
   },
   "publish_allowed": false,
-  "reason": "Staging drafts require concrete source URLs and human review before publish approval."
+  "reason": "Staging preview is automatically approved; production publish remains governed by publish_allowed and publish-gate validation.",
+  "staging_approved": true,
+  "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+  "staging_approval_mode": "automated",
+  "staging_approval_scope": "preview_only_not_production_publish",
+  "production_publish_allowed": false
 }

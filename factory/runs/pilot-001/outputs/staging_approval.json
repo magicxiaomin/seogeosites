@@ -1,0 +1,40 @@
+{
+  "run": "factory/runs/pilot-001",
+  "staging_approved": true,
+  "staging_approved_at": "2026-05-12T15:23:06.024913+00:00",
+  "approval_mode": "automated",
+  "scope": "preview_only_not_production_publish",
+  "production_publish_allowed": false,
+  "pages": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    }
+  ]
+}

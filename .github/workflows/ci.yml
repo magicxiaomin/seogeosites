@@ -37,6 +37,9 @@ jobs:
       - name: Generate pilot review checklists
         run: npm run factory:review-checklists
 
+      - name: Auto-approve pilot staging preview
+        run: npm run factory:approve-staging
+
       - name: Build QA dashboard
         run: npm run factory:dashboard
 
@@ -56,7 +59,7 @@ jobs:
           if missing:
               raise SystemExit(f'Missing expected HTML markers: {missing}')
           dashboard = Path('public/qa-dashboard.html').read_text(encoding='utf-8')
-          dashboard_required = ['Human review checklists', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization']
+          dashboard_required = ['Human review checklists', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization', 'Staging approved']
           missing_dashboard = [item for item in dashboard_required if item not in dashboard]
           if missing_dashboard:
               raise SystemExit(f'Missing dashboard markers: {missing_dashboard}')

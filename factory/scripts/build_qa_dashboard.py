@@ -65,6 +65,7 @@ def main():
         out = root / out
     out.parent.mkdir(parents=True, exist_ok=True)
     batch = load_json(run / "outputs" / "batch_publish_report.json")
+    staging = load_json(run / "outputs" / "staging_approval.json") if (run / "outputs" / "staging_approval.json").exists() else {}
     checklist_rel = None
     checklist_path = run / "outputs" / "review_checklists.md"
     if checklist_path.exists():
@@ -84,7 +85,7 @@ def main():
         rows.append(f"""
 <tr>
   <td>{html.escape(page['topic'])}<br><small><code>{html.escape(oid)}</code></small></td>
-  <td>{status_badge(page['qa_status'])}</td>
+  <td>{status_badge(page['qa_status'])}<br>{badge('Staging approved', 'pass') if page.get('staging_approved') else badge('Staging pending', 'review')}</td>
   <td>{active_flag_badges(page['review_flags'])}</td>
   <td><strong>{accepted_source_count(sv)}</strong> accepted<br><small>{html.escape(str(sv.get('summary', {})))}</small></td>
   <td><ul class='actions'>{actions}</ul></td>
@@ -111,7 +112,7 @@ code{{white-space:normal}} .status{{font-size:20px;font-weight:700}}
 <div class="banner">Staging QA dashboard — not a publish approval screen. Production publish remains blocked until human review.</div>
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>{html.escape(str(run.relative_to(root)))}</code></p>
-<p class="status">Batch readiness: {status_badge(batch.get('status','unknown'))} · publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
+<p class="status">Staging: {badge('Approved', 'pass') if staging.get('staging_approved') else badge('Pending', 'review')} · Batch publish-readiness: {status_badge(batch.get('status','unknown'))} · production publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
 <p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'}</p>
 <h2>Batch summary</h2>
 <pre>{html.escape(json.dumps(summary, indent=2))}</pre>
