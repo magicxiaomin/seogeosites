@@ -21,6 +21,7 @@ if args.stage == "full":
     required.extend(
         [
             "outputs/evidence_plan.json",
+            "outputs/source_verification.json",
             "outputs/site_placement_decision.json",
             "outputs/content_brief.json",
             "outputs/qa_report.json",

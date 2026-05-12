@@ -8,9 +8,17 @@
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md",
       "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
       "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
       "required_before_publish": [
-        "Replace source-plan placeholders with concrete official URLs",
-        "Human review before production publish"
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
       ]
     },
     {
@@ -19,9 +27,18 @@
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
       "slug": "ai-workflow-template-for-customer-support-triage",
       "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
       "required_before_publish": [
+        "Human review before production publish",
         "Replace source-plan placeholders with concrete official URLs",
-        "Human review before production publish"
+        "Privacy/data-handling review"
       ]
     },
     {
@@ -30,9 +47,17 @@
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md",
       "slug": "ai-workflow-template-for-weekly-business-reporting",
       "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
       "required_before_publish": [
-        "Replace source-plan placeholders with concrete official URLs",
-        "Human review before production publish"
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
       ]
     },
     {
@@ -41,9 +66,18 @@
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md",
       "slug": "ai-workflow-template-for-content-repurposing",
       "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": true,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
       "required_before_publish": [
+        "Human review before production publish",
         "Replace source-plan placeholders with concrete official URLs",
-        "Human review before production publish"
+        "Copyright/IP review"
       ]
     },
     {
@@ -52,12 +86,34 @@
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md",
       "slug": "ai-workflow-template-for-sales-follow-up-notes",
       "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": true,
+        "high_risk_topic": false
+      },
+      "blockers": [],
       "required_before_publish": [
+        "Human review before production publish",
         "Replace source-plan placeholders with concrete official URLs",
-        "Human review before production publish"
+        "Privacy/data-handling review",
+        "Monetization/disclosure review"
       ]
     }
   ],
+  "batch_qa_summary": {
+    "status_counts": {
+      "Needs Review": 5
+    },
+    "review_flag_counts": {
+      "missing_concrete_source_urls": 5,
+      "privacy_review_required": 2,
+      "copyright_review_required": 1,
+      "monetization_review_required": 1
+    },
+    "publish_readiness": "Needs Review"
+  },
   "publish_allowed": false,
   "reason": "Staging drafts require concrete source URLs and human review before publish approval."
 }

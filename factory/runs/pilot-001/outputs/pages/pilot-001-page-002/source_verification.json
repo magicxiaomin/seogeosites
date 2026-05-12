@@ -1,0 +1,36 @@
+{
+  "opportunity_id": "pilot-001-page-002",
+  "source_items": [
+    {
+      "source": "Official helpdesk tool docs",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Original editorial template",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Customer data privacy checklist",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    }
+  ],
+  "summary": {
+    "total_sources": 3,
+    "concrete_urls": 0,
+    "placeholders": 3,
+    "all_sources_publish_ready": false
+  },
+  "review_flags": {
+    "missing_concrete_source_urls": true,
+    "privacy_review_required": true,
+    "copyright_review_required": false,
+    "monetization_review_required": false,
+    "high_risk_topic": false
+  }
+}

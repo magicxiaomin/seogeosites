@@ -1,0 +1,30 @@
+{
+  "opportunity_id": "pilot-001-page-004",
+  "source_items": [
+    {
+      "source": "Platform content policy docs",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Original editorial template",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    }
+  ],
+  "summary": {
+    "total_sources": 2,
+    "concrete_urls": 0,
+    "placeholders": 2,
+    "all_sources_publish_ready": false
+  },
+  "review_flags": {
+    "missing_concrete_source_urls": true,
+    "privacy_review_required": false,
+    "copyright_review_required": true,
+    "monetization_review_required": false,
+    "high_risk_topic": false
+  }
+}

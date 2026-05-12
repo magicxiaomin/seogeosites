@@ -98,6 +98,32 @@ evidence = {
     "human_review_triggers": ["new tool claims without official source", "privacy/security claims"],
 }
 (run / "outputs/evidence_plan.json").write_text(json.dumps(evidence, indent=2), encoding="utf-8")
+source_verification = {
+    "opportunity_id": selected["id"],
+    "source_items": [
+        {
+            "source": source,
+            "is_concrete_url": str(source).startswith(("http://", "https://")),
+            "verification_status": "placeholder_requires_replacement",
+            "required_before_pass": True,
+        }
+        for source in evidence["source_plan"]
+    ],
+    "summary": {
+        "total_sources": len(evidence["source_plan"]),
+        "concrete_urls": 0,
+        "placeholders": len(evidence["source_plan"]),
+        "all_sources_publish_ready": False,
+    },
+    "review_flags": {
+        "missing_concrete_source_urls": True,
+        "privacy_review_required": True,
+        "copyright_review_required": False,
+        "monetization_review_required": False,
+        "high_risk_topic": False,
+    },
+}
+(run / "outputs/source_verification.json").write_text(json.dumps(source_verification, indent=2), encoding="utf-8")
 
 placement = {
     "opportunity_id": selected["id"],

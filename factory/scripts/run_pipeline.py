@@ -72,6 +72,44 @@ def make_evidence_plan(o):
     }
 
 
+def infer_review_flags(o, evidence):
+    risks = " ".join(o.get("risk_flags", [])).lower()
+    source_items = evidence.get("source_plan", [])
+    concrete_urls = [x for x in source_items if isinstance(x, str) and x.startswith(("http://", "https://"))]
+    flags = {
+        "missing_concrete_source_urls": len(concrete_urls) == 0,
+        "privacy_review_required": "privacy" in risks or "customer" in risks or "crm" in " ".join(source_items).lower(),
+        "copyright_review_required": "copyright" in risks or "copying" in risks or "content repurposing" in o.get("topic", "").lower(),
+        "monetization_review_required": "affiliate" in risks or "sales" in o.get("topic", "").lower(),
+        "high_risk_topic": any(term in risks for term in ["legal advice", "medical advice", "financial advice", "high ymyl"]) and "avoid financial advice" not in risks,
+    }
+    return flags
+
+
+def make_source_verification(o, evidence):
+    items = []
+    for source in evidence.get("source_plan", []):
+        is_url = isinstance(source, str) and source.startswith(("http://", "https://"))
+        items.append({
+            "source": source,
+            "is_concrete_url": is_url,
+            "verification_status": "not_checked" if is_url else "placeholder_requires_replacement",
+            "required_before_pass": not is_url,
+        })
+    flags = infer_review_flags(o, evidence)
+    return {
+        "opportunity_id": o["id"],
+        "source_items": items,
+        "summary": {
+            "total_sources": len(items),
+            "concrete_urls": sum(1 for item in items if item["is_concrete_url"]),
+            "placeholders": sum(1 for item in items if not item["is_concrete_url"]),
+            "all_sources_publish_ready": bool(items) and all(item["is_concrete_url"] and item["verification_status"] == "checked" for item in items),
+        },
+        "review_flags": flags,
+    }
+
+
 def make_placement(o):
     topic = o["topic"]
     cluster = o.get("recommended_cluster") or topic
@@ -191,20 +229,35 @@ A human should review it when source URLs are missing, privacy/security claims a
     return path.relative_to(root)
 
 
-def make_qa(draft_path):
+def make_qa(draft_path, source_verification):
+    flags = source_verification["review_flags"]
+    blockers = []
+    required = ["Human review before production publish"]
+    if flags["missing_concrete_source_urls"]:
+        required.append("Replace source-plan placeholders with concrete official URLs")
+    if flags["privacy_review_required"]:
+        required.append("Privacy/data-handling review")
+    if flags["copyright_review_required"]:
+        required.append("Copyright/IP review")
+    if flags["monetization_review_required"]:
+        required.append("Monetization/disclosure review")
+    if flags["high_risk_topic"]:
+        blockers.append("High-risk topic requires explicit approval or rejection")
+    status = "Block" if blockers else "Needs Review"
     return {
         "page": str(draft_path),
-        "status": "Needs Review",
+        "status": status,
         "checks": {
             "seo_quality": "Pass",
             "content_usefulness": "Pass",
-            "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+            "evidence_source_integrity": "Needs Review: concrete official source URLs required" if flags["missing_concrete_source_urls"] else "Needs Review: source URLs need verification",
             "geo_readiness": "Pass",
             "anti_spam_scaled_abuse": "Pass",
             "technical_publishing": "Pass",
         },
-        "blockers": [],
-        "required_before_publish": ["Replace source-plan placeholders with concrete official URLs", "Human review before production publish"],
+        "review_flags": flags,
+        "blockers": blockers,
+        "required_before_publish": required,
     }
 
 
@@ -238,14 +291,16 @@ def main():
     page_records = []
     for candidate in candidates:
         evidence = make_evidence_plan(candidate)
+        source_verification = make_source_verification(candidate, evidence)
         placement = make_placement(candidate)
         brief = make_brief(candidate, evidence)
         draft_path = write_draft(brief, placement)
-        qa = make_qa(draft_path)
+        qa = make_qa(draft_path, source_verification)
         page_dir = run_dir / "outputs" / "pages" / candidate["id"]
         page_dir.mkdir(parents=True, exist_ok=True)
         per_page = {
             "evidence_plan.json": evidence,
+            "source_verification.json": source_verification,
             "site_placement_decision.json": placement,
             "content_brief.json": brief,
             "qa_report.json": qa,
@@ -258,26 +313,43 @@ def main():
             "draft_path": str(draft_path),
             "slug": brief["page_brief"]["slug"],
             "qa_status": qa["status"],
+            "review_flags": qa["review_flags"],
+            "blockers": qa["blockers"],
             "required_before_publish": qa["required_before_publish"],
         })
 
     first = candidates[0]
     first_dir = run_dir / "outputs" / "pages" / first["id"]
     # Keep legacy top-level outputs pointing at the first generated candidate for simple validators/CI.
-    for name in ["evidence_plan.json", "site_placement_decision.json", "content_brief.json", "qa_report.json"]:
+    for name in ["evidence_plan.json", "source_verification.json", "site_placement_decision.json", "content_brief.json", "qa_report.json"]:
         (run_dir / "outputs" / name).write_text((first_dir / name).read_text(encoding="utf-8"), encoding="utf-8")
 
+    flag_counts = {}
+    for record in page_records:
+        for flag, value in record["review_flags"].items():
+            if value:
+                flag_counts[flag] = flag_counts.get(flag, 0) + 1
+    status_counts = {}
+    for record in page_records:
+        status_counts[record["qa_status"]] = status_counts.get(record["qa_status"], 0) + 1
+    batch_qa_summary = {
+        "status_counts": status_counts,
+        "review_flag_counts": flag_counts,
+        "publish_readiness": "Block" if status_counts.get("Block") else "Needs Review",
+    }
     batch = {
         "run": str(run_dir.relative_to(root)),
-        "status": "Needs Review",
+        "status": batch_qa_summary["publish_readiness"],
         "generated_pages": page_records,
+        "batch_qa_summary": batch_qa_summary,
         "publish_allowed": False,
         "reason": "Staging drafts require concrete source URLs and human review before publish approval.",
     }
     (run_dir / "outputs" / "batch_publish_report.json").write_text(json.dumps(batch, indent=2), encoding="utf-8")
-    md_lines = ["# Batch Publish Report", "", "Status: Needs Review", "", "| Page | QA | Draft | Required before publish |", "|---|---|---|---|"]
+    md_lines = ["# Batch Publish Report", "", f"Status: {batch_qa_summary['publish_readiness']}", "", "## Batch QA Summary", "", f"Status counts: `{status_counts}`", "", f"Review flag counts: `{flag_counts}`", "", "| Page | QA | Flags | Draft | Required before publish |", "|---|---|---|---|---|"]
     for r in page_records:
-        md_lines.append(f"| {r['topic']} | {r['qa_status']} | `{r['draft_path']}` | {'; '.join(r['required_before_publish'])} |")
+        active_flags = ", ".join([k for k, v in r['review_flags'].items() if v]) or "none"
+        md_lines.append(f"| {r['topic']} | {r['qa_status']} | {active_flags} | `{r['draft_path']}` | {'; '.join(r['required_before_publish'])} |")
     md_lines.append("\nPublishing is not allowed until the batch is approved by a human reviewer.")
     (run_dir / "outputs" / "batch_publish_report.md").write_text("\n".join(md_lines), encoding="utf-8")
     print(f"Full pipeline generated {len(candidates)} candidate(s) for {run_dir.relative_to(root)}")

@@ -1,0 +1,48 @@
+{
+  "opportunity_id": "opp-001",
+  "source_items": [
+    {
+      "source": "Zoom official support/docs",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Google Meet official help docs",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Notion/Google Docs docs",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Vendor feature/pricing pages only for factual claims",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Community questions as intent signals only",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    }
+  ],
+  "summary": {
+    "total_sources": 5,
+    "concrete_urls": 0,
+    "placeholders": 5,
+    "all_sources_publish_ready": false
+  },
+  "review_flags": {
+    "missing_concrete_source_urls": true,
+    "privacy_review_required": true,
+    "copyright_review_required": false,
+    "monetization_review_required": false,
+    "high_risk_topic": false
+  }
+}
