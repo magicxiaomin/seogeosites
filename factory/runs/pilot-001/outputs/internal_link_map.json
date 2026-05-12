@@ -1,0 +1,60 @@
+{
+  "hub": "ai-workflow-templates-for-business-teams",
+  "rules": [
+    "hub links to every supporting page",
+    "supporting pages link back to hub",
+    "supporting pages cross-link only when intent overlap is natural"
+  ],
+  "links": [
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "anchor": "AI workflow template for meeting notes and action items"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-customer-support-triage",
+      "anchor": "AI workflow template for customer support triage"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-weekly-business-reporting",
+      "anchor": "AI workflow template for weekly business reporting"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-content-repurposing",
+      "anchor": "AI workflow template for content repurposing"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-sales-follow-up-notes",
+      "anchor": "AI workflow template for sales follow-up notes"
+    },
+    {
+      "from": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-customer-support-triage",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-weekly-business-reporting",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-content-repurposing",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-sales-follow-up-notes",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    }
+  ]
+}

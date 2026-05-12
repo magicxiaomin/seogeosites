@@ -1,0 +1,31 @@
+{
+  "risk_veto": {
+    "reject_if": [
+      "unsupported YMYL advice",
+      "copyright/IP-heavy rewriting",
+      "blind scraping dependency",
+      "scaled-content-abuse pattern",
+      "no credible source path"
+    ]
+  },
+  "classifications": [
+    "SEO-led",
+    "GEO-led",
+    "Balanced SEO+GEO",
+    "Defer",
+    "Reject"
+  ],
+  "balanced_seo_geo_default": {
+    "seo_min": 4,
+    "geo_min": 4,
+    "risk_max": 3,
+    "evidence_min": 3
+  },
+  "required_output_fields": [
+    "classification",
+    "go_no_go",
+    "evidence_level",
+    "human_review_triggers",
+    "site_placement_recommendation"
+  ]
+}

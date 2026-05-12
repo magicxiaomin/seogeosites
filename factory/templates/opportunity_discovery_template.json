@@ -1,0 +1,29 @@
+{
+  "candidate_id": "opp-YYYYMMDD-001",
+  "seed_theme": "",
+  "working_topic": "",
+  "search_intent": "informational | commercial-investigation | comparison | template-download | troubleshooting",
+  "geo_scenario": "direct-answer | tool-selection | workflow-design | troubleshooting | checklist",
+  "signals": {
+    "keyword_or_question_sources": [],
+    "serp_observations": [],
+    "competitor_structures_observed": [],
+    "community_questions": [],
+    "official_sources_available": [],
+    "sampled_ai_answer_gaps": []
+  },
+  "risk_flags": {
+    "privacy_review_required": false,
+    "copyright_review_required": false,
+    "monetization_review_required": false,
+    "high_risk_topic": false
+  },
+  "classification_inputs": {
+    "seo_score_1_to_5": null,
+    "geo_score_1_to_5": null,
+    "risk_score_1_to_5": null,
+    "evidence_availability_1_to_5": null
+  },
+  "recommended_cluster": "",
+  "placement_recommendation": "existing_page_update | new_supporting_page | new_cluster_in_existing_site | defer | reject"
+}

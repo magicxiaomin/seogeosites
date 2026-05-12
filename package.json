@@ -10,6 +10,7 @@
     "factory:accept-sources": "python3 factory/scripts/accept_sources.py",
     "factory:dashboard": "python3 factory/scripts/build_qa_dashboard.py",
     "factory:review-pack": "python3 factory/scripts/build_editorial_review_pack.py",
+    "factory:strategy-artifacts": "python3 factory/scripts/build_strategy_artifacts.py",
     "factory:review-checklists": "python3 factory/scripts/generate_review_checklists.py",
     "factory:publish-gates": "python3 factory/scripts/validate_publish_gates.py",
     "factory:approve-staging": "python3 factory/scripts/approve_staging_batch.py",
@@ -19,6 +20,7 @@
     "validate": "python3 factory/scripts/validate_factory_run.py factory/runs/sample",
     "validate:pilot": "python3 factory/scripts/validate_factory_run.py factory/runs/pilot-001",
     "validate:content-quality": "python3 factory/scripts/validate_content_quality.py --run factory/runs/pilot-001",
+    "validate:strategy-artifacts": "python3 factory/scripts/validate_strategy_artifacts.py --run factory/runs/pilot-001",
     "validate:publish-gates": "python3 factory/scripts/validate_publish_gates.py --run factory/runs/pilot-001",
     "serve": "python3 -m http.server 18766 --directory public"
   },

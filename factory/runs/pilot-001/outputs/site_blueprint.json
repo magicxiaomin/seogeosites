@@ -1,0 +1,71 @@
+{
+  "site_id": "productivity-ai-pilot",
+  "status": "staging_blueprint_not_production_publish",
+  "production_publish_allowed": false,
+  "working_brand_posture": "Practical AI workflow templates for operations, support, sales, content, and reporting teams.",
+  "primary_audience": [
+    "operators",
+    "founders",
+    "team leads",
+    "support/sales/content managers"
+  ],
+  "editorial_promise": "Evidence-backed, privacy-aware, implementation-ready AI workflow guides with clear source notes and review gates.",
+  "topical_scope": [
+    "AI workflow templates",
+    "team productivity automation",
+    "safe prompt/process design",
+    "source-backed tool-context guides"
+  ],
+  "out_of_scope": [
+    "medical/legal/financial advice",
+    "guaranteed ROI claims",
+    "competitor rewrites",
+    "private-data automation without review",
+    "mass programmatic publishing"
+  ],
+  "required_trust_pages": [
+    "homepage",
+    "about/trust",
+    "editorial policy",
+    "source and update policy",
+    "contact",
+    "privacy/disclosure note if monetized"
+  ],
+  "initial_cluster": {
+    "hub_slug": "ai-workflow-templates-for-business-teams",
+    "supporting_pages": [
+      {
+        "topic": "AI workflow template for meeting notes and action items",
+        "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for customer support triage",
+        "slug": "ai-workflow-template-for-customer-support-triage",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for weekly business reporting",
+        "slug": "ai-workflow-template-for-weekly-business-reporting",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for content repurposing",
+        "slug": "ai-workflow-template-for-content-repurposing",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for sales follow-up notes",
+        "slug": "ai-workflow-template-for-sales-follow-up-notes",
+        "status": "Needs Review"
+      }
+    ]
+  },
+  "production_blockers": [
+    "final brand/domain decision",
+    "human editorial review",
+    "publish-batch approval",
+    "trust pages not finalized",
+    "analytics/search-console hooks not configured"
+  ]
+}

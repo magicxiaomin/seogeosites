@@ -1,0 +1,31 @@
+{
+  "status": "template_only_no_production_data_yet",
+  "pre_publish_checks": [
+    "content quality pass",
+    "source coverage pass",
+    "human review decision recorded",
+    "robots/indexing settings reviewed for production"
+  ],
+  "post_publish_metrics": [
+    "indexing status",
+    "impressions",
+    "clicks",
+    "rank movement",
+    "engagement proxy",
+    "AI answer coverage sample",
+    "source freshness",
+    "template QA failure rate"
+  ],
+  "feedback_decisions": [
+    "continue",
+    "modify",
+    "pause",
+    "scale",
+    "stop"
+  ],
+  "sampled_geo_prompts": [
+    "What is a safe AI workflow for turning meeting notes into action items?",
+    "How should a support team use AI to triage tickets without exposing private data?",
+    "What should be included in an AI weekly business reporting workflow?"
+  ]
+}
