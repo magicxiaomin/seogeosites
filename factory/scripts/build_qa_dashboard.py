@@ -72,6 +72,13 @@ def main():
         public_checklist = public / "review-checklists.md"
         public_checklist.write_text(checklist_path.read_text(encoding="utf-8"), encoding="utf-8")
         checklist_rel = public_checklist.relative_to(public)
+    review_pack_rel = None
+    review_pack_path = run / "outputs" / "editorial_review_pack.md"
+    if review_pack_path.exists():
+        public_review_pack = public / "editorial-review-pack.md"
+        public_review_pack.write_text(review_pack_path.read_text(encoding="utf-8"), encoding="utf-8")
+        review_pack_rel = public_review_pack.relative_to(public)
+    quality = load_json(run / "outputs" / "content_quality_report.json") if (run / "outputs" / "content_quality_report.json").exists() else {}
     rows = []
     for page in batch["generated_pages"]:
         oid = page["opportunity_id"]
@@ -112,8 +119,8 @@ code{{white-space:normal}} .status{{font-size:20px;font-weight:700}}
 <div class="banner">Staging QA dashboard — not a publish approval screen. Production publish remains blocked until human review.</div>
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>{html.escape(str(run.relative_to(root)))}</code></p>
-<p class="status">Staging: {badge('Approved', 'pass') if staging.get('staging_approved') else badge('Pending', 'review')} · Batch publish-readiness: {status_badge(batch.get('status','unknown'))} · production publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
-<p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'}</p>
+<p class="status">Staging: {badge('Approved', 'pass') if staging.get('staging_approved') else badge('Pending', 'review')} · Batch publish-readiness: {status_badge(batch.get('status','unknown'))} · Content quality: {badge('Pass', 'pass') if quality.get('ok') else badge('Not checked', 'review')} · production publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
+<p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'} · {'<a href="' + html.escape(str(review_pack_rel)) + '">Editorial review pack</a>' if review_pack_rel else 'Editorial review pack has not been generated yet.'}</p>
 <h2>Batch summary</h2>
 <pre>{html.escape(json.dumps(summary, indent=2))}</pre>
 <h2>Pages</h2>

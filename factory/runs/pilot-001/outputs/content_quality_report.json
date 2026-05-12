@@ -1,0 +1,48 @@
+{
+  "run": "factory/runs/pilot-001",
+  "pages": 5,
+  "ok": true,
+  "production_publish_allowed": false,
+  "results": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md",
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md",
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md",
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md",
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    }
+  ]
+}
