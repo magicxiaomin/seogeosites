@@ -15,10 +15,12 @@
     }
   ],
   "summary": {
-    "total_sources": 2,
+    "total_sources": 0,
     "concrete_urls": 0,
     "placeholders": 2,
-    "all_sources_publish_ready": false
+    "all_sources_publish_ready": false,
+    "accepted_or_checked": 0,
+    "rejected": 0
   },
   "review_flags": {
     "missing_concrete_source_urls": true,
@@ -26,5 +28,6 @@
     "copyright_review_required": false,
     "monetization_review_required": false,
     "high_risk_topic": false
-  }
+  },
+  "candidate_sources": []
 }

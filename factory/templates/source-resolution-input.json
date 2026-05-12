@@ -1,0 +1,17 @@
+{
+  "run": "factory/runs/pilot-001",
+  "resolutions": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "candidate_sources": [
+        {
+          "url": "https://example.com/official-doc",
+          "title": "Official documentation title",
+          "supports_claims": ["tool capability", "privacy/data handling", "workflow rationale"],
+          "status": "candidate_url",
+          "notes": "Replace with a concrete official or primary source URL."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "run": "factory/runs/pilot-001",
+  "resolutions": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "candidate_sources": [
+        {
+          "url": "https://workspace.google.com/intl/en/products/meet/",
+          "title": "Google Meet official product page",
+          "supports_claims": ["meeting workflow context", "tool capability"],
+          "status": "candidate_url",
+          "notes": "Candidate only; still requires source-content verification before accepted."
+        },
+        {
+          "url": "https://support.google.com/docs/",
+          "title": "Google Docs editors help",
+          "supports_claims": ["documenting notes/action items", "tool capability"],
+          "status": "candidate_url",
+          "notes": "Candidate only; verify exact support article for claims."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "candidate_sources": []
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "candidate_sources": []
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "candidate_sources": []
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "candidate_sources": []
+    }
+  ]
+}

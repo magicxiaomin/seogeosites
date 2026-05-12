@@ -4,7 +4,7 @@
   "checks": {
     "seo_quality": "Pass",
     "content_usefulness": "Pass",
-    "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+    "evidence_source_integrity": "Needs Review: source URLs need verification",
     "geo_readiness": "Pass",
     "anti_spam_scaled_abuse": "Pass",
     "technical_publishing": "Pass"
@@ -19,8 +19,8 @@
   "blockers": [],
   "required_before_publish": [
     "Human review before production publish",
-    "Replace source-plan placeholders with concrete official URLs",
     "Privacy/data-handling review",
-    "Monetization/disclosure review"
+    "Monetization/disclosure review",
+    "Replace source-plan placeholders with at least 2 checked concrete source URLs"
   ]
 }
