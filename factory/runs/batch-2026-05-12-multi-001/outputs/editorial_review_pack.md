@@ -25,16 +25,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Workday HCM official site: https://www.workday.com/en-us/products/human-capital-management/overview.html — supports: employee and HR workflow context, official product/source context for staging review; HTTP 200
+- Google Workspace official site: https://workspace.google.com/ — supports: Google Workspace product context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 
 ### Reviewer decision
@@ -54,16 +55,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Xero pay bills official page: https://www.xero.com/us/accounting-software/pay-bills/ — supports: bill payment/accounts payable product context, official product/source context for staging review; HTTP 200
+- Stripe Invoicing official docs: https://stripe.com/docs/invoicing — supports: invoice workflow product context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 
 ### Reviewer decision
@@ -83,16 +85,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Productboard official site: https://www.productboard.com/ — supports: product feedback management context, official product/source context for staging review; HTTP 200
+- Zendesk Guide official site: https://www.zendesk.com/service/help-center/ — supports: knowledge base/help center context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 
 ### Reviewer decision
@@ -112,16 +115,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Greenhouse recruiting software official site: https://www.greenhouse.com/ — supports: recruiting workflow context, official product/source context for staging review; HTTP 200
+- Workday HCM official site: https://www.workday.com/en-us/products/human-capital-management/overview.html — supports: employee and HR workflow context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 
 ### Reviewer decision
@@ -141,16 +145,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required, monetization_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required, monetization_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Salesforce Sales Cloud official site: https://www.salesforce.com/sales/ — supports: CRM and sales workflow context, official product/source context for staging review; HTTP 200
+- HubSpot CRM official site: https://www.hubspot.com/products/crm — supports: CRM context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 - Monetization/disclosure review
 
@@ -171,16 +176,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, copyright_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `copyright_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Zendesk Guide official site: https://www.zendesk.com/service/help-center/ — supports: knowledge base/help center context, official product/source context for staging review; HTTP 200
+- Confluence official site: https://www.atlassian.com/software/confluence — supports: knowledge-base and collaboration context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Copyright/IP review
 
 ### Reviewer decision
@@ -200,16 +206,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls`
-- Accepted reachable sources: `0`
+- Active review flags: `none`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Asana official site: https://asana.com/ — supports: project management product context, official product/source context for staging review; HTTP 200
+- Microsoft 365 official site: https://www.microsoft.com/en-us/microsoft-365 — supports: Microsoft 365 product context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 
 ### Reviewer decision
 
@@ -228,16 +235,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls`
-- Accepted reachable sources: `0`
+- Active review flags: `none`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Jira Service Management official site: https://www.atlassian.com/software/jira/service-management — supports: incident/service workflow context, official product/source context for staging review; HTTP 200
+- Confluence official site: https://www.atlassian.com/software/confluence — supports: knowledge-base and collaboration context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 
 ### Reviewer decision
 
@@ -256,16 +264,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, copyright_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `copyright_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Zoom official site: https://www.zoom.com/ — supports: meeting/webinar product context, official product/source context for staging review; HTTP 200
+- HubSpot CRM official site: https://www.hubspot.com/products/crm — supports: CRM context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Copyright/IP review
 
 ### Reviewer decision
@@ -285,16 +294,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls`
-- Accepted reachable sources: `0`
+- Active review flags: `none`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Oracle Procurement official page: https://www.oracle.com/procurement/ — supports: procurement platform context, official product/source context for staging review; HTTP 200
+- Coupa procurement official site: https://www.coupa.com/products/procurement/ — supports: procurement workflow context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 
 ### Reviewer decision
 
@@ -313,16 +323,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls`
-- Accepted reachable sources: `0`
+- Active review flags: `none`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Microsoft 365 official site: https://www.microsoft.com/en-us/microsoft-365 — supports: Microsoft 365 product context, official product/source context for staging review; HTTP 200
+- Google Workspace official site: https://workspace.google.com/ — supports: Google Workspace product context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 
 ### Reviewer decision
 
@@ -341,16 +352,17 @@ This pack is for human/editorial production review. It is not a production publi
 - QA status: `Needs Review`
 - Staging approved: `True`
 - Production publish allowed: `False`
-- Active review flags: `missing_concrete_source_urls, privacy_review_required`
-- Accepted reachable sources: `0`
+- Active review flags: `privacy_review_required`
+- Accepted reachable sources: `2`
 
 ### Accepted sources
 
+- Qualtrics XM official site: https://www.qualtrics.com/ — supports: customer research context, official product/source context for staging review; HTTP 200
+- Google Workspace official site: https://workspace.google.com/ — supports: Google Workspace product context, official product/source context for staging review; HTTP 200
 
 ### Required before production publish
 
 - Human review before production publish
-- Replace source-plan placeholders with concrete official URLs
 - Privacy/data-handling review
 
 ### Reviewer decision

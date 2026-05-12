@@ -1,8 +1,8 @@
 from pathlib import Path
+import argparse
 import json
 
 root = Path(__file__).resolve().parents[2]
-RUN = root / "factory/runs/pilot-001"
 CONTENT_DIR = root / "content/sites/productivity-ai-pilot/pages"
 
 FLAG_NOTES = {
@@ -56,12 +56,18 @@ def replace_section(body, heading, new_section):
 
 
 def main():
-    batch = load_json(RUN / "outputs/batch_publish_report.json")
+    parser = argparse.ArgumentParser(description="Inject accepted source evidence into staged pages.")
+    parser.add_argument("--run", default="factory/runs/pilot-001")
+    args = parser.parse_args()
+    run = Path(args.run)
+    if not run.is_absolute():
+        run = root / run
+    batch = load_json(run / "outputs/batch_publish_report.json")
     updated = []
     for page in batch.get("generated_pages", []):
         slug = page["slug"]
         md_path = CONTENT_DIR / f"{slug}.md"
-        sv = load_json(RUN / "outputs/pages" / page["opportunity_id"] / "source_verification.json")
+        sv = load_json(run / "outputs/pages" / page["opportunity_id"] / "source_verification.json")
         text = md_path.read_text(encoding="utf-8")
         source_notes = source_lines(sv)
         risk_notes = flag_lines(page.get("review_flags", {}))

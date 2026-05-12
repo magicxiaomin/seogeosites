@@ -21,16 +21,51 @@
     }
   ],
   "summary": {
-    "total_sources": 3,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 3,
-    "all_sources_publish_ready": false
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
+    "rejected": 0,
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": false,
     "copyright_review_required": false,
     "monetization_review_required": false,
     "high_risk_topic": false
-  }
+  },
+  "candidate_sources": [
+    {
+      "title": "Microsoft 365 official site",
+      "url": "https://www.microsoft.com/en-us/microsoft-365",
+      "status": "accepted",
+      "supports_claims": [
+        "Microsoft 365 product context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:32.370797+00:00"
+    },
+    {
+      "title": "Google Workspace official site",
+      "url": "https://workspace.google.com/",
+      "status": "accepted",
+      "supports_claims": [
+        "Google Workspace product context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:32.446525+00:00"
+    }
+  ]
 }

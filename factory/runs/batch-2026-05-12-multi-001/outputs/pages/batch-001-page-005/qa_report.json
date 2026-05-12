@@ -4,13 +4,13 @@
   "checks": {
     "seo_quality": "Pass",
     "content_usefulness": "Pass",
-    "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+    "evidence_source_integrity": "Pass",
     "geo_readiness": "Pass",
     "anti_spam_scaled_abuse": "Pass",
     "technical_publishing": "Pass"
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": true,
     "copyright_review_required": false,
     "monetization_review_required": true,
@@ -19,7 +19,6 @@
   "blockers": [],
   "required_before_publish": [
     "Human review before production publish",
-    "Replace source-plan placeholders with concrete official URLs",
     "Privacy/data-handling review",
     "Monetization/disclosure review"
   ]

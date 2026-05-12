@@ -19,18 +19,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-001`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required
+- Active flags: privacy_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.
@@ -48,18 +44,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-002`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required
+- Active flags: privacy_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.
@@ -77,18 +69,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-003`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required
+- Active flags: privacy_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.
@@ -106,18 +94,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-004`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required
+- Active flags: privacy_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.
@@ -135,19 +119,15 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-005`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required, monetization_review_required
+- Active flags: privacy_review_required, monetization_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 - [ ] Monetization/disclosure review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.
@@ -170,18 +150,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-006`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, copyright_review_required
+- Active flags: copyright_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Copyright/IP review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **copyright_review_required**
 - [ ] Confirm the workflow discourages copying third-party content verbatim or bypassing licenses.
@@ -199,17 +175,15 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-007`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls
+- Active flags: none
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 
 ### Flag-specific checks
 
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
+- [ ] Confirm no additional privacy, copyright/IP, monetization, or YMYL flags were introduced during editing.
 
 ### Editorial sign-off
 
@@ -222,17 +196,15 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-008`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls
+- Active flags: none
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 
 ### Flag-specific checks
 
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
+- [ ] Confirm no additional privacy, copyright/IP, monetization, or YMYL flags were introduced during editing.
 
 ### Editorial sign-off
 
@@ -245,18 +217,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-009`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, copyright_review_required
+- Active flags: copyright_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Copyright/IP review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **copyright_review_required**
 - [ ] Confirm the workflow discourages copying third-party content verbatim or bypassing licenses.
@@ -274,17 +242,15 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-010`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls
+- Active flags: none
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 
 ### Flag-specific checks
 
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
+- [ ] Confirm no additional privacy, copyright/IP, monetization, or YMYL flags were introduced during editing.
 
 ### Editorial sign-off
 
@@ -297,17 +263,15 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-011`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls
+- Active flags: none
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 
 ### Flag-specific checks
 
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
+- [ ] Confirm no additional privacy, copyright/IP, monetization, or YMYL flags were introduced during editing.
 
 ### Editorial sign-off
 
@@ -320,18 +284,14 @@ Publish allowed: `False`
 - Opportunity ID: `batch-001-page-012`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md`
 - QA status: **Needs Review**
-- Active flags: missing_concrete_source_urls, privacy_review_required
+- Active flags: privacy_review_required
 
 ### Required before publish
 
 - [ ] Human review before production publish
-- [ ] Replace source-plan placeholders with concrete official URLs
 - [ ] Privacy/data-handling review
 
 ### Flag-specific checks
-
-**missing_concrete_source_urls**
-- [ ] Replace placeholder source notes with accepted concrete URLs from official or primary sources.
 
 **privacy_review_required**
 - [ ] Confirm the draft does not ask readers to paste sensitive personal, customer, or confidential business data into AI tools without safeguards.

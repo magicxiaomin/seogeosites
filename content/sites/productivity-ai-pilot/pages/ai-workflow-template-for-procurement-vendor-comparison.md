@@ -11,31 +11,69 @@ last_reviewed: "2026-05-12"
 
 ## Direct answer
 
-Ai Workflow Template For Procurement Vendor Comparison should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.
+Use this workflow to compare vendors for procurement review from approved source material while keeping sensitive data, unsupported claims, and final production decisions under human review. The AI output should be treated as a structured draft, not an autonomous decision.
 
 ## What this is
 
 This staging draft is a structured SEO/GEO knowledge asset. It is designed to be easy for readers, search engines, and AI answer engines to parse, but it is not approved for production publishing yet.
 
-## Recommended workflow
+## Practical template
 
-1. Confirm the reader intent and target audience.
-2. Verify factual claims against official or primary sources.
-3. Add examples, templates, or decision criteria that create original editorial value.
-4. Separate source-backed facts from editorial recommendations.
-5. Run QA for SEO, GEO readiness, evidence integrity, and scaled-content-abuse risk.
-6. Keep the page in staging until the publish batch is approved.
+### Inputs to collect
+
+- Vendor facts, evaluation criteria, stakeholder requirements, and procurement policy
+- Target audience and intended decision or deliverable
+- Approved source documents or system-of-record exports
+- Privacy, copyright, monetization, or policy constraints that affect use
+
+### Step-by-step workflow
+
+1. Confirm the source material is approved for this workflow and remove sensitive details that are not needed.
+2. Ask the AI tool to extract facts, open questions, risks, and recommended next actions into separate sections.
+3. Require the AI tool to mark uncertainty instead of inventing missing names, dates, numbers, or commitments.
+4. Compare the draft against accepted sources and internal policy before sharing it beyond the review group.
+5. Have the procurement owner approve the final version before it becomes a production asset, customer-facing output, or system-of-record update.
+
+### Reusable AI prompt block
+
+```text
+You are helping compare vendors for procurement review. Use only the source material provided below. Return: summary, key facts, risks or policy constraints, recommended next actions, and items a human must verify. If information is missing, write "not specified" instead of guessing. Do not make legal, medical, financial, hiring, procurement, or customer commitments.
+```
+
+### Expected outputs
+
+- Structured summary for the review owner
+- Action-item or decision table with uncertainty marked clearly
+- Risk and policy-review checklist
+- Human verification notes tied to the accepted sources
+
+### Human QA checks
+
+- The final answer distinguishes source-backed facts from editorial recommendations.
+- Any privacy, copyright, monetization, bias, security, or disclosure issue remains flagged for production review.
+- The reviewer can trace factual or tool-capability claims to the accepted sources below.
 
 ## Evidence and source notes
 
-The source plan must be converted into concrete URLs before this page can receive a Pass status.
+This staging page now includes accepted, reachable source URLs for factual/tool-context claims. Sources support context and capabilities; they do not turn editorial recommendations into guaranteed outcomes.
+
+### Accepted sources
+
+- Oracle Procurement official page: https://www.oracle.com/procurement/ — supports: procurement platform context, official product/source context for staging review.
+- Coupa procurement official site: https://www.coupa.com/products/procurement/ — supports: procurement workflow context, official product/source context for staging review.
+
+### Editorial guardrails
+
+- Keep factual product/tool claims tied to accepted sources.
+- Mark recommendations as editorial workflow guidance, not source-backed facts unless the source directly supports them.
+- Keep this page in staging preview until production publish gates pass.
 
 ## Review checklist
 
 - Direct answer is present.
 - Claims are either sourced or clearly marked as editorial guidance.
 - No competitor text has been copied.
-- Human review triggers are documented.
+- Staging approval is automated; production publish remains controlled by publish gates.
 
 ## FAQ
 
@@ -49,4 +87,4 @@ Official source URLs, dated review metadata, and source-backed support for factu
 
 ### When should a human review it?
 
-A human should review it when source URLs are missing, privacy/security claims are present, or the topic changes risk class.
+The system should keep it in staging when source URLs are missing, privacy/security flags are unresolved for production, or the topic changes risk class.

@@ -5,7 +5,7 @@
       "opportunity_id": "batch-001-page-001",
       "topic": "AI workflow template for onboarding new employees",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -17,27 +17,92 @@
         "AI workflow template for onboarding new employees privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.126006+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.213659+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.126006+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.213659+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-002",
       "topic": "AI workflow template for invoice approval routing",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -49,27 +114,92 @@
         "AI workflow template for invoice approval routing privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Xero pay bills official page",
+          "url": "https://www.xero.com/us/accounting-software/pay-bills/",
+          "status": "accepted",
+          "supports_claims": [
+            "bill payment/accounts payable product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.323042+00:00"
+        },
+        {
+          "title": "Stripe Invoicing official docs",
+          "url": "https://stripe.com/docs/invoicing",
+          "status": "accepted",
+          "supports_claims": [
+            "invoice workflow product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.820152+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Xero pay bills official page",
+          "url": "https://www.xero.com/us/accounting-software/pay-bills/",
+          "status": "accepted",
+          "supports_claims": [
+            "bill payment/accounts payable product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.323042+00:00"
+        },
+        {
+          "title": "Stripe Invoicing official docs",
+          "url": "https://stripe.com/docs/invoicing",
+          "status": "accepted",
+          "supports_claims": [
+            "invoice workflow product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.820152+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-003",
       "topic": "AI workflow template for product feedback triage",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -81,27 +211,92 @@
         "AI workflow template for product feedback triage privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Productboard official site",
+          "url": "https://www.productboard.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "product feedback management context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.937347+00:00"
+        },
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.075161+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Productboard official site",
+          "url": "https://www.productboard.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "product feedback management context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:28.937347+00:00"
+        },
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.075161+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-004",
       "topic": "AI workflow template for recruiting interview scorecards",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -113,27 +308,92 @@
         "AI workflow template for recruiting interview scorecards privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Greenhouse recruiting software official site",
+          "url": "https://www.greenhouse.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "recruiting workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.192976+00:00"
+        },
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.251683+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Greenhouse recruiting software official site",
+          "url": "https://www.greenhouse.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "recruiting workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.192976+00:00"
+        },
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.251683+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-005",
       "topic": "AI workflow template for sales call summaries",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -146,27 +406,92 @@
         "AI workflow template for sales call summaries affiliate disclosure guidelines"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Salesforce Sales Cloud official site",
+          "url": "https://www.salesforce.com/sales/",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM and sales workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.605684+00:00"
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.797717+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Salesforce Sales Cloud official site",
+          "url": "https://www.salesforce.com/sales/",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM and sales workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.605684+00:00"
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.797717+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": true,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-006",
       "topic": "AI workflow template for knowledge base article updates",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -178,27 +503,92 @@
         "AI workflow template for knowledge base article updates copyright policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.930325+00:00"
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.519394+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:29.930325+00:00"
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.519394+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": true,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-007",
       "topic": "AI workflow template for project status reporting",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -209,27 +599,92 @@
         "help center AI workflow template for project status reporting"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Asana official site",
+          "url": "https://asana.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "project management product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.714015+00:00"
+        },
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.766184+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Asana official site",
+          "url": "https://asana.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "project management product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.714015+00:00"
+        },
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:30.766184+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "batch-001-page-008",
       "topic": "AI workflow template for incident postmortem drafts",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -240,27 +695,92 @@
         "help center AI workflow template for incident postmortem drafts"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Jira Service Management official site",
+          "url": "https://www.atlassian.com/software/jira/service-management",
+          "status": "accepted",
+          "supports_claims": [
+            "incident/service workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.279889+00:00"
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.806621+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Jira Service Management official site",
+          "url": "https://www.atlassian.com/software/jira/service-management",
+          "status": "accepted",
+          "supports_claims": [
+            "incident/service workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.279889+00:00"
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.806621+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "batch-001-page-009",
       "topic": "AI workflow template for webinar content repurposing",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -272,27 +792,92 @@
         "AI workflow template for webinar content repurposing copyright policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Zoom official site",
+          "url": "https://www.zoom.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "meeting/webinar product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.871621+00:00"
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.046986+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Zoom official site",
+          "url": "https://www.zoom.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "meeting/webinar product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:31.871621+00:00"
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.046986+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": true,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     },
     {
       "opportunity_id": "batch-001-page-010",
       "topic": "AI workflow template for procurement vendor comparison",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -303,27 +888,92 @@
         "help center AI workflow template for procurement vendor comparison"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Oracle Procurement official page",
+          "url": "https://www.oracle.com/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement platform context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.207571+00:00"
+        },
+        {
+          "title": "Coupa procurement official site",
+          "url": "https://www.coupa.com/products/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.317658+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Oracle Procurement official page",
+          "url": "https://www.oracle.com/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement platform context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.207571+00:00"
+        },
+        {
+          "title": "Coupa procurement official site",
+          "url": "https://www.coupa.com/products/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.317658+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "batch-001-page-011",
       "topic": "AI workflow template for quarterly business review preparation",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -334,27 +984,92 @@
         "help center AI workflow template for quarterly business review preparation"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.370797+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.446525+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.370797+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.446525+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": false,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "source_ready_human_review_required"
     },
     {
       "opportunity_id": "batch-001-page-012",
       "topic": "AI workflow template for customer research interview synthesis",
       "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md",
-      "priority": "high",
+      "priority": "medium",
       "required_evidence": [
         "At least 2 concrete official/source URLs",
         "One source supporting factual tool/platform capability claims",
@@ -366,21 +1081,86 @@
         "AI workflow template for customer research interview synthesis privacy policy official docs"
       ],
       "source_summary": {
-        "total_sources": 3,
-        "concrete_urls": 0,
+        "total_sources": 2,
+        "concrete_urls": 2,
         "placeholders": 3,
-        "all_sources_publish_ready": false
+        "all_sources_publish_ready": true,
+        "accepted_or_checked": 2,
+        "rejected": 0,
+        "reachable_urls": 2
       },
-      "candidate_sources": [],
-      "accepted_sources": [],
+      "candidate_sources": [
+        {
+          "title": "Qualtrics XM official site",
+          "url": "https://www.qualtrics.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "customer research context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.518331+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.612650+00:00"
+        }
+      ],
+      "accepted_sources": [
+        {
+          "title": "Qualtrics XM official site",
+          "url": "https://www.qualtrics.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "customer research context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.518331+00:00"
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required.",
+          "http_status": 200,
+          "reachable": true,
+          "error": null,
+          "checked_at": "2026-05-12T23:16:32.612650+00:00"
+        }
+      ],
       "review_flags": {
-        "missing_concrete_source_urls": true,
+        "missing_concrete_source_urls": false,
         "privacy_review_required": true,
         "copyright_review_required": false,
         "monetization_review_required": false,
         "high_risk_topic": false
       },
-      "status": "open"
+      "status": "sources_resolved_review_flags_remain"
     }
   ]
 }

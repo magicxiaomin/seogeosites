@@ -21,16 +21,51 @@
     }
   ],
   "summary": {
-    "total_sources": 3,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 3,
-    "all_sources_publish_ready": false
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
+    "rejected": 0,
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": true,
     "copyright_review_required": false,
     "monetization_review_required": true,
     "high_risk_topic": false
-  }
+  },
+  "candidate_sources": [
+    {
+      "title": "Salesforce Sales Cloud official site",
+      "url": "https://www.salesforce.com/sales/",
+      "status": "accepted",
+      "supports_claims": [
+        "CRM and sales workflow context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:29.605684+00:00"
+    },
+    {
+      "title": "HubSpot CRM official site",
+      "url": "https://www.hubspot.com/products/crm",
+      "status": "accepted",
+      "supports_claims": [
+        "CRM context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:29.797717+00:00"
+    }
+  ]
 }

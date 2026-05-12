@@ -4,12 +4,9 @@
   "production_publish_allowed": false,
   "current_publish_allowed_field": false,
   "publish_readiness": "Needs Review",
-  "can_enter_human_publish_review_queue": false,
+  "can_enter_human_publish_review_queue": true,
   "would_enable_publish_after_this_simulation": false,
   "missing_before_production_publish": [
-    "content_quality_pass",
-    "strategy_cluster_measurement_artifacts",
-    "explicit_production_blocker_list",
     "human_editorial_decisions_recorded",
     "publish_batch_approval",
     "final_brand_domain_decision",
@@ -21,71 +18,61 @@
     {
       "opportunity_id": "batch-001-page-001",
       "slug": "ai-workflow-template-for-onboarding-new-employees",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-002",
       "slug": "ai-workflow-template-for-invoice-approval-routing",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-003",
       "slug": "ai-workflow-template-for-product-feedback-triage",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-004",
       "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-005",
       "slug": "ai-workflow-template-for-sales-call-summaries",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review",
         "Monetization/disclosure review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required",
         "monetization_review_required"
       ]
@@ -93,90 +80,72 @@
     {
       "opportunity_id": "batch-001-page-006",
       "slug": "ai-workflow-template-for-knowledge-base-article-updates",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Copyright/IP review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "copyright_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-007",
       "slug": "ai-workflow-template-for-project-status-reporting",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
-        "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs"
+        "Human review before production publish"
       ],
-      "active_review_flags": [
-        "missing_concrete_source_urls"
-      ]
+      "active_review_flags": []
     },
     {
       "opportunity_id": "batch-001-page-008",
       "slug": "ai-workflow-template-for-incident-postmortem-drafts",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
-        "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs"
+        "Human review before production publish"
       ],
-      "active_review_flags": [
-        "missing_concrete_source_urls"
-      ]
+      "active_review_flags": []
     },
     {
       "opportunity_id": "batch-001-page-009",
       "slug": "ai-workflow-template-for-webinar-content-repurposing",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Copyright/IP review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "copyright_review_required"
       ]
     },
     {
       "opportunity_id": "batch-001-page-010",
       "slug": "ai-workflow-template-for-procurement-vendor-comparison",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
-        "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs"
+        "Human review before production publish"
       ],
-      "active_review_flags": [
-        "missing_concrete_source_urls"
-      ]
+      "active_review_flags": []
     },
     {
       "opportunity_id": "batch-001-page-011",
       "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
-        "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs"
+        "Human review before production publish"
       ],
-      "active_review_flags": [
-        "missing_concrete_source_urls"
-      ]
+      "active_review_flags": []
     },
     {
       "opportunity_id": "batch-001-page-012",
       "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
-      "ready_for_publish_batch_after_human_review": false,
+      "ready_for_publish_batch_after_human_review": true,
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with concrete official URLs",
         "Privacy/data-handling review"
       ],
       "active_review_flags": [
-        "missing_concrete_source_urls",
         "privacy_review_required"
       ]
     }

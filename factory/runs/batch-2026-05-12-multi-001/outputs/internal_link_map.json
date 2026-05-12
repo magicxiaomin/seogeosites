@@ -1,0 +1,130 @@
+{
+  "hub": "ai-workflow-templates-for-business-teams",
+  "rules": [
+    "hub links to every supporting page",
+    "supporting pages link back to hub",
+    "cross-link only when intent overlap is natural"
+  ],
+  "links": [
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-onboarding-new-employees",
+      "anchor": "AI workflow template for onboarding new employees"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-invoice-approval-routing",
+      "anchor": "AI workflow template for invoice approval routing"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-product-feedback-triage",
+      "anchor": "AI workflow template for product feedback triage"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-recruiting-interview-scorecards",
+      "anchor": "AI workflow template for recruiting interview scorecards"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-sales-call-summaries",
+      "anchor": "AI workflow template for sales call summaries"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-knowledge-base-article-updates",
+      "anchor": "AI workflow template for knowledge base article updates"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-project-status-reporting",
+      "anchor": "AI workflow template for project status reporting"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-incident-postmortem-drafts",
+      "anchor": "AI workflow template for incident postmortem drafts"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-webinar-content-repurposing",
+      "anchor": "AI workflow template for webinar content repurposing"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-procurement-vendor-comparison",
+      "anchor": "AI workflow template for procurement vendor comparison"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-quarterly-business-review-preparation",
+      "anchor": "AI workflow template for quarterly business review preparation"
+    },
+    {
+      "from": "ai-workflow-templates-for-business-teams",
+      "to": "ai-workflow-template-for-customer-research-interview-synthesis",
+      "anchor": "AI workflow template for customer research interview synthesis"
+    },
+    {
+      "from": "ai-workflow-template-for-onboarding-new-employees",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-invoice-approval-routing",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-product-feedback-triage",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-recruiting-interview-scorecards",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-sales-call-summaries",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-knowledge-base-article-updates",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-project-status-reporting",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-incident-postmortem-drafts",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-webinar-content-repurposing",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-procurement-vendor-comparison",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-quarterly-business-review-preparation",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    },
+    {
+      "from": "ai-workflow-template-for-customer-research-interview-synthesis",
+      "to": "ai-workflow-templates-for-business-teams",
+      "anchor": "AI workflow templates for business teams"
+    }
+  ]
+}

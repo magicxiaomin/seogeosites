@@ -21,16 +21,51 @@
     }
   ],
   "summary": {
-    "total_sources": 3,
-    "concrete_urls": 0,
+    "total_sources": 2,
+    "concrete_urls": 2,
     "placeholders": 3,
-    "all_sources_publish_ready": false
+    "all_sources_publish_ready": true,
+    "accepted_or_checked": 2,
+    "rejected": 0,
+    "reachable_urls": 2
   },
   "review_flags": {
-    "missing_concrete_source_urls": true,
+    "missing_concrete_source_urls": false,
     "privacy_review_required": false,
     "copyright_review_required": false,
     "monetization_review_required": false,
     "high_risk_topic": false
-  }
+  },
+  "candidate_sources": [
+    {
+      "title": "Oracle Procurement official page",
+      "url": "https://www.oracle.com/procurement/",
+      "status": "accepted",
+      "supports_claims": [
+        "procurement platform context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:32.207571+00:00"
+    },
+    {
+      "title": "Coupa procurement official site",
+      "url": "https://www.coupa.com/products/procurement/",
+      "status": "accepted",
+      "supports_claims": [
+        "procurement workflow context",
+        "official product/source context for staging review"
+      ],
+      "source_type": "official_or_primary",
+      "review_note": "Accepted for staging source resolution; production review still required.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T23:16:32.317658+00:00"
+    }
+  ]
 }

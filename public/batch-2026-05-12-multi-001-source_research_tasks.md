@@ -8,10 +8,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-001`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.workday.com/en-us/products/human-capital-management/overview.html — status `accepted`, final `not_checked`, HTTP `200`
+  - https://workspace.google.com/ — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -25,10 +28,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-002`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.xero.com/us/accounting-software/pay-bills/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://stripe.com/docs/invoicing — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -42,10 +48,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-003`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.productboard.com/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.zendesk.com/service/help-center/ — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -59,10 +68,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-004`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.greenhouse.com/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.workday.com/en-us/products/human-capital-management/overview.html — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -76,10 +88,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-005`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required, monetization_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required, monetization_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.salesforce.com/sales/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.hubspot.com/products/crm — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -94,10 +109,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-006`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, copyright_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: copyright_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.zendesk.com/service/help-center/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.atlassian.com/software/confluence — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -111,10 +129,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-007`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: source_ready_human_review_required
+- Priority: medium
+- Review flags: none
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://asana.com/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.microsoft.com/en-us/microsoft-365 — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -127,10 +148,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-008`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: source_ready_human_review_required
+- Priority: medium
+- Review flags: none
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.atlassian.com/software/jira/service-management — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.atlassian.com/software/confluence — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -143,10 +167,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-009`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, copyright_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: copyright_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.zoom.com/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.hubspot.com/products/crm — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -160,10 +187,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-010`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: source_ready_human_review_required
+- Priority: medium
+- Review flags: none
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.oracle.com/procurement/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://www.coupa.com/products/procurement/ — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -176,10 +206,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-011`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: source_ready_human_review_required
+- Priority: medium
+- Review flags: none
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.microsoft.com/en-us/microsoft-365 — status `accepted`, final `not_checked`, HTTP `200`
+  - https://workspace.google.com/ — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims
@@ -192,10 +225,13 @@ These tasks must be resolved before any page can move from `Needs Review` to `Pa
 
 - Opportunity: `batch-001-page-012`
 - Draft: `content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md`
-- Status: open
-- Priority: high
-- Review flags: missing_concrete_source_urls, privacy_review_required
-- Source summary: `{'total_sources': 3, 'concrete_urls': 0, 'placeholders': 3, 'all_sources_publish_ready': False}`
+- Status: sources_resolved_review_flags_remain
+- Priority: medium
+- Review flags: privacy_review_required
+- Source summary: `{'total_sources': 2, 'concrete_urls': 2, 'placeholders': 3, 'all_sources_publish_ready': True, 'accepted_or_checked': 2, 'rejected': 0, 'reachable_urls': 2}`
+- Candidate sources:
+  - https://www.qualtrics.com/ — status `accepted`, final `not_checked`, HTTP `200`
+  - https://workspace.google.com/ — status `accepted`, final `not_checked`, HTTP `200`
 - Required evidence:
   - At least 2 concrete official/source URLs
   - One source supporting factual tool/platform capability claims

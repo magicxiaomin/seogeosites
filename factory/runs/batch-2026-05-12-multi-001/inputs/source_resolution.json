@@ -1,0 +1,331 @@
+{
+  "run": "factory/runs/batch-2026-05-12-multi-001",
+  "resolution_scope": "staging_source_resolution_not_production_publish",
+  "production_publish_allowed": false,
+  "resolutions": [
+    {
+      "opportunity_id": "batch-001-page-001",
+      "candidate_sources": [
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-002",
+      "candidate_sources": [
+        {
+          "title": "Xero pay bills official page",
+          "url": "https://www.xero.com/us/accounting-software/pay-bills/",
+          "status": "accepted",
+          "supports_claims": [
+            "bill payment/accounts payable product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Stripe Invoicing official docs",
+          "url": "https://stripe.com/docs/invoicing",
+          "status": "accepted",
+          "supports_claims": [
+            "invoice workflow product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-003",
+      "candidate_sources": [
+        {
+          "title": "Productboard official site",
+          "url": "https://www.productboard.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "product feedback management context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-004",
+      "candidate_sources": [
+        {
+          "title": "Greenhouse recruiting software official site",
+          "url": "https://www.greenhouse.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "recruiting workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Workday HCM official site",
+          "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+          "status": "accepted",
+          "supports_claims": [
+            "employee and HR workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-005",
+      "candidate_sources": [
+        {
+          "title": "Salesforce Sales Cloud official site",
+          "url": "https://www.salesforce.com/sales/",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM and sales workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-006",
+      "candidate_sources": [
+        {
+          "title": "Zendesk Guide official site",
+          "url": "https://www.zendesk.com/service/help-center/",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge base/help center context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-007",
+      "candidate_sources": [
+        {
+          "title": "Asana official site",
+          "url": "https://asana.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "project management product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-008",
+      "candidate_sources": [
+        {
+          "title": "Jira Service Management official site",
+          "url": "https://www.atlassian.com/software/jira/service-management",
+          "status": "accepted",
+          "supports_claims": [
+            "incident/service workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Confluence official site",
+          "url": "https://www.atlassian.com/software/confluence",
+          "status": "accepted",
+          "supports_claims": [
+            "knowledge-base and collaboration context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-009",
+      "candidate_sources": [
+        {
+          "title": "Zoom official site",
+          "url": "https://www.zoom.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "meeting/webinar product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "HubSpot CRM official site",
+          "url": "https://www.hubspot.com/products/crm",
+          "status": "accepted",
+          "supports_claims": [
+            "CRM context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-010",
+      "candidate_sources": [
+        {
+          "title": "Oracle Procurement official page",
+          "url": "https://www.oracle.com/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement platform context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Coupa procurement official site",
+          "url": "https://www.coupa.com/products/procurement/",
+          "status": "accepted",
+          "supports_claims": [
+            "procurement workflow context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-011",
+      "candidate_sources": [
+        {
+          "title": "Microsoft 365 official site",
+          "url": "https://www.microsoft.com/en-us/microsoft-365",
+          "status": "accepted",
+          "supports_claims": [
+            "Microsoft 365 product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-012",
+      "candidate_sources": [
+        {
+          "title": "Qualtrics XM official site",
+          "url": "https://www.qualtrics.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "customer research context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        },
+        {
+          "title": "Google Workspace official site",
+          "url": "https://workspace.google.com/",
+          "status": "accepted",
+          "supports_claims": [
+            "Google Workspace product context",
+            "official product/source context for staging review"
+          ],
+          "source_type": "official_or_primary",
+          "review_note": "Accepted for staging source resolution; production review still required."
+        }
+      ]
+    }
+  ]
+}

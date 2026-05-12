@@ -1,0 +1,34 @@
+{
+  "status": "template_only_no_production_data_yet",
+  "pre_publish_checks": [
+    "content quality pass",
+    "source coverage pass",
+    "human review decision recorded",
+    "robots/indexing settings reviewed for production"
+  ],
+  "post_publish_metrics": [
+    "indexing status",
+    "impressions",
+    "clicks",
+    "rank movement",
+    "engagement proxy",
+    "AI answer coverage sample",
+    "source freshness",
+    "template QA failure rate"
+  ],
+  "feedback_decisions": [
+    "continue",
+    "modify",
+    "pause",
+    "scale",
+    "stop"
+  ],
+  "sampled_geo_prompts": [
+    "What is a safe ai workflow template for onboarding new employees?",
+    "What is a safe ai workflow template for invoice approval routing?",
+    "What is a safe ai workflow template for product feedback triage?",
+    "What is a safe ai workflow template for recruiting interview scorecards?",
+    "What is a safe ai workflow template for sales call summaries?",
+    "What is a safe ai workflow template for knowledge base article updates?"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "site_id": "productivity-ai-pilot",
+  "status": "staging_blueprint_not_production_publish",
+  "production_publish_allowed": false,
+  "working_brand_posture": "Practical AI workflow templates for operations, HR, finance, product, sales, support, marketing, procurement, research, and engineering teams.",
+  "primary_audience": [
+    "operators",
+    "founders",
+    "team leads",
+    "functional managers"
+  ],
+  "editorial_promise": "Evidence-backed, privacy-aware, implementation-ready AI workflow guides with accepted source URLs and production review gates.",
+  "topical_scope": [
+    "AI workflow templates",
+    "team productivity workflows",
+    "safe prompt/process design",
+    "source-backed tool-context guides"
+  ],
+  "out_of_scope": [
+    "medical/legal/financial advice",
+    "guaranteed ROI claims",
+    "competitor rewrites",
+    "private-data automation without review",
+    "mass programmatic publishing"
+  ],
+  "required_trust_pages": [
+    "homepage",
+    "about/editorial standards",
+    "source and update policy",
+    "contact/corrections",
+    "privacy/disclosure"
+  ],
+  "initial_cluster": {
+    "hub_slug": "ai-workflow-templates-for-business-teams",
+    "supporting_pages": [
+      {
+        "topic": "AI workflow template for onboarding new employees",
+        "slug": "ai-workflow-template-for-onboarding-new-employees",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for invoice approval routing",
+        "slug": "ai-workflow-template-for-invoice-approval-routing",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for product feedback triage",
+        "slug": "ai-workflow-template-for-product-feedback-triage",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for recruiting interview scorecards",
+        "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for sales call summaries",
+        "slug": "ai-workflow-template-for-sales-call-summaries",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for knowledge base article updates",
+        "slug": "ai-workflow-template-for-knowledge-base-article-updates",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for project status reporting",
+        "slug": "ai-workflow-template-for-project-status-reporting",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for incident postmortem drafts",
+        "slug": "ai-workflow-template-for-incident-postmortem-drafts",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for webinar content repurposing",
+        "slug": "ai-workflow-template-for-webinar-content-repurposing",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for procurement vendor comparison",
+        "slug": "ai-workflow-template-for-procurement-vendor-comparison",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for quarterly business review preparation",
+        "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
+        "status": "Needs Review"
+      },
+      {
+        "topic": "AI workflow template for customer research interview synthesis",
+        "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
+        "status": "Needs Review"
+      }
+    ]
+  },
+  "production_blockers": [
+    "final brand/domain decision",
+    "human editorial review",
+    "publish-batch approval",
+    "trust pages not finalized",
+    "analytics/search-console hooks not configured"
+  ]
+}
