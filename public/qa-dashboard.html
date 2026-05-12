@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEO/GEO Factory QA Dashboard</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:32px;line-height:1.5;color:#172033}
+.banner{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:14px;margin-bottom:18px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d8dee9;padding:10px;vertical-align:top}th{background:#eef2ff;text-align:left}
+code{white-space:normal} .status{font-size:20px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="banner">Staging QA dashboard — not a publish approval screen. Production publish remains blocked until human review.</div>
+<h1>SEO/GEO Factory QA Dashboard</h1>
+<p>Run: <code>factory/runs/pilot-001</code></p>
+<p class="status">Batch readiness: Needs Review · publish_allowed: False</p>
+<h2>Batch summary</h2>
+<pre>{
+  &quot;status_counts&quot;: {
+    &quot;Needs Review&quot;: 5
+  },
+  &quot;review_flag_counts&quot;: {
+    &quot;missing_concrete_source_urls&quot;: 4,
+    &quot;privacy_review_required&quot;: 2,
+    &quot;copyright_review_required&quot;: 1,
+    &quot;monetization_review_required&quot;: 1
+  },
+  &quot;publish_readiness&quot;: &quot;Needs Review&quot;
+}</pre>
+<h2>Pages</h2>
+<table><thead><tr><th>Page</th><th>QA</th><th>Review flags</th><th>Source summary</th><th>Candidate sources</th><th>Draft</th></tr></thead><tbody>
+
+<tr>
+  <td>AI workflow template for meeting notes and action items</td>
+  <td><strong>Needs Review</strong></td>
+  <td>none</td>
+  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td><a href='https://workspace.google.com/intl/en/products/meet/'>Google Meet official product page</a> — accepted / accepted_reachable_source / HTTP 200<br><a href='https://support.google.com/docs/'>Google Docs editors help</a> — accepted / accepted_reachable_source / HTTP 200</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for customer support triage</td>
+  <td><strong>Needs Review</strong></td>
+  <td>missing_concrete_source_urls, privacy_review_required</td>
+  <td>{&#x27;total_sources&#x27;: 0, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False, &#x27;accepted_or_checked&#x27;: 0, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 0}</td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for weekly business reporting</td>
+  <td><strong>Needs Review</strong></td>
+  <td>missing_concrete_source_urls</td>
+  <td>{&#x27;total_sources&#x27;: 0, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: False, &#x27;accepted_or_checked&#x27;: 0, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 0}</td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for content repurposing</td>
+  <td><strong>Needs Review</strong></td>
+  <td>missing_concrete_source_urls, copyright_review_required</td>
+  <td>{&#x27;total_sources&#x27;: 0, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: False, &#x27;accepted_or_checked&#x27;: 0, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 0}</td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for sales follow-up notes</td>
+  <td><strong>Needs Review</strong></td>
+  <td>missing_concrete_source_urls, privacy_review_required, monetization_review_required</td>
+  <td>{&#x27;total_sources&#x27;: 0, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: False, &#x27;accepted_or_checked&#x27;: 0, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 0}</td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md</code></td>
+</tr>
+</tbody></table>
+</body></html>
