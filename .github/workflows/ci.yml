@@ -43,8 +43,23 @@ jobs:
       - name: Inject accepted evidence into pilot pages
         run: npm run factory:inject-evidence
 
+      - name: Generate strategy, cluster, and measurement artifacts
+        run: npm run factory:strategy-artifacts
+
+      - name: Generate editorial review pack
+        run: npm run factory:review-pack
+
+      - name: Validate content quality
+        run: npm run validate:content-quality
+
+      - name: Validate strategy artifacts
+        run: npm run validate:strategy-artifacts
+
       - name: Build QA dashboard
         run: npm run factory:dashboard
+
+      - name: Rebuild static staging site with hub page
+        run: npm run build
 
       - name: Validate pilot batch
         run: npm run validate:pilot
@@ -62,12 +77,18 @@ jobs:
           if missing:
               raise SystemExit(f'Missing expected HTML markers: {missing}')
           dashboard = Path('public/qa-dashboard.html').read_text(encoding='utf-8')
-          dashboard_required = ['Human review checklists', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization', 'Staging approved']
+          dashboard_required = ['Human review checklists', 'Editorial review pack', 'Content quality', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization', 'Staging approved']
           missing_dashboard = [item for item in dashboard_required if item not in dashboard]
           if missing_dashboard:
               raise SystemExit(f'Missing dashboard markers: {missing_dashboard}')
           checklist = Path('public/review-checklists.md').read_text(encoding='utf-8')
           if 'Human Review Checklists' not in checklist or 'Privacy/data-handling review' not in checklist:
               raise SystemExit('Review checklist artifact is incomplete')
+          review_pack = Path('public/editorial-review-pack.md').read_text(encoding='utf-8')
+          if 'Editorial review pack' not in review_pack or 'approve_for_production_batch' not in review_pack:
+              raise SystemExit('Editorial review pack artifact is incomplete')
+          hub = Path('public/ai-workflow-templates-for-business-teams.html').read_text(encoding='utf-8')
+          if 'AI Workflow Templates for Business Teams' not in hub or 'noindex' not in hub:
+              raise SystemExit('Hub staging page is incomplete')
           print('HTML and review artifact sanity checks passed')
           PY
