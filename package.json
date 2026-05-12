@@ -6,6 +6,7 @@
     "factory:run": "python3 factory/scripts/run_pipeline.py",
     "factory:source-tasks": "python3 factory/scripts/generate_source_research_tasks.py",
     "factory:apply-sources": "python3 factory/scripts/apply_source_resolution.py",
+    "factory:check-sources": "python3 factory/scripts/check_candidate_sources.py",
     "build": "python3 factory/scripts/build_static_site.py",
     "validate": "python3 factory/scripts/validate_factory_run.py factory/runs/sample",
     "serve": "python3 -m http.server 18766 --directory public"

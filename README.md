@@ -40,6 +40,15 @@ npm run factory:source-tasks -- --run factory/runs/2026-05-12-pilot
 
 This creates `source_research_tasks.json` and `source_research_tasks.md` so missing concrete source URLs can be resolved before publish approval.
 
+Apply and check candidate sources:
+
+```bash
+npm run factory:apply-sources -- --run factory/runs/2026-05-12-pilot --input factory/runs/2026-05-12-pilot/inputs/source_resolution.json
+npm run factory:check-sources -- --run factory/runs/2026-05-12-pilot
+```
+
+Use `--accept-reachable` only for controlled tests; production publish still requires human review.
+
 ## MVP workflow
 
 1. Opportunity discovery

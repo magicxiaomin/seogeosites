@@ -26,7 +26,8 @@
     "placeholders": 3,
     "all_sources_publish_ready": false,
     "accepted_or_checked": 0,
-    "rejected": 0
+    "rejected": 0,
+    "reachable_urls": 2
   },
   "review_flags": {
     "missing_concrete_source_urls": true,
@@ -44,7 +45,12 @@
         "tool capability"
       ],
       "status": "candidate_url",
-      "notes": "Candidate only; still requires source-content verification before accepted."
+      "notes": "Candidate only; still requires source-content verification before accepted.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T12:27:54.872366+00:00",
+      "final_status": "reachable_needs_acceptance"
     },
     {
       "url": "https://support.google.com/docs/",
@@ -54,7 +60,12 @@
         "tool capability"
       ],
       "status": "candidate_url",
-      "notes": "Candidate only; verify exact support article for claims."
+      "notes": "Candidate only; verify exact support article for claims.",
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-05-12T12:27:55.285145+00:00",
+      "final_status": "reachable_needs_acceptance"
     }
   ]
 }

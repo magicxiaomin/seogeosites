@@ -4,7 +4,7 @@
   "checks": {
     "seo_quality": "Pass",
     "content_usefulness": "Pass",
-    "evidence_source_integrity": "Needs Review: source URLs need verification",
+    "evidence_source_integrity": "Needs Review: source URLs need verification or acceptance",
     "geo_readiness": "Pass",
     "anti_spam_scaled_abuse": "Pass",
     "technical_publishing": "Pass"
@@ -20,6 +20,6 @@
   "required_before_publish": [
     "Human review before production publish",
     "Copyright/IP review",
-    "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+    "Accept at least 2 checked concrete source URLs"
   ]
 }

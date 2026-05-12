@@ -18,7 +18,7 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+        "Accept at least 2 checked concrete source URLs"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "required_before_publish": [
         "Human review before production publish",
         "Privacy/data-handling review",
-        "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+        "Accept at least 2 checked concrete source URLs"
       ]
     },
     {
@@ -57,7 +57,7 @@
       "blockers": [],
       "required_before_publish": [
         "Human review before production publish",
-        "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+        "Accept at least 2 checked concrete source URLs"
       ]
     },
     {
@@ -77,7 +77,7 @@
       "required_before_publish": [
         "Human review before production publish",
         "Copyright/IP review",
-        "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+        "Accept at least 2 checked concrete source URLs"
       ]
     },
     {
@@ -98,7 +98,7 @@
         "Human review before production publish",
         "Privacy/data-handling review",
         "Monetization/disclosure review",
-        "Replace source-plan placeholders with at least 2 checked concrete source URLs"
+        "Accept at least 2 checked concrete source URLs"
       ]
     }
   ],
