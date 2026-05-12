@@ -1,0 +1,86 @@
+{
+  "run": "factory/runs/pilot-001",
+  "decision_scope": "production_publish_review_queue_only",
+  "production_publish_allowed": false,
+  "explicit_publish_batch_approval": false,
+  "reviewer": "",
+  "reviewed_at": "",
+  "notes": "Human/editorial reviewers fill decisions here. Applying this file records production-review state only; it never publishes or flips publish_allowed.",
+  "pages": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "topic": "AI workflow template for meeting notes and action items",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "decision": "pending",
+      "allowed_decisions": [
+        "pending",
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "topic": "AI workflow template for customer support triage",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "decision": "pending",
+      "allowed_decisions": [
+        "pending",
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "topic": "AI workflow template for weekly business reporting",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "decision": "pending",
+      "allowed_decisions": [
+        "pending",
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "topic": "AI workflow template for content repurposing",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "decision": "pending",
+      "allowed_decisions": [
+        "pending",
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "topic": "AI workflow template for sales follow-up notes",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "decision": "pending",
+      "allowed_decisions": [
+        "pending",
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    }
+  ]
+}

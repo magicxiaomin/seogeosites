@@ -1,0 +1,82 @@
+{
+  "run": "factory/runs/pilot-001",
+  "decision_source": "factory/runs/pilot-001/inputs/review_decisions.json",
+  "applied_at": "2026-05-12T22:54:20.979905+00:00",
+  "simulation_only": true,
+  "production_publish_allowed": false,
+  "current_publish_allowed_field": false,
+  "publish_readiness": "Needs Review",
+  "explicit_publish_batch_approval_present": false,
+  "missing_page_decisions": [],
+  "decision_counts": {
+    "approve_for_production_batch": 0,
+    "pending": 5,
+    "reject_or_defer": 0,
+    "request_edits": 0
+  },
+  "pages": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "topic": "AI workflow template for meeting notes and action items",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "decision": "pending",
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "topic": "AI workflow template for customer support triage",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "decision": "pending",
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "topic": "AI workflow template for weekly business reporting",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "decision": "pending",
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "topic": "AI workflow template for content repurposing",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "decision": "pending",
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "topic": "AI workflow template for sales follow-up notes",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "decision": "pending",
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
+      "reviewer_notes": "",
+      "required_edits": [],
+      "publish_batch_notes": ""
+    }
+  ],
+  "remaining_production_gates": [
+    "explicit_publish_batch_approval",
+    "publish_batch_approval",
+    "final_brand_domain_decision",
+    "trust_pages_finalized",
+    "production_robots_indexing_plan",
+    "analytics_search_console_hooks_if_credentials_exist"
+  ]
+}

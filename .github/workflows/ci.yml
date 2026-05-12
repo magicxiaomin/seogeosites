@@ -55,6 +55,9 @@ jobs:
       - name: Validate strategy artifacts
         run: npm run validate:strategy-artifacts
 
+      - name: Apply review decisions without enabling publish
+        run: npm run factory:apply-review-decisions
+
       - name: Simulate production readiness without enabling publish
         run: npm run factory:simulate-production-readiness
 
@@ -80,7 +83,7 @@ jobs:
           if missing:
               raise SystemExit(f'Missing expected HTML markers: {missing}')
           dashboard = Path('public/qa-dashboard.html').read_text(encoding='utf-8')
-          dashboard_required = ['Human review checklists', 'Editorial review pack', 'Content quality', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization', 'Staging approved']
+          dashboard_required = ['Human review checklists', 'Editorial review pack', 'Review decisions input', 'Review decision application', 'Content quality', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization', 'Staging approved']
           missing_dashboard = [item for item in dashboard_required if item not in dashboard]
           if missing_dashboard:
               raise SystemExit(f'Missing dashboard markers: {missing_dashboard}')
@@ -90,6 +93,12 @@ jobs:
           review_pack = Path('public/editorial-review-pack.md').read_text(encoding='utf-8')
           if 'Editorial review pack' not in review_pack or 'approve_for_production_batch' not in review_pack:
               raise SystemExit('Editorial review pack artifact is incomplete')
+          review_decision = Path('public/review-decision-application.md').read_text(encoding='utf-8')
+          if 'Review decision application' not in review_decision or 'Production publish allowed: `False`' not in review_decision:
+              raise SystemExit('Review decision application artifact is incomplete or unsafe')
+          review_decision_input = Path('public/review-decisions-input.json').read_text(encoding='utf-8')
+          if 'approve_for_production_batch' not in review_decision_input or '"production_publish_allowed": false' not in review_decision_input:
+              raise SystemExit('Review decisions input artifact is incomplete or unsafe')
           hub = Path('public/ai-workflow-templates-for-business-teams.html').read_text(encoding='utf-8')
           if 'AI Workflow Templates for Business Teams' not in hub or 'noindex' not in hub:
               raise SystemExit('Hub staging page is incomplete')
