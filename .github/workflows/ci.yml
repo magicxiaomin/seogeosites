@@ -9,6 +9,8 @@ on:
 jobs:
   factory-validation:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,7 +23,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Generate sample factory run
         run: npm run factory:sample
@@ -32,7 +34,19 @@ jobs:
       - name: Validate sample factory run
         run: npm run validate
 
-      - name: Sanity-check generated HTML
+      - name: Generate pilot review checklists
+        run: npm run factory:review-checklists
+
+      - name: Build QA dashboard
+        run: npm run factory:dashboard
+
+      - name: Validate pilot batch
+        run: npm run validate:pilot
+
+      - name: Validate publish gates
+        run: npm run validate:publish-gates
+
+      - name: Sanity-check generated HTML and review artifacts
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -41,5 +55,13 @@ jobs:
           missing = [item for item in required if item not in html]
           if missing:
               raise SystemExit(f'Missing expected HTML markers: {missing}')
-          print('HTML sanity check passed')
+          dashboard = Path('public/qa-dashboard.html').read_text(encoding='utf-8')
+          dashboard_required = ['Human review checklists', 'Remaining actions', 'Privacy', 'Copyright/IP', 'Monetization']
+          missing_dashboard = [item for item in dashboard_required if item not in dashboard]
+          if missing_dashboard:
+              raise SystemExit(f'Missing dashboard markers: {missing_dashboard}')
+          checklist = Path('public/review-checklists.md').read_text(encoding='utf-8')
+          if 'Human Review Checklists' not in checklist or 'Privacy/data-handling review' not in checklist:
+              raise SystemExit('Review checklist artifact is incomplete')
+          print('HTML and review artifact sanity checks passed')
           PY

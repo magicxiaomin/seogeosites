@@ -8,13 +8,16 @@ body{font-family:system-ui,sans-serif;margin:32px;line-height:1.5;color:#172033}
 .banner{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:14px;margin-bottom:18px}
 table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d8dee9;padding:10px;vertical-align:top}th{background:#eef2ff;text-align:left}
 code{white-space:normal} .status{font-size:20px;font-weight:700}
+.badge{display:inline-block;border-radius:999px;padding:3px 9px;margin:2px;font-size:12px;font-weight:700;border:1px solid #cbd5e1}
+.badge.pass{background:#ecfdf5;color:#065f46;border-color:#a7f3d0} .badge.review{background:#fff7ed;color:#9a3412;border-color:#fed7aa} .badge.block{background:#fef2f2;color:#991b1b;border-color:#fecaca} .badge.neutral{background:#f8fafc;color:#334155}
+.actions{margin:0;padding-left:18px}
 </style>
 </head>
 <body>
 <div class="banner">Staging QA dashboard — not a publish approval screen. Production publish remains blocked until human review.</div>
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>factory/runs/pilot-001</code></p>
-<p class="status">Batch readiness: Needs Review · publish_allowed: False</p>
+<p class="status">Batch readiness: <span class='badge review'>Needs Review</span> · publish_allowed: <code>False</code></p>
 <p><a href="review-checklists.md">Human review checklists</a></p>
 <h2>Batch summary</h2>
 <pre>{
@@ -29,45 +32,50 @@ code{white-space:normal} .status{font-size:20px;font-weight:700}
   &quot;publish_readiness&quot;: &quot;Needs Review&quot;
 }</pre>
 <h2>Pages</h2>
-<table><thead><tr><th>Page</th><th>QA</th><th>Review flags</th><th>Source summary</th><th>Candidate sources</th><th>Draft</th></tr></thead><tbody>
+<table><thead><tr><th>Page</th><th>QA</th><th>Review flags</th><th>Sources</th><th>Remaining actions</th><th>Candidate sources</th><th>Draft</th></tr></thead><tbody>
 
 <tr>
-  <td>AI workflow template for meeting notes and action items</td>
-  <td><strong>Needs Review</strong></td>
-  <td>none</td>
-  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td>AI workflow template for meeting notes and action items<br><small><code>pilot-001-page-001</code></small></td>
+  <td><span class='badge review'>Needs Review</span></td>
+  <td><span class='badge pass'>No active flags</span></td>
+  <td><strong>2</strong> accepted<br><small>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li></ul></td>
   <td><a href='https://workspace.google.com/intl/en/products/meet/'>Google Meet official product page</a> — accepted / not_checked / HTTP 200<br><a href='https://support.google.com/docs/'>Google Docs editors help</a> — accepted / not_checked / HTTP 200</td>
   <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md</code></td>
 </tr>
 <tr>
-  <td>AI workflow template for customer support triage</td>
-  <td><strong>Needs Review</strong></td>
-  <td>privacy_review_required</td>
-  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td>AI workflow template for customer support triage<br><small><code>pilot-001-page-002</code></small></td>
+  <td><span class='badge review'>Needs Review</span></td>
+  <td><span class='badge review'>Privacy</span></td>
+  <td><strong>2</strong> accepted<br><small>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Privacy/data-handling review</li></ul></td>
   <td><a href='https://zapier.com/apps/paths/help'>Zapier Paths help</a> — accepted / accepted_reachable_source / HTTP 200<br><a href='https://support.zendesk.com/'>Zendesk Support help center</a> — accepted / accepted_reachable_source / HTTP 200</td>
   <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md</code></td>
 </tr>
 <tr>
-  <td>AI workflow template for weekly business reporting</td>
-  <td><strong>Needs Review</strong></td>
-  <td>none</td>
-  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td>AI workflow template for weekly business reporting<br><small><code>pilot-001-page-003</code></small></td>
+  <td><span class='badge review'>Needs Review</span></td>
+  <td><span class='badge pass'>No active flags</span></td>
+  <td><strong>2</strong> accepted<br><small>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li></ul></td>
   <td><a href='https://support.google.com/docs/'>Google Docs editors help</a> — accepted / accepted_reachable_source / HTTP 200<br><a href='https://support.google.com/looker-studio/'>Looker Studio help</a> — accepted / accepted_reachable_source / HTTP 200</td>
   <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md</code></td>
 </tr>
 <tr>
-  <td>AI workflow template for content repurposing</td>
-  <td><strong>Needs Review</strong></td>
-  <td>copyright_review_required</td>
-  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td>AI workflow template for content repurposing<br><small><code>pilot-001-page-004</code></small></td>
+  <td><span class='badge review'>Needs Review</span></td>
+  <td><span class='badge review'>Copyright/IP</span></td>
+  <td><strong>2</strong> accepted<br><small>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Copyright/IP review</li></ul></td>
   <td><a href='https://support.google.com/youtube/'>YouTube Help</a> — accepted / accepted_reachable_source / HTTP 200<br><a href='https://www.copyright.gov/fair-use/'>U.S. Copyright Office Fair Use Index</a> — accepted / accepted_reachable_source / HTTP 200</td>
   <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md</code></td>
 </tr>
 <tr>
-  <td>AI workflow template for sales follow-up notes</td>
-  <td><strong>Needs Review</strong></td>
-  <td>privacy_review_required, monetization_review_required</td>
-  <td>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</td>
+  <td>AI workflow template for sales follow-up notes<br><small><code>pilot-001-page-005</code></small></td>
+  <td><span class='badge review'>Needs Review</span></td>
+  <td><span class='badge review'>Privacy</span> <span class='badge review'>Monetization</span></td>
+  <td><strong>2</strong> accepted<br><small>{&#x27;total_sources&#x27;: 2, &#x27;concrete_urls&#x27;: 2, &#x27;placeholders&#x27;: 2, &#x27;all_sources_publish_ready&#x27;: True, &#x27;accepted_or_checked&#x27;: 2, &#x27;rejected&#x27;: 0, &#x27;reachable_urls&#x27;: 2}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Privacy/data-handling review</li><li>Monetization/disclosure review</li></ul></td>
   <td><a href='https://support.google.com/mail/'>Gmail Help</a> — accepted / accepted_reachable_source / HTTP 200<br><a href='https://support.google.com/a/answer/81126'>Gmail sender guidelines</a> — accepted / accepted_reachable_source / HTTP 200</td>
   <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md</code></td>
 </tr>
