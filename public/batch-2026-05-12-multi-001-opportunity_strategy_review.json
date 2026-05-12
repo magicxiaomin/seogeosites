@@ -1,0 +1,1303 @@
+{
+  "run": "factory/runs/batch-2026-05-12-multi-001",
+  "status": "strategy_review_for_staging_batch_not_publish_approval",
+  "production_publish_allowed": false,
+  "note": "This explains why each staging page exists. Topic demand is a hypothesis unless external signal fields are later populated.",
+  "cluster_strategy": {
+    "hub": "ai-workflow-templates-for-business-teams",
+    "thesis": "Build a tightly scoped cluster of practical AI workflow templates for business teams before expanding to new sites or unrelated topics.",
+    "selection_model": "risk veto + SEO/GEO classification + evidence availability + existing-site placement fit",
+    "current_limitation": "This batch uses strategy-hypothesis long-tail topics; it does not yet include verified keyword volume or trend-source data."
+  },
+  "opportunities": [
+    {
+      "opportunity_id": "batch-001-page-001",
+      "topic": "AI workflow template for onboarding new employees",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template and implementation guide intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for business operations' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for onboarding new employees",
+        "onboarding new employees ai workflow template",
+        "how to use ai for onboarding new employees",
+        "onboarding new employees workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template and implementation guide",
+        "user_need": "Find a practical, reviewable template for onboarding new employees."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: employee onboarding, HR workflow, checklist, manager review, source documents.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "privacy review required for employee data"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for business operations",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official HRIS/help center docs for data export rules",
+          "Official Google Workspace or Microsoft 365 docs for shared documents",
+          "Company policy examples provided by editorial team"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Workday HCM official site",
+            "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "employee and HR workflow context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Google Workspace official site",
+            "url": "https://workspace.google.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "Google Workspace product context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-002",
+      "topic": "AI workflow template for invoice approval routing",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete workflow template intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for finance operations' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for invoice approval routing",
+        "invoice approval routing ai workflow template",
+        "how to use ai for invoice approval routing",
+        "invoice approval routing workflow checklist"
+      ],
+      "search_intent": {
+        "type": "workflow template",
+        "user_need": "Find a practical, reviewable template for invoice approval routing."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: invoice approval, accounts payable, vendor data, approval matrix.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "avoid financial advice",
+          "privacy review required for vendor data"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for finance operations",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official accounting platform docs",
+          "Official AP automation help pages",
+          "Internal approval policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Xero pay bills official page",
+            "url": "https://www.xero.com/us/accounting-software/pay-bills/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "bill payment/accounts payable product context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Stripe Invoicing official docs",
+            "url": "https://stripe.com/docs/invoicing",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "invoice workflow product context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-003",
+      "topic": "AI workflow template for product feedback triage",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete guide and template intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for product teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for product feedback triage",
+        "product feedback triage ai workflow template",
+        "how to use ai for product feedback triage",
+        "product feedback triage workflow checklist"
+      ],
+      "search_intent": {
+        "type": "guide and template",
+        "user_need": "Find a practical, reviewable template for product feedback triage."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: product feedback, triage, feature requests, customer support.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "customer data privacy review"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for product teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official product analytics docs",
+          "Official support-ticket export docs",
+          "Public product management framework sources"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Productboard official site",
+            "url": "https://www.productboard.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "product feedback management context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Zendesk Guide official site",
+            "url": "https://www.zendesk.com/service/help-center/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "knowledge base/help center context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-004",
+      "topic": "AI workflow template for recruiting interview scorecards",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for recruiting teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for recruiting interview scorecards",
+        "recruiting interview scorecards ai workflow template",
+        "how to use ai for recruiting interview scorecards",
+        "recruiting interview scorecards workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template",
+        "user_need": "Find a practical, reviewable template for recruiting interview scorecards."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: interview scorecard, structured interviews, recruiting workflow.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "privacy review required",
+          "bias/fairness review required"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for recruiting teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official ATS documentation",
+          "Public structured interview guidance from reputable institutions",
+          "Internal HR policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Greenhouse recruiting software official site",
+            "url": "https://www.greenhouse.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "recruiting workflow context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Workday HCM official site",
+            "url": "https://www.workday.com/en-us/products/human-capital-management/overview.html",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "employee and HR workflow context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-005",
+      "topic": "AI workflow template for sales call summaries",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template and examples intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for sales teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for sales call summaries",
+        "sales call summaries ai workflow template",
+        "how to use ai for sales call summaries",
+        "sales call summaries workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template and examples",
+        "user_need": "Find a practical, reviewable template for sales call summaries."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: sales calls, CRM notes, follow-up tasks, customer data.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "monetization review required",
+          "customer privacy review"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for sales teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official CRM docs",
+          "Official meeting transcript product docs",
+          "Internal sales process supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Salesforce Sales Cloud official site",
+            "url": "https://www.salesforce.com/sales/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "CRM and sales workflow context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "HubSpot CRM official site",
+            "url": "https://www.hubspot.com/products/crm",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "CRM context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review",
+          "Monetization/disclosure review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-006",
+      "topic": "AI workflow template for knowledge base article updates",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete how to guide intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for support knowledge bases' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for knowledge base article updates",
+        "knowledge base article updates ai workflow template",
+        "how to use ai for knowledge base article updates",
+        "knowledge base article updates workflow checklist"
+      ],
+      "search_intent": {
+        "type": "how to guide",
+        "user_need": "Find a practical, reviewable template for knowledge base article updates."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: knowledge base, article updates, support documentation, source verification.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "copyright review required for source material"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for support knowledge bases",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official help center CMS docs",
+          "Official support platform docs",
+          "Editorial update policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Zendesk Guide official site",
+            "url": "https://www.zendesk.com/service/help-center/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "knowledge base/help center context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Confluence official site",
+            "url": "https://www.atlassian.com/software/confluence",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "knowledge-base and collaboration context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Copyright/IP review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-007",
+      "topic": "AI workflow template for project status reporting",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for project management' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for project status reporting",
+        "project status reporting ai workflow template",
+        "how to use ai for project status reporting",
+        "project status reporting workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template",
+        "user_need": "Find a practical, reviewable template for project status reporting."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: project status report, risks, milestones, stakeholders.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "low risk"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for project management",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official project management tool docs",
+          "Public project reporting guidance",
+          "Internal project status examples supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Asana official site",
+            "url": "https://asana.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "project management product context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Microsoft 365 official site",
+            "url": "https://www.microsoft.com/en-us/microsoft-365",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "Microsoft 365 product context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-008",
+      "topic": "AI workflow template for incident postmortem drafts",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete guide and checklist intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for engineering operations' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for incident postmortem drafts",
+        "incident postmortem drafts ai workflow template",
+        "how to use ai for incident postmortem drafts",
+        "incident postmortem drafts workflow checklist"
+      ],
+      "search_intent": {
+        "type": "guide and checklist",
+        "user_need": "Find a practical, reviewable template for incident postmortem drafts."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: incident postmortem, root cause, timeline, corrective actions.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "security review required",
+          "avoid exposing sensitive incident data"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for engineering operations",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official incident management docs",
+          "Public postmortem guidance from reputable engineering organizations",
+          "Internal incident policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Jira Service Management official site",
+            "url": "https://www.atlassian.com/software/jira/service-management",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "incident/service workflow context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Confluence official site",
+            "url": "https://www.atlassian.com/software/confluence",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "knowledge-base and collaboration context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-009",
+      "topic": "AI workflow template for webinar content repurposing",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template and workflow intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for marketing teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for webinar content repurposing",
+        "webinar content repurposing ai workflow template",
+        "how to use ai for webinar content repurposing",
+        "webinar content repurposing workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template and workflow",
+        "user_need": "Find a practical, reviewable template for webinar content repurposing."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: webinar, content repurposing, marketing workflow, copyright.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "copyright review required",
+          "monetization disclosure review"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for marketing teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official webinar platform docs",
+          "Official social platform content policy docs",
+          "Editorial source-material permission record"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Zoom official site",
+            "url": "https://www.zoom.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "meeting/webinar product context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "HubSpot CRM official site",
+            "url": "https://www.hubspot.com/products/crm",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "CRM context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Copyright/IP review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-010",
+      "topic": "AI workflow template for procurement vendor comparison",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for procurement teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for procurement vendor comparison",
+        "procurement vendor comparison ai workflow template",
+        "how to use ai for procurement vendor comparison",
+        "procurement vendor comparison workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template",
+        "user_need": "Find a practical, reviewable template for procurement vendor comparison."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: vendor comparison, procurement, evaluation criteria, stakeholder review.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "avoid financial advice",
+          "vendor bias review required"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for procurement teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official vendor documentation",
+          "Public procurement checklist guidance",
+          "Internal procurement policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Oracle Procurement official page",
+            "url": "https://www.oracle.com/procurement/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "procurement platform context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Coupa procurement official site",
+            "url": "https://www.coupa.com/products/procurement/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "procurement workflow context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-011",
+      "topic": "AI workflow template for quarterly business review preparation",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete workflow guide intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for business operations' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for quarterly business review preparation",
+        "quarterly business review preparation ai workflow template",
+        "how to use ai for quarterly business review preparation",
+        "quarterly business review preparation workflow checklist"
+      ],
+      "search_intent": {
+        "type": "workflow guide",
+        "user_need": "Find a practical, reviewable template for quarterly business review preparation."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: quarterly business review, KPI summary, executive reporting.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "avoid financial advice",
+          "confidential metrics review required"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for business operations",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official analytics/export docs",
+          "Public QBR agenda guidance",
+          "Internal KPI definitions supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Microsoft 365 official site",
+            "url": "https://www.microsoft.com/en-us/microsoft-365",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "Microsoft 365 product context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Google Workspace official site",
+            "url": "https://workspace.google.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "Google Workspace product context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    },
+    {
+      "opportunity_id": "batch-001-page-012",
+      "topic": "AI workflow template for customer research interview synthesis",
+      "status": "staging_strategy_explanation_not_publish_approval",
+      "why_create_this_page": [
+        "The topic maps to a concrete template and guide intent rather than a broad AI trend article.",
+        "It belongs inside the 'AI workflow templates for research teams' cluster, so it can compound topical coverage with related workflow-template pages.",
+        "The page can be useful as a reusable implementation asset: inputs, workflow steps, prompt block, expected outputs, human QA checks, and source notes."
+      ],
+      "topic_signal_type": "staging_strategy_hypothesis_long_tail_not_external_keyword_volume_verified",
+      "query_patterns_to_validate": [
+        "ai workflow template for customer research interview synthesis",
+        "customer research interview synthesis ai workflow template",
+        "how to use ai for customer research interview synthesis",
+        "customer research interview synthesis workflow checklist"
+      ],
+      "search_intent": {
+        "type": "template and guide",
+        "user_need": "Find a practical, reviewable template for customer research interview synthesis."
+      },
+      "seo_rationale": {
+        "score": 4,
+        "reasoning": [
+          "Long-tail workflow/template query with clear task intent.",
+          "Can be internally linked from the AI workflow templates hub and adjacent operational pages.",
+          "Search value still needs validation with real query data before production prioritization."
+        ]
+      },
+      "geo_rationale": {
+        "score": 5,
+        "reasoning": [
+          "Structured answer format is extractable by AI answer engines: direct answer, definition, steps, FAQ, and source notes.",
+          "Explicit entities improve summarizability: customer research, interview synthesis, consent, privacy.",
+          "Evidence/source notes make the page more cite-worthy than generic AI productivity commentary."
+        ]
+      },
+      "risk_assessment": {
+        "risk_fit_score": 5,
+        "result": "allow_staging_needs_review",
+        "risk_flags": [
+          "privacy review required",
+          "consent review required"
+        ],
+        "veto_result": "passed_for_staging_only",
+        "production_review_required": true
+      },
+      "site_placement": {
+        "decision": "new_cluster_in_existing_site",
+        "target_site": "productivity-ai-pilot",
+        "target_section": "AI workflow templates for research teams",
+        "target_page_type": "pillar_page",
+        "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+        "why_not_existing_page_update": "No matching existing page was identified in this run."
+      },
+      "evidence_plan": {
+        "required_evidence_level": "medium",
+        "source_plan": [
+          "Official research repository docs",
+          "Public user research ethics guidance",
+          "Internal consent policy supplied by reviewer"
+        ],
+        "accepted_staging_sources": [
+          {
+            "title": "Qualtrics XM official site",
+            "url": "https://www.qualtrics.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "customer research context",
+              "official product/source context for staging review"
+            ]
+          },
+          {
+            "title": "Google Workspace official site",
+            "url": "https://workspace.google.com/",
+            "status": "accepted",
+            "reachable": true,
+            "http_status": 200,
+            "supports_claims": [
+              "Google Workspace product context",
+              "official product/source context for staging review"
+            ]
+          }
+        ],
+        "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+        "forbidden_claims": [
+          "guaranteed outcomes",
+          "unverified product capabilities",
+          "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+          "copied competitor text or rankings"
+        ]
+      },
+      "publish_status": {
+        "staging": "approved_for_preview",
+        "production": "Needs Review",
+        "required_before_publish": [
+          "Human review before production publish",
+          "Privacy/data-handling review"
+        ],
+        "production_publish_allowed": false
+      },
+      "what_would_make_this_stronger": [
+        "Validate actual search demand with Search Console, keyword tools, SERP sampling, or community-question evidence.",
+        "Record competitor/answer-engine gaps rather than using only a strategy hypothesis.",
+        "Add reviewer-approved examples and policies for the specific workflow before production publishing."
+      ]
+    }
+  ]
+}
