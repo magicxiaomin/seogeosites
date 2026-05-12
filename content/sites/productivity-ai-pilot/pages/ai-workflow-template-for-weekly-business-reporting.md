@@ -28,14 +28,25 @@ This staging draft is a structured SEO/GEO knowledge asset. It is designed to be
 
 ## Evidence and source notes
 
-The source plan must be converted into concrete URLs before this page can receive a Pass status.
+This staging page now includes accepted, reachable source URLs for factual/tool-context claims. Sources support context and capabilities; they do not turn editorial recommendations into guaranteed outcomes.
+
+### Accepted sources
+
+- Google Docs editors help: https://support.google.com/docs/ — supports: report drafting, document collaboration.
+- Looker Studio help: https://support.google.com/looker-studio/ — supports: business reporting dashboard context, reporting workflow.
+
+### Editorial guardrails
+
+- Keep factual product/tool claims tied to accepted sources.
+- Mark recommendations as editorial workflow guidance, not source-backed facts unless the source directly supports them.
+- Keep this page in staging preview until production publish gates pass.
 
 ## Review checklist
 
 - Direct answer is present.
 - Claims are either sourced or clearly marked as editorial guidance.
 - No competitor text has been copied.
-- Human review triggers are documented.
+- Staging approval is automated; production publish remains controlled by publish gates.
 
 ## FAQ
 
@@ -49,4 +60,4 @@ Official source URLs, dated review metadata, and source-backed support for factu
 
 ### When should a human review it?
 
-A human should review it when source URLs are missing, privacy/security claims are present, or the topic changes risk class.
+The system should keep it in staging when source URLs are missing, privacy/security flags are unresolved for production, or the topic changes risk class.

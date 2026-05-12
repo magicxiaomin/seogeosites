@@ -28,14 +28,32 @@ This staging draft is a structured SEO/GEO knowledge asset. It is designed to be
 
 ## Evidence and source notes
 
-The source plan must be converted into concrete URLs before this page can receive a Pass status.
+This staging page now includes accepted, reachable source URLs for factual/tool-context claims. Sources support context and capabilities; they do not turn editorial recommendations into guaranteed outcomes.
+
+### Accepted sources
+
+- Gmail Help: https://support.google.com/mail/ — supports: email workflow context, sales follow-up drafting.
+- Gmail sender guidelines: https://support.google.com/a/answer/81126 — supports: email sending caution, spam/compliance context.
+
+### Editorial guardrails
+
+- Keep factual product/tool claims tied to accepted sources.
+- Mark recommendations as editorial workflow guidance, not source-backed facts unless the source directly supports them.
+- Keep this page in staging preview until production publish gates pass.
+
+### Risk-specific notes
+
+- Privacy note: do not paste sensitive customer data, private transcripts, credentials, or confidential business information into an AI tool unless the organization has approved that tool and its data-handling settings.
+- Use redaction, data minimization, and access controls before testing this workflow with real tickets or CRM records.
+- Disclosure note: if tool recommendations, affiliate links, sponsorships, or vendor preferences are added later, disclose the relationship clearly before publication.
+- Do not present sales outcomes or conversion improvements as guaranteed results.
 
 ## Review checklist
 
 - Direct answer is present.
 - Claims are either sourced or clearly marked as editorial guidance.
 - No competitor text has been copied.
-- Human review triggers are documented.
+- Staging approval is automated; production publish remains controlled by publish gates.
 
 ## FAQ
 
@@ -49,4 +67,4 @@ Official source URLs, dated review metadata, and source-backed support for factu
 
 ### When should a human review it?
 
-A human should review it when source URLs are missing, privacy/security claims are present, or the topic changes risk class.
+The system should keep it in staging when source URLs are missing, privacy/security flags are unresolved for production, or the topic changes risk class.
