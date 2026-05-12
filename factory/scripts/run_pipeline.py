@@ -15,7 +15,8 @@ def classify(o):
     topic = o.get("topic", "").lower()
     seo = 4 if any(term in topic for term in ["workflow", "template", "guide"]) else 3
     geo = 5 if any(term in topic for term in ["workflow", "guide", "how to", "template"]) else 3
-    risk = 1 if any(term in risks for term in ["legal", "medical", "financial", "high ymyl"]) else (3 if any(term in risks for term in ["thin", "affiliate bias"]) else 5)
+    high_risk = ["legal advice", "medical advice", "financial advice", "high ymyl"]
+    risk = 1 if any(term in risks for term in high_risk) and "avoid financial advice" not in risks else (3 if any(term in risks for term in ["thin", "affiliate bias"]) else 5)
     if risk <= 2:
         cls, rec = "Reject", "no-go: risk veto"
     elif seo >= 4 and geo >= 4:
@@ -36,13 +37,12 @@ def classify(o):
     }
 
 
-def pick_candidate(opportunities, strategy):
+def pick_candidates(opportunities, strategy, limit=None):
     by_id = {o["id"]: o for o in opportunities}
     balanced = [s for s in strategy if s["classification"] == "Balanced SEO+GEO"]
-    if not balanced:
-        return None
     balanced.sort(key=lambda s: (s["risk_fit_score"], s["geo_score"], s["seo_score"]), reverse=True)
-    return by_id[balanced[0]["opportunity_id"]]
+    candidates = [by_id[s["opportunity_id"]] for s in balanced]
+    return candidates[:limit] if limit else candidates
 
 
 def make_evidence_plan(o):
@@ -212,6 +212,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run SEO/GEO factory stages for a run directory.")
     parser.add_argument("--run", required=True, help="Run directory, e.g. factory/runs/my-run")
     parser.add_argument("--stage", choices=["strategy", "full"], default="strategy")
+    parser.add_argument("--limit", type=int, help="Maximum candidates to generate in full stage. Defaults to all Balanced SEO+GEO candidates.")
     args = parser.parse_args()
 
     run_dir = Path(args.run)
@@ -230,23 +231,56 @@ def main():
         print(f"Classified {len(strategy)} opportunities for {run_dir.relative_to(root)}")
         return
 
-    candidate = pick_candidate(opportunities, strategy)
-    if candidate is None:
+    candidates = pick_candidates(opportunities, strategy, args.limit)
+    if not candidates:
         raise SystemExit("No Balanced SEO+GEO candidate found; full pipeline stopped before content generation.")
-    evidence = make_evidence_plan(candidate)
-    placement = make_placement(candidate)
-    brief = make_brief(candidate, evidence)
-    draft_path = write_draft(brief, placement)
-    qa = make_qa(draft_path)
-    outputs = {
-        "evidence_plan.json": evidence,
-        "site_placement_decision.json": placement,
-        "content_brief.json": brief,
-        "qa_report.json": qa,
+
+    page_records = []
+    for candidate in candidates:
+        evidence = make_evidence_plan(candidate)
+        placement = make_placement(candidate)
+        brief = make_brief(candidate, evidence)
+        draft_path = write_draft(brief, placement)
+        qa = make_qa(draft_path)
+        page_dir = run_dir / "outputs" / "pages" / candidate["id"]
+        page_dir.mkdir(parents=True, exist_ok=True)
+        per_page = {
+            "evidence_plan.json": evidence,
+            "site_placement_decision.json": placement,
+            "content_brief.json": brief,
+            "qa_report.json": qa,
+        }
+        for name, payload in per_page.items():
+            (page_dir / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        page_records.append({
+            "opportunity_id": candidate["id"],
+            "topic": candidate["topic"],
+            "draft_path": str(draft_path),
+            "slug": brief["page_brief"]["slug"],
+            "qa_status": qa["status"],
+            "required_before_publish": qa["required_before_publish"],
+        })
+
+    first = candidates[0]
+    first_dir = run_dir / "outputs" / "pages" / first["id"]
+    # Keep legacy top-level outputs pointing at the first generated candidate for simple validators/CI.
+    for name in ["evidence_plan.json", "site_placement_decision.json", "content_brief.json", "qa_report.json"]:
+        (run_dir / "outputs" / name).write_text((first_dir / name).read_text(encoding="utf-8"), encoding="utf-8")
+
+    batch = {
+        "run": str(run_dir.relative_to(root)),
+        "status": "Needs Review",
+        "generated_pages": page_records,
+        "publish_allowed": False,
+        "reason": "Staging drafts require concrete source URLs and human review before publish approval.",
     }
-    for name, payload in outputs.items():
-        (run_dir / "outputs" / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
-    print(f"Full pipeline generated candidate {candidate['id']} for {run_dir.relative_to(root)}")
+    (run_dir / "outputs" / "batch_publish_report.json").write_text(json.dumps(batch, indent=2), encoding="utf-8")
+    md_lines = ["# Batch Publish Report", "", "Status: Needs Review", "", "| Page | QA | Draft | Required before publish |", "|---|---|---|---|"]
+    for r in page_records:
+        md_lines.append(f"| {r['topic']} | {r['qa_status']} | `{r['draft_path']}` | {'; '.join(r['required_before_publish'])} |")
+    md_lines.append("\nPublishing is not allowed until the batch is approved by a human reviewer.")
+    (run_dir / "outputs" / "batch_publish_report.md").write_text("\n".join(md_lines), encoding="utf-8")
+    print(f"Full pipeline generated {len(candidates)} candidate(s) for {run_dir.relative_to(root)}")
 
 
 if __name__ == "__main__":

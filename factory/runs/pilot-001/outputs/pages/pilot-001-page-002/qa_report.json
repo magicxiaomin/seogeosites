@@ -1,0 +1,17 @@
+{
+  "page": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
+  "status": "Needs Review",
+  "checks": {
+    "seo_quality": "Pass",
+    "content_usefulness": "Pass",
+    "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+    "geo_readiness": "Pass",
+    "anti_spam_scaled_abuse": "Pass",
+    "technical_publishing": "Pass"
+  },
+  "blockers": [],
+  "required_before_publish": [
+    "Replace source-plan placeholders with concrete official URLs",
+    "Human review before production publish"
+  ]
+}

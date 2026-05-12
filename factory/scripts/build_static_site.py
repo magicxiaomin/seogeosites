@@ -59,10 +59,17 @@ for p in (root / "content/sites").glob("*/pages/*.md"):
 {md_to_html(body)}
 </body></html>'''
     (public / f"{slug}.html").write_text(doc, encoding="utf-8")
-    pages.append((title, f"{slug}.html"))
+    is_sample = "ai-meeting-notes-workflow" in slug
+    pages.append((title, f"{slug}.html", is_sample))
 
-index = "<h1>SEO/GEO Sites Staging</h1><ul>" + "".join(
-    f'<li><a href="{href}">{html.escape(title)}</a></li>' for title, href in pages
+pilot_pages = [p for p in pages if not p[2]]
+sample_pages = [p for p in pages if p[2]]
+index = "<h1>SEO/GEO Sites Staging</h1>"
+index += "<h2>Pilot staging pages</h2><ul>" + "".join(
+    f'<li><a href="{href}">{html.escape(title)}</a></li>' for title, href, _ in pilot_pages
+) + "</ul>"
+index += "<h2>Sample/demo pages</h2><p>These are pipeline examples, not final niche decisions.</p><ul>" + "".join(
+    f'<li><a href="{href}">{html.escape(title)}</a></li>' for title, href, _ in sample_pages
 ) + "</ul>"
 (public / "index.html").write_text(
     f'<!doctype html><html><head><meta charset="utf-8"><title>SEO/GEO Sites Staging</title></head><body>{index}</body></html>',

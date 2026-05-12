@@ -1,0 +1,63 @@
+{
+  "run": "factory/runs/pilot-001",
+  "status": "Needs Review",
+  "generated_pages": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "topic": "AI workflow template for meeting notes and action items",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-meeting-notes-and-action-items.md",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "qa_status": "Needs Review",
+      "required_before_publish": [
+        "Replace source-plan placeholders with concrete official URLs",
+        "Human review before production publish"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "topic": "AI workflow template for customer support triage",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-support-triage.md",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "qa_status": "Needs Review",
+      "required_before_publish": [
+        "Replace source-plan placeholders with concrete official URLs",
+        "Human review before production publish"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "topic": "AI workflow template for weekly business reporting",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-weekly-business-reporting.md",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "qa_status": "Needs Review",
+      "required_before_publish": [
+        "Replace source-plan placeholders with concrete official URLs",
+        "Human review before production publish"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "topic": "AI workflow template for content repurposing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-content-repurposing.md",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "qa_status": "Needs Review",
+      "required_before_publish": [
+        "Replace source-plan placeholders with concrete official URLs",
+        "Human review before production publish"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "topic": "AI workflow template for sales follow-up notes",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-follow-up-notes.md",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "qa_status": "Needs Review",
+      "required_before_publish": [
+        "Replace source-plan placeholders with concrete official URLs",
+        "Human review before production publish"
+      ]
+    }
+  ],
+  "publish_allowed": false,
+  "reason": "Staging drafts require concrete source URLs and human review before publish approval."
+}

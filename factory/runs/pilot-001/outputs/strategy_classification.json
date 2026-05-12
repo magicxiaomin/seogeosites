@@ -1,0 +1,52 @@
+[
+  {
+    "opportunity_id": "pilot-001-page-001",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  },
+  {
+    "opportunity_id": "pilot-001-page-002",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  },
+  {
+    "opportunity_id": "pilot-001-page-003",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  },
+  {
+    "opportunity_id": "pilot-001-page-004",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  },
+  {
+    "opportunity_id": "pilot-001-page-005",
+    "seo_score": 4,
+    "geo_score": 5,
+    "risk_fit_score": 5,
+    "classification": "Balanced SEO+GEO",
+    "recommendation": "go: MVP pilot candidate",
+    "required_evidence_level": "medium",
+    "human_review_triggers": []
+  }
+]
