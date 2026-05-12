@@ -1,0 +1,26 @@
+{
+  "page": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md",
+  "status": "Needs Review",
+  "checks": {
+    "seo_quality": "Pass",
+    "content_usefulness": "Pass",
+    "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+    "geo_readiness": "Pass",
+    "anti_spam_scaled_abuse": "Pass",
+    "technical_publishing": "Pass"
+  },
+  "review_flags": {
+    "missing_concrete_source_urls": true,
+    "privacy_review_required": true,
+    "copyright_review_required": false,
+    "monetization_review_required": true,
+    "high_risk_topic": false
+  },
+  "blockers": [],
+  "required_before_publish": [
+    "Human review before production publish",
+    "Replace source-plan placeholders with concrete official URLs",
+    "Privacy/data-handling review",
+    "Monetization/disclosure review"
+  ]
+}

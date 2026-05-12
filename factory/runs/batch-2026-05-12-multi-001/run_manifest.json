@@ -1,0 +1,7 @@
+{
+  "run_name": "batch-2026-05-12-multi-001",
+  "status": "created",
+  "publish_readiness": "not_evaluated",
+  "production_publish_allowed": false,
+  "note": "Multi-opportunity staging run requested by user; not a production publish batch."
+}

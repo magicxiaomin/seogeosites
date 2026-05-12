@@ -1,23 +1,27 @@
 {
   "run": "factory/runs/batch-2026-05-12-multi-001",
-  "decision_scope": "production_publish_review_queue_only",
+  "decision_source": "factory/runs/batch-2026-05-12-multi-001/inputs/review_decisions.json",
+  "applied_at": "2026-05-12T23:08:28.161444+00:00",
+  "simulation_only": true,
   "production_publish_allowed": false,
-  "explicit_publish_batch_approval": false,
-  "reviewer": "",
-  "reviewed_at": "",
-  "notes": "Multi-opportunity run review decisions. Applying this records state only; it never publishes or flips publish_allowed.",
+  "current_publish_allowed_field": false,
+  "publish_readiness": "Needs Review",
+  "explicit_publish_batch_approval_present": false,
+  "missing_page_decisions": [],
+  "decision_counts": {
+    "approve_for_production_batch": 0,
+    "pending": 12,
+    "reject_or_defer": 0,
+    "request_edits": 0
+  },
   "pages": [
     {
       "opportunity_id": "batch-001-page-001",
       "topic": "AI workflow template for onboarding new employees",
       "slug": "ai-workflow-template-for-onboarding-new-employees",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -27,12 +31,8 @@
       "topic": "AI workflow template for invoice approval routing",
       "slug": "ai-workflow-template-for-invoice-approval-routing",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -42,12 +42,8 @@
       "topic": "AI workflow template for product feedback triage",
       "slug": "ai-workflow-template-for-product-feedback-triage",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -57,12 +53,8 @@
       "topic": "AI workflow template for recruiting interview scorecards",
       "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -72,12 +64,8 @@
       "topic": "AI workflow template for sales call summaries",
       "slug": "ai-workflow-template-for-sales-call-summaries",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -87,12 +75,8 @@
       "topic": "AI workflow template for knowledge base article updates",
       "slug": "ai-workflow-template-for-knowledge-base-article-updates",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -102,12 +86,8 @@
       "topic": "AI workflow template for project status reporting",
       "slug": "ai-workflow-template-for-project-status-reporting",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -117,12 +97,8 @@
       "topic": "AI workflow template for incident postmortem drafts",
       "slug": "ai-workflow-template-for-incident-postmortem-drafts",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -132,12 +108,8 @@
       "topic": "AI workflow template for webinar content repurposing",
       "slug": "ai-workflow-template-for-webinar-content-repurposing",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -147,12 +119,8 @@
       "topic": "AI workflow template for procurement vendor comparison",
       "slug": "ai-workflow-template-for-procurement-vendor-comparison",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -162,12 +130,8 @@
       "topic": "AI workflow template for quarterly business review preparation",
       "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
@@ -177,15 +141,19 @@
       "topic": "AI workflow template for customer research interview synthesis",
       "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
       "decision": "pending",
-      "allowed_decisions": [
-        "pending",
-        "approve_for_production_batch",
-        "request_edits",
-        "reject_or_defer"
-      ],
+      "production_review_state": "pending_review",
+      "candidate_for_explicit_publish_batch": false,
       "reviewer_notes": "",
       "required_edits": [],
       "publish_batch_notes": ""
     }
+  ],
+  "remaining_production_gates": [
+    "explicit_publish_batch_approval",
+    "publish_batch_approval",
+    "final_brand_domain_decision",
+    "trust_pages_finalized",
+    "production_robots_indexing_plan",
+    "analytics_search_console_hooks_if_credentials_exist"
   ]
 }

@@ -1,0 +1,249 @@
+[
+  {
+    "id": "batch-001-page-001",
+    "topic": "AI workflow template for onboarding new employees",
+    "search_intent": "template and implementation guide",
+    "recommended_cluster": "AI workflow templates for business operations",
+    "risk_flags": [
+      "privacy review required for employee data"
+    ],
+    "source_candidates": [
+      "Official HRIS/help center docs for data export rules",
+      "Official Google Workspace or Microsoft 365 docs for shared documents",
+      "Company policy examples provided by editorial team"
+    ],
+    "entities": [
+      "employee onboarding",
+      "HR workflow",
+      "checklist",
+      "manager review",
+      "source documents"
+    ]
+  },
+  {
+    "id": "batch-001-page-002",
+    "topic": "AI workflow template for invoice approval routing",
+    "search_intent": "workflow template",
+    "recommended_cluster": "AI workflow templates for finance operations",
+    "risk_flags": [
+      "avoid financial advice",
+      "privacy review required for vendor data"
+    ],
+    "source_candidates": [
+      "Official accounting platform docs",
+      "Official AP automation help pages",
+      "Internal approval policy supplied by reviewer"
+    ],
+    "entities": [
+      "invoice approval",
+      "accounts payable",
+      "vendor data",
+      "approval matrix"
+    ]
+  },
+  {
+    "id": "batch-001-page-003",
+    "topic": "AI workflow template for product feedback triage",
+    "search_intent": "guide and template",
+    "recommended_cluster": "AI workflow templates for product teams",
+    "risk_flags": [
+      "customer data privacy review"
+    ],
+    "source_candidates": [
+      "Official product analytics docs",
+      "Official support-ticket export docs",
+      "Public product management framework sources"
+    ],
+    "entities": [
+      "product feedback",
+      "triage",
+      "feature requests",
+      "customer support"
+    ]
+  },
+  {
+    "id": "batch-001-page-004",
+    "topic": "AI workflow template for recruiting interview scorecards",
+    "search_intent": "template",
+    "recommended_cluster": "AI workflow templates for recruiting teams",
+    "risk_flags": [
+      "privacy review required",
+      "bias/fairness review required"
+    ],
+    "source_candidates": [
+      "Official ATS documentation",
+      "Public structured interview guidance from reputable institutions",
+      "Internal HR policy supplied by reviewer"
+    ],
+    "entities": [
+      "interview scorecard",
+      "structured interviews",
+      "recruiting workflow"
+    ]
+  },
+  {
+    "id": "batch-001-page-005",
+    "topic": "AI workflow template for sales call summaries",
+    "search_intent": "template and examples",
+    "recommended_cluster": "AI workflow templates for sales teams",
+    "risk_flags": [
+      "monetization review required",
+      "customer privacy review"
+    ],
+    "source_candidates": [
+      "Official CRM docs",
+      "Official meeting transcript product docs",
+      "Internal sales process supplied by reviewer"
+    ],
+    "entities": [
+      "sales calls",
+      "CRM notes",
+      "follow-up tasks",
+      "customer data"
+    ]
+  },
+  {
+    "id": "batch-001-page-006",
+    "topic": "AI workflow template for knowledge base article updates",
+    "search_intent": "how to guide",
+    "recommended_cluster": "AI workflow templates for support knowledge bases",
+    "risk_flags": [
+      "copyright review required for source material"
+    ],
+    "source_candidates": [
+      "Official help center CMS docs",
+      "Official support platform docs",
+      "Editorial update policy supplied by reviewer"
+    ],
+    "entities": [
+      "knowledge base",
+      "article updates",
+      "support documentation",
+      "source verification"
+    ]
+  },
+  {
+    "id": "batch-001-page-007",
+    "topic": "AI workflow template for project status reporting",
+    "search_intent": "template",
+    "recommended_cluster": "AI workflow templates for project management",
+    "risk_flags": [
+      "low risk"
+    ],
+    "source_candidates": [
+      "Official project management tool docs",
+      "Public project reporting guidance",
+      "Internal project status examples supplied by reviewer"
+    ],
+    "entities": [
+      "project status report",
+      "risks",
+      "milestones",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "batch-001-page-008",
+    "topic": "AI workflow template for incident postmortem drafts",
+    "search_intent": "guide and checklist",
+    "recommended_cluster": "AI workflow templates for engineering operations",
+    "risk_flags": [
+      "security review required",
+      "avoid exposing sensitive incident data"
+    ],
+    "source_candidates": [
+      "Official incident management docs",
+      "Public postmortem guidance from reputable engineering organizations",
+      "Internal incident policy supplied by reviewer"
+    ],
+    "entities": [
+      "incident postmortem",
+      "root cause",
+      "timeline",
+      "corrective actions"
+    ]
+  },
+  {
+    "id": "batch-001-page-009",
+    "topic": "AI workflow template for webinar content repurposing",
+    "search_intent": "template and workflow",
+    "recommended_cluster": "AI workflow templates for marketing teams",
+    "risk_flags": [
+      "copyright review required",
+      "monetization disclosure review"
+    ],
+    "source_candidates": [
+      "Official webinar platform docs",
+      "Official social platform content policy docs",
+      "Editorial source-material permission record"
+    ],
+    "entities": [
+      "webinar",
+      "content repurposing",
+      "marketing workflow",
+      "copyright"
+    ]
+  },
+  {
+    "id": "batch-001-page-010",
+    "topic": "AI workflow template for procurement vendor comparison",
+    "search_intent": "template",
+    "recommended_cluster": "AI workflow templates for procurement teams",
+    "risk_flags": [
+      "avoid financial advice",
+      "vendor bias review required"
+    ],
+    "source_candidates": [
+      "Official vendor documentation",
+      "Public procurement checklist guidance",
+      "Internal procurement policy supplied by reviewer"
+    ],
+    "entities": [
+      "vendor comparison",
+      "procurement",
+      "evaluation criteria",
+      "stakeholder review"
+    ]
+  },
+  {
+    "id": "batch-001-page-011",
+    "topic": "AI workflow template for quarterly business review preparation",
+    "search_intent": "workflow guide",
+    "recommended_cluster": "AI workflow templates for business operations",
+    "risk_flags": [
+      "avoid financial advice",
+      "confidential metrics review required"
+    ],
+    "source_candidates": [
+      "Official analytics/export docs",
+      "Public QBR agenda guidance",
+      "Internal KPI definitions supplied by reviewer"
+    ],
+    "entities": [
+      "quarterly business review",
+      "KPI summary",
+      "executive reporting"
+    ]
+  },
+  {
+    "id": "batch-001-page-012",
+    "topic": "AI workflow template for customer research interview synthesis",
+    "search_intent": "template and guide",
+    "recommended_cluster": "AI workflow templates for research teams",
+    "risk_flags": [
+      "privacy review required",
+      "consent review required"
+    ],
+    "source_candidates": [
+      "Official research repository docs",
+      "Public user research ethics guidance",
+      "Internal consent policy supplied by reviewer"
+    ],
+    "entities": [
+      "customer research",
+      "interview synthesis",
+      "consent",
+      "privacy"
+    ]
+  }
+]

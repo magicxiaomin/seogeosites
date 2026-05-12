@@ -1,0 +1,31 @@
+{
+  "opportunity_id": "batch-001-page-011",
+  "source_plan": [
+    "Official analytics/export docs",
+    "Public QBR agenda guidance",
+    "Internal KPI definitions supplied by reviewer"
+  ],
+  "entity_map": [
+    "quarterly business review",
+    "KPI summary",
+    "executive reporting"
+  ],
+  "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+  "forbidden_claims": [
+    "guaranteed outcomes",
+    "unverified product capabilities",
+    "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+    "copied competitor text or rankings"
+  ],
+  "evidence_requirements": [
+    "concrete official URLs before Pass status",
+    "dated review/update metadata",
+    "clear distinction between source-backed facts and recommendations"
+  ],
+  "update_requirements": "Review quarterly or when source/tool capabilities materially change.",
+  "human_review_triggers": [
+    "privacy/security claims",
+    "affiliate monetization",
+    "missing official source URLs"
+  ]
+}

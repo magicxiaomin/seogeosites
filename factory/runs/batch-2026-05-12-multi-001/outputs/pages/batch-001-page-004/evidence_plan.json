@@ -1,0 +1,31 @@
+{
+  "opportunity_id": "batch-001-page-004",
+  "source_plan": [
+    "Official ATS documentation",
+    "Public structured interview guidance from reputable institutions",
+    "Internal HR policy supplied by reviewer"
+  ],
+  "entity_map": [
+    "interview scorecard",
+    "structured interviews",
+    "recruiting workflow"
+  ],
+  "claim_policy": "Separate factual claims from editorial guidance. Support product/tool capability claims with official sources before production publish.",
+  "forbidden_claims": [
+    "guaranteed outcomes",
+    "unverified product capabilities",
+    "medical/legal/financial advice unless explicitly reviewed by qualified experts",
+    "copied competitor text or rankings"
+  ],
+  "evidence_requirements": [
+    "concrete official URLs before Pass status",
+    "dated review/update metadata",
+    "clear distinction between source-backed facts and recommendations"
+  ],
+  "update_requirements": "Review quarterly or when source/tool capabilities materially change.",
+  "human_review_triggers": [
+    "privacy/security claims",
+    "affiliate monetization",
+    "missing official source URLs"
+  ]
+}

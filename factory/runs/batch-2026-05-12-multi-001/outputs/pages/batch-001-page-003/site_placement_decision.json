@@ -1,0 +1,25 @@
+{
+  "opportunity_id": "batch-001-page-003",
+  "recommendation": "new_cluster_in_existing_site",
+  "target_site": "productivity-ai-pilot",
+  "target_section": "AI workflow templates for product teams",
+  "target_page_type": "pillar_page",
+  "fit_scores": {
+    "audience_fit": 4,
+    "topical_fit": 4,
+    "entity_fit": 4,
+    "intent_fit": 4,
+    "internal_link_fit": 3,
+    "trust_fit": 4,
+    "risk_fit": 5,
+    "monetization_fit": 4,
+    "language_region_fit": 5,
+    "scale_potential": 3
+  },
+  "reasoning": {
+    "summary": "AI workflow template for product feedback triage fits as a focused cluster/page inside the pilot site.",
+    "why_not_new_site": "No separate audience, risk class, or entity posture has been established yet.",
+    "why_not_existing_page_update": "No matching existing page was identified in this run."
+  },
+  "human_review_required": false
+}

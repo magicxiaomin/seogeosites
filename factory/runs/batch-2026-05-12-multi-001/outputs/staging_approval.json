@@ -1,0 +1,82 @@
+{
+  "run": "factory/runs/batch-2026-05-12-multi-001",
+  "staging_approved": true,
+  "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+  "approval_mode": "automated",
+  "scope": "preview_only_not_production_publish",
+  "production_publish_allowed": false,
+  "pages": [
+    {
+      "opportunity_id": "batch-001-page-001",
+      "slug": "ai-workflow-template-for-onboarding-new-employees",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-002",
+      "slug": "ai-workflow-template-for-invoice-approval-routing",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-003",
+      "slug": "ai-workflow-template-for-product-feedback-triage",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-004",
+      "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-005",
+      "slug": "ai-workflow-template-for-sales-call-summaries",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-006",
+      "slug": "ai-workflow-template-for-knowledge-base-article-updates",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-007",
+      "slug": "ai-workflow-template-for-project-status-reporting",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-008",
+      "slug": "ai-workflow-template-for-incident-postmortem-drafts",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-009",
+      "slug": "ai-workflow-template-for-webinar-content-repurposing",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-010",
+      "slug": "ai-workflow-template-for-procurement-vendor-comparison",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-011",
+      "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    },
+    {
+      "opportunity_id": "batch-001-page-012",
+      "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
+      "qa_status": "Needs Review",
+      "staging_approved": true
+    }
+  ]
+}

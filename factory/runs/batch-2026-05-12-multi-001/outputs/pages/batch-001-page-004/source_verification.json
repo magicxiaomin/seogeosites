@@ -1,0 +1,36 @@
+{
+  "opportunity_id": "batch-001-page-004",
+  "source_items": [
+    {
+      "source": "Official ATS documentation",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Public structured interview guidance from reputable institutions",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    },
+    {
+      "source": "Internal HR policy supplied by reviewer",
+      "is_concrete_url": false,
+      "verification_status": "placeholder_requires_replacement",
+      "required_before_pass": true
+    }
+  ],
+  "summary": {
+    "total_sources": 3,
+    "concrete_urls": 0,
+    "placeholders": 3,
+    "all_sources_publish_ready": false
+  },
+  "review_flags": {
+    "missing_concrete_source_urls": true,
+    "privacy_review_required": true,
+    "copyright_review_required": false,
+    "monetization_review_required": false,
+    "high_risk_topic": false
+  }
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEO/GEO Factory QA Dashboard</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:32px;line-height:1.5;color:#172033}
+.banner{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:14px;margin-bottom:18px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d8dee9;padding:10px;vertical-align:top}th{background:#eef2ff;text-align:left}
+code{white-space:normal} .status{font-size:20px;font-weight:700}
+.badge{display:inline-block;border-radius:999px;padding:3px 9px;margin:2px;font-size:12px;font-weight:700;border:1px solid #cbd5e1}
+.badge.pass{background:#ecfdf5;color:#065f46;border-color:#a7f3d0} .badge.review{background:#fff7ed;color:#9a3412;border-color:#fed7aa} .badge.block{background:#fef2f2;color:#991b1b;border-color:#fecaca} .badge.neutral{background:#f8fafc;color:#334155}
+.actions{margin:0;padding-left:18px}
+</style>
+</head>
+<body>
+<div class="banner">Staging QA dashboard — not a publish approval screen. Production publish remains blocked until human review.</div>
+<h1>SEO/GEO Factory QA Dashboard</h1>
+<p>Run: <code>factory/runs/batch-2026-05-12-multi-001</code></p>
+<p class="status">Staging: <span class='badge pass'>Approved</span> · Batch publish-readiness: <span class='badge review'>Needs Review</span> · Content quality: <span class='badge review'>Not checked</span> · production publish_allowed: <code>False</code></p>
+<p><a href="review-checklists.md">Human review checklists</a> · <a href="editorial-review-pack.md">Editorial review pack</a> · <a href="review-decisions-input.json">Review decisions input</a> · <a href="review-decision-application.md">Review decision application</a> · <a href="launch-readiness-pack.md">Launch readiness pack</a> · <a href="production-readiness-simulation.md">Production readiness simulation</a></p>
+<h2>Batch summary</h2>
+<pre>{
+  &quot;status_counts&quot;: {
+    &quot;Needs Review&quot;: 12
+  },
+  &quot;review_flag_counts&quot;: {
+    &quot;missing_concrete_source_urls&quot;: 12,
+    &quot;privacy_review_required&quot;: 6,
+    &quot;monetization_review_required&quot;: 1,
+    &quot;copyright_review_required&quot;: 2
+  },
+  &quot;publish_readiness&quot;: &quot;Needs Review&quot;
+}</pre>
+<h2>Pages</h2>
+<table><thead><tr><th>Page</th><th>QA</th><th>Review flags</th><th>Sources</th><th>Remaining actions</th><th>Candidate sources</th><th>Draft</th></tr></thead><tbody>
+
+<tr>
+  <td>AI workflow template for onboarding new employees<br><small><code>batch-001-page-001</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for invoice approval routing<br><small><code>batch-001-page-002</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for product feedback triage<br><small><code>batch-001-page-003</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for recruiting interview scorecards<br><small><code>batch-001-page-004</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for sales call summaries<br><small><code>batch-001-page-005</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span> <span class='badge review'>Monetization</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Monetization/disclosure review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for knowledge base article updates<br><small><code>batch-001-page-006</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Copyright/IP</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Copyright/IP review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for project status reporting<br><small><code>batch-001-page-007</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for incident postmortem drafts<br><small><code>batch-001-page-008</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for webinar content repurposing<br><small><code>batch-001-page-009</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Copyright/IP</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Copyright/IP review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for procurement vendor comparison<br><small><code>batch-001-page-010</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for quarterly business review preparation<br><small><code>batch-001-page-011</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md</code></td>
+</tr>
+<tr>
+  <td>AI workflow template for customer research interview synthesis<br><small><code>batch-001-page-012</code></small></td>
+  <td><span class='badge review'>Needs Review</span><br><span class='badge pass'>Staging approved</span></td>
+  <td><span class='badge review'>Sources needed</span> <span class='badge review'>Privacy</span></td>
+  <td><strong>0</strong> accepted<br><small>{&#x27;total_sources&#x27;: 3, &#x27;concrete_urls&#x27;: 0, &#x27;placeholders&#x27;: 3, &#x27;all_sources_publish_ready&#x27;: False}</small></td>
+  <td><ul class='actions'><li>Human review before production publish</li><li>Replace source-plan placeholders with concrete official URLs</li><li>Privacy/data-handling review</li><li>Accept at least 2 more reachable source(s)</li></ul></td>
+  <td>No candidate sources yet</td>
+  <td><code>content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md</code></td>
+</tr>
+</tbody></table>
+</body></html>

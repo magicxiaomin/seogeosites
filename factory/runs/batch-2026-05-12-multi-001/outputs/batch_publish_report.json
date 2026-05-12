@@ -1,0 +1,310 @@
+{
+  "run": "factory/runs/batch-2026-05-12-multi-001",
+  "status": "Needs Review",
+  "generated_pages": [
+    {
+      "opportunity_id": "batch-001-page-001",
+      "topic": "AI workflow template for onboarding new employees",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md",
+      "slug": "ai-workflow-template-for-onboarding-new-employees",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-002",
+      "topic": "AI workflow template for invoice approval routing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md",
+      "slug": "ai-workflow-template-for-invoice-approval-routing",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-003",
+      "topic": "AI workflow template for product feedback triage",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md",
+      "slug": "ai-workflow-template-for-product-feedback-triage",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-004",
+      "topic": "AI workflow template for recruiting interview scorecards",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md",
+      "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-005",
+      "topic": "AI workflow template for sales call summaries",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md",
+      "slug": "ai-workflow-template-for-sales-call-summaries",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": true,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review",
+        "Monetization/disclosure review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-006",
+      "topic": "AI workflow template for knowledge base article updates",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md",
+      "slug": "ai-workflow-template-for-knowledge-base-article-updates",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": true,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Copyright/IP review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-007",
+      "topic": "AI workflow template for project status reporting",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md",
+      "slug": "ai-workflow-template-for-project-status-reporting",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-008",
+      "topic": "AI workflow template for incident postmortem drafts",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md",
+      "slug": "ai-workflow-template-for-incident-postmortem-drafts",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-009",
+      "topic": "AI workflow template for webinar content repurposing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md",
+      "slug": "ai-workflow-template-for-webinar-content-repurposing",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": true,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Copyright/IP review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-010",
+      "topic": "AI workflow template for procurement vendor comparison",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md",
+      "slug": "ai-workflow-template-for-procurement-vendor-comparison",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-011",
+      "topic": "AI workflow template for quarterly business review preparation",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md",
+      "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": false,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    },
+    {
+      "opportunity_id": "batch-001-page-012",
+      "topic": "AI workflow template for customer research interview synthesis",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md",
+      "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
+      "qa_status": "Needs Review",
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "copyright_review_required": false,
+        "monetization_review_required": false,
+        "high_risk_topic": false
+      },
+      "blockers": [],
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "staging_approved": true,
+      "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+      "staging_approval_mode": "automated",
+      "staging_approval_scope": "preview_only_not_production_publish"
+    }
+  ],
+  "batch_qa_summary": {
+    "status_counts": {
+      "Needs Review": 12
+    },
+    "review_flag_counts": {
+      "missing_concrete_source_urls": 12,
+      "privacy_review_required": 6,
+      "monetization_review_required": 1,
+      "copyright_review_required": 2
+    },
+    "publish_readiness": "Needs Review"
+  },
+  "publish_allowed": false,
+  "reason": "Staging preview is automatically approved; production publish remains governed by publish_allowed and publish-gate validation.",
+  "staging_approved": true,
+  "staging_approved_at": "2026-05-12T23:08:27.905845+00:00",
+  "staging_approval_mode": "automated",
+  "staging_approval_scope": "preview_only_not_production_publish",
+  "production_publish_allowed": false
+}

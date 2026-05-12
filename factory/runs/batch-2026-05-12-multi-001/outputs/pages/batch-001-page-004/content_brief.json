@@ -1,0 +1,55 @@
+{
+  "cluster_brief": {
+    "cluster_name": "AI workflow templates for recruiting teams",
+    "pillar_page": "/ai-workflow-template-for-recruiting-interview-scorecards/",
+    "supporting_pages": [
+      "/ai-workflow-template-for-recruiting-interview-scorecards-checklist/",
+      "/ai-workflow-template-for-recruiting-interview-scorecards-examples/",
+      "/ai-workflow-template-for-recruiting-interview-scorecards-faq/"
+    ],
+    "internal_link_plan": [
+      "homepage -> pillar",
+      "pillar -> supporting pages",
+      "supporting pages -> pillar"
+    ],
+    "geo_structure_requirements": [
+      "direct answer block",
+      "definition box",
+      "step-by-step workflow",
+      "FAQ",
+      "claim/evidence table"
+    ],
+    "schema_plan": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "page_brief": {
+    "page_title": "Ai Workflow Template For Recruiting Interview Scorecards",
+    "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
+    "search_intent": "template",
+    "direct_answer_block": "Ai Workflow Template For Recruiting Interview Scorecards should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.",
+    "outline": [
+      "Direct answer",
+      "What this is",
+      "Recommended workflow",
+      "Evidence and source notes",
+      "Review checklist",
+      "FAQ"
+    ],
+    "faq_questions": [
+      "What problem does this solve?",
+      "What evidence is needed before publishing?",
+      "When should a human review it?"
+    ],
+    "source_notes": [
+      "Official ATS documentation",
+      "Public structured interview guidance from reputable institutions",
+      "Internal HR policy supplied by reviewer"
+    ],
+    "update_notes": [
+      "Review quarterly or when source/tool capabilities materially change."
+    ]
+  }
+}

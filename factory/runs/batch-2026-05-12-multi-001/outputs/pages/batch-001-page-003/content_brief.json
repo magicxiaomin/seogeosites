@@ -1,0 +1,55 @@
+{
+  "cluster_brief": {
+    "cluster_name": "AI workflow templates for product teams",
+    "pillar_page": "/ai-workflow-template-for-product-feedback-triage/",
+    "supporting_pages": [
+      "/ai-workflow-template-for-product-feedback-triage-checklist/",
+      "/ai-workflow-template-for-product-feedback-triage-examples/",
+      "/ai-workflow-template-for-product-feedback-triage-faq/"
+    ],
+    "internal_link_plan": [
+      "homepage -> pillar",
+      "pillar -> supporting pages",
+      "supporting pages -> pillar"
+    ],
+    "geo_structure_requirements": [
+      "direct answer block",
+      "definition box",
+      "step-by-step workflow",
+      "FAQ",
+      "claim/evidence table"
+    ],
+    "schema_plan": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "page_brief": {
+    "page_title": "Ai Workflow Template For Product Feedback Triage",
+    "slug": "ai-workflow-template-for-product-feedback-triage",
+    "search_intent": "guide and template",
+    "direct_answer_block": "Ai Workflow Template For Product Feedback Triage should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.",
+    "outline": [
+      "Direct answer",
+      "What this is",
+      "Recommended workflow",
+      "Evidence and source notes",
+      "Review checklist",
+      "FAQ"
+    ],
+    "faq_questions": [
+      "What problem does this solve?",
+      "What evidence is needed before publishing?",
+      "When should a human review it?"
+    ],
+    "source_notes": [
+      "Official product analytics docs",
+      "Official support-ticket export docs",
+      "Public product management framework sources"
+    ],
+    "update_notes": [
+      "Review quarterly or when source/tool capabilities materially change."
+    ]
+  }
+}

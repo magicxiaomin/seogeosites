@@ -1,0 +1,55 @@
+{
+  "cluster_brief": {
+    "cluster_name": "AI workflow templates for business operations",
+    "pillar_page": "/ai-workflow-template-for-onboarding-new-employees/",
+    "supporting_pages": [
+      "/ai-workflow-template-for-onboarding-new-employees-checklist/",
+      "/ai-workflow-template-for-onboarding-new-employees-examples/",
+      "/ai-workflow-template-for-onboarding-new-employees-faq/"
+    ],
+    "internal_link_plan": [
+      "homepage -> pillar",
+      "pillar -> supporting pages",
+      "supporting pages -> pillar"
+    ],
+    "geo_structure_requirements": [
+      "direct answer block",
+      "definition box",
+      "step-by-step workflow",
+      "FAQ",
+      "claim/evidence table"
+    ],
+    "schema_plan": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "page_brief": {
+    "page_title": "Ai Workflow Template For Onboarding New Employees",
+    "slug": "ai-workflow-template-for-onboarding-new-employees",
+    "search_intent": "template and implementation guide",
+    "direct_answer_block": "Ai Workflow Template For Onboarding New Employees should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.",
+    "outline": [
+      "Direct answer",
+      "What this is",
+      "Recommended workflow",
+      "Evidence and source notes",
+      "Review checklist",
+      "FAQ"
+    ],
+    "faq_questions": [
+      "What problem does this solve?",
+      "What evidence is needed before publishing?",
+      "When should a human review it?"
+    ],
+    "source_notes": [
+      "Official HRIS/help center docs for data export rules",
+      "Official Google Workspace or Microsoft 365 docs for shared documents",
+      "Company policy examples provided by editorial team"
+    ],
+    "update_notes": [
+      "Review quarterly or when source/tool capabilities materially change."
+    ]
+  }
+}

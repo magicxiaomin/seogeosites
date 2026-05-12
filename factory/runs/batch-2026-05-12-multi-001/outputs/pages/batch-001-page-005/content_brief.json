@@ -1,0 +1,55 @@
+{
+  "cluster_brief": {
+    "cluster_name": "AI workflow templates for sales teams",
+    "pillar_page": "/ai-workflow-template-for-sales-call-summaries/",
+    "supporting_pages": [
+      "/ai-workflow-template-for-sales-call-summaries-checklist/",
+      "/ai-workflow-template-for-sales-call-summaries-examples/",
+      "/ai-workflow-template-for-sales-call-summaries-faq/"
+    ],
+    "internal_link_plan": [
+      "homepage -> pillar",
+      "pillar -> supporting pages",
+      "supporting pages -> pillar"
+    ],
+    "geo_structure_requirements": [
+      "direct answer block",
+      "definition box",
+      "step-by-step workflow",
+      "FAQ",
+      "claim/evidence table"
+    ],
+    "schema_plan": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  "page_brief": {
+    "page_title": "Ai Workflow Template For Sales Call Summaries",
+    "slug": "ai-workflow-template-for-sales-call-summaries",
+    "search_intent": "template and examples",
+    "direct_answer_block": "Ai Workflow Template For Sales Call Summaries should be built as an evidence-backed guide with a direct answer, step-by-step structure, source notes, and human review triggers before production publishing.",
+    "outline": [
+      "Direct answer",
+      "What this is",
+      "Recommended workflow",
+      "Evidence and source notes",
+      "Review checklist",
+      "FAQ"
+    ],
+    "faq_questions": [
+      "What problem does this solve?",
+      "What evidence is needed before publishing?",
+      "When should a human review it?"
+    ],
+    "source_notes": [
+      "Official CRM docs",
+      "Official meeting transcript product docs",
+      "Internal sales process supplied by reviewer"
+    ],
+    "update_notes": [
+      "Review quarterly or when source/tool capabilities materially change."
+    ]
+  }
+}

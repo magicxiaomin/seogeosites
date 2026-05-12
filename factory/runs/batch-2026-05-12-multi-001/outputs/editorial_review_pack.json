@@ -1,0 +1,459 @@
+{
+  "run": "factory/runs/batch-2026-05-12-multi-001",
+  "staging_approved": true,
+  "approval_scope": "preview_only_not_production_publish",
+  "production_publish_allowed": false,
+  "publish_readiness": "Needs Review",
+  "pages": [
+    {
+      "opportunity_id": "batch-001-page-001",
+      "topic": "AI workflow template for onboarding new employees",
+      "slug": "ai-workflow-template-for-onboarding-new-employees",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-onboarding-new-employees.md",
+      "preview_path": "/ai-workflow-template-for-onboarding-new-employees.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-002",
+      "topic": "AI workflow template for invoice approval routing",
+      "slug": "ai-workflow-template-for-invoice-approval-routing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-invoice-approval-routing.md",
+      "preview_path": "/ai-workflow-template-for-invoice-approval-routing.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-003",
+      "topic": "AI workflow template for product feedback triage",
+      "slug": "ai-workflow-template-for-product-feedback-triage",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-product-feedback-triage.md",
+      "preview_path": "/ai-workflow-template-for-product-feedback-triage.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-004",
+      "topic": "AI workflow template for recruiting interview scorecards",
+      "slug": "ai-workflow-template-for-recruiting-interview-scorecards",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-recruiting-interview-scorecards.md",
+      "preview_path": "/ai-workflow-template-for-recruiting-interview-scorecards.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-005",
+      "topic": "AI workflow template for sales call summaries",
+      "slug": "ai-workflow-template-for-sales-call-summaries",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-sales-call-summaries.md",
+      "preview_path": "/ai-workflow-template-for-sales-call-summaries.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true,
+        "monetization_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review",
+        "Monetization/disclosure review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-006",
+      "topic": "AI workflow template for knowledge base article updates",
+      "slug": "ai-workflow-template-for-knowledge-base-article-updates",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-knowledge-base-article-updates.md",
+      "preview_path": "/ai-workflow-template-for-knowledge-base-article-updates.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "copyright_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Copyright/IP review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-007",
+      "topic": "AI workflow template for project status reporting",
+      "slug": "ai-workflow-template-for-project-status-reporting",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-project-status-reporting.md",
+      "preview_path": "/ai-workflow-template-for-project-status-reporting.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-008",
+      "topic": "AI workflow template for incident postmortem drafts",
+      "slug": "ai-workflow-template-for-incident-postmortem-drafts",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-incident-postmortem-drafts.md",
+      "preview_path": "/ai-workflow-template-for-incident-postmortem-drafts.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-009",
+      "topic": "AI workflow template for webinar content repurposing",
+      "slug": "ai-workflow-template-for-webinar-content-repurposing",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-webinar-content-repurposing.md",
+      "preview_path": "/ai-workflow-template-for-webinar-content-repurposing.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "copyright_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Copyright/IP review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-010",
+      "topic": "AI workflow template for procurement vendor comparison",
+      "slug": "ai-workflow-template-for-procurement-vendor-comparison",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-procurement-vendor-comparison.md",
+      "preview_path": "/ai-workflow-template-for-procurement-vendor-comparison.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-011",
+      "topic": "AI workflow template for quarterly business review preparation",
+      "slug": "ai-workflow-template-for-quarterly-business-review-preparation",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-quarterly-business-review-preparation.md",
+      "preview_path": "/ai-workflow-template-for-quarterly-business-review-preparation.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    },
+    {
+      "opportunity_id": "batch-001-page-012",
+      "topic": "AI workflow template for customer research interview synthesis",
+      "slug": "ai-workflow-template-for-customer-research-interview-synthesis",
+      "draft_path": "content/sites/productivity-ai-pilot/pages/ai-workflow-template-for-customer-research-interview-synthesis.md",
+      "preview_path": "/ai-workflow-template-for-customer-research-interview-synthesis.html",
+      "qa_status": "Needs Review",
+      "staging_approved": true,
+      "production_publish_allowed": false,
+      "review_flags": {
+        "missing_concrete_source_urls": true,
+        "privacy_review_required": true
+      },
+      "source_summary": {
+        "accepted_reachable_count": 0,
+        "accepted_sources": []
+      },
+      "qa_checks": {
+        "seo_quality": "Pass",
+        "content_usefulness": "Pass",
+        "evidence_source_integrity": "Needs Review: concrete official source URLs required",
+        "geo_readiness": "Pass",
+        "anti_spam_scaled_abuse": "Pass",
+        "technical_publishing": "Pass"
+      },
+      "required_before_publish": [
+        "Human review before production publish",
+        "Replace source-plan placeholders with concrete official URLs",
+        "Privacy/data-handling review"
+      ],
+      "reviewer_decision_options": [
+        "approve_for_production_batch",
+        "request_edits",
+        "reject_or_defer"
+      ],
+      "reviewer_decision": "",
+      "reviewer_notes": ""
+    }
+  ]
+}
