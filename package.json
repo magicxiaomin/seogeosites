@@ -9,8 +9,10 @@
     "factory:check-sources": "python3 factory/scripts/check_candidate_sources.py",
     "factory:accept-sources": "python3 factory/scripts/accept_sources.py",
     "factory:dashboard": "python3 factory/scripts/build_qa_dashboard.py",
+    "factory:review-checklists": "python3 factory/scripts/generate_review_checklists.py",
     "build": "python3 factory/scripts/build_static_site.py",
     "validate": "python3 factory/scripts/validate_factory_run.py factory/runs/sample",
+    "validate:pilot": "python3 factory/scripts/validate_factory_run.py factory/runs/pilot-001",
     "serve": "python3 -m http.server 18766 --directory public"
   },
   "devDependencies": {}

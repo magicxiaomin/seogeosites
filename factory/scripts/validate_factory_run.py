@@ -38,6 +38,29 @@ if args.stage == "full":
     if qa["status"] not in ["Pass", "Needs Review", "Block"]:
         raise SystemExit("Invalid QA status")
     result["qa_status"] = qa["status"]
+
+    batch_path = run / "outputs/batch_publish_report.json"
+    if batch_path.exists():
+        batch = json.loads(batch_path.read_text())
+        pages = batch.get("generated_pages", [])
+        if not pages:
+            raise SystemExit("Batch publish report has no generated_pages")
+        invalid_statuses = [p.get("opportunity_id") for p in pages if p.get("qa_status") not in ["Pass", "Needs Review", "Block"]]
+        if invalid_statuses:
+            raise SystemExit("Invalid page QA status for: " + ", ".join(invalid_statuses))
+        missing_page_outputs = []
+        for page in pages:
+            oid = page.get("opportunity_id")
+            for name in ["evidence_plan.json", "source_verification.json", "site_placement_decision.json", "content_brief.json", "qa_report.json"]:
+                if not (run / "outputs" / "pages" / oid / name).exists():
+                    missing_page_outputs.append(f"{oid}/{name}")
+        if missing_page_outputs:
+            raise SystemExit("Missing per-page outputs: " + ", ".join(missing_page_outputs))
+        if batch.get("publish_allowed") is True and batch.get("status") != "Pass":
+            raise SystemExit("publish_allowed cannot be true unless batch status is Pass")
+        result["batch_status"] = batch.get("status")
+        result["generated_pages"] = len(pages)
+        result["publish_allowed"] = batch.get("publish_allowed")
 else:
     strategy = json.loads((run / "outputs/strategy_classification.json").read_text())
     result["classified_opportunities"] = len(strategy)

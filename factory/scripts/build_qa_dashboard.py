@@ -24,6 +24,12 @@ def main():
         out = root / out
     out.parent.mkdir(parents=True, exist_ok=True)
     batch = load_json(run / "outputs" / "batch_publish_report.json")
+    checklist_rel = None
+    checklist_path = run / "outputs" / "review_checklists.md"
+    if checklist_path.exists():
+        public_checklist = public / "review-checklists.md"
+        public_checklist.write_text(checklist_path.read_text(encoding="utf-8"), encoding="utf-8")
+        checklist_rel = public_checklist.relative_to(public)
     rows = []
     for page in batch["generated_pages"]:
         oid = page["opportunity_id"]
@@ -61,6 +67,7 @@ code{{white-space:normal}} .status{{font-size:20px;font-weight:700}}
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>{html.escape(str(run.relative_to(root)))}</code></p>
 <p class="status">Batch readiness: {html.escape(batch.get('status','unknown'))} · publish_allowed: {html.escape(str(batch.get('publish_allowed')))}</p>
+<p>{'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'}</p>
 <h2>Batch summary</h2>
 <pre>{html.escape(json.dumps(summary, indent=2))}</pre>
 <h2>Pages</h2>
