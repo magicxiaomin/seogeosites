@@ -1,0 +1,75 @@
+{
+  "run": "factory/runs/pilot-001",
+  "simulation_only": true,
+  "production_publish_allowed": false,
+  "current_publish_allowed_field": false,
+  "publish_readiness": "Needs Review",
+  "can_enter_human_publish_review_queue": true,
+  "would_enable_publish_after_this_simulation": false,
+  "missing_before_production_publish": [
+    "human_editorial_decisions_recorded",
+    "publish_batch_approval",
+    "final_brand_domain_decision",
+    "trust_pages_finalized",
+    "production_robots_indexing_plan",
+    "analytics_search_console_hooks_if_credentials_exist"
+  ],
+  "page_gaps": [
+    {
+      "opportunity_id": "pilot-001-page-001",
+      "slug": "ai-workflow-template-for-meeting-notes-and-action-items",
+      "ready_for_publish_batch_after_human_review": true,
+      "required_before_publish": [
+        "Human review before production publish"
+      ],
+      "active_review_flags": []
+    },
+    {
+      "opportunity_id": "pilot-001-page-002",
+      "slug": "ai-workflow-template-for-customer-support-triage",
+      "ready_for_publish_batch_after_human_review": true,
+      "required_before_publish": [
+        "Human review before production publish",
+        "Privacy/data-handling review"
+      ],
+      "active_review_flags": [
+        "privacy_review_required"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-003",
+      "slug": "ai-workflow-template-for-weekly-business-reporting",
+      "ready_for_publish_batch_after_human_review": true,
+      "required_before_publish": [
+        "Human review before production publish"
+      ],
+      "active_review_flags": []
+    },
+    {
+      "opportunity_id": "pilot-001-page-004",
+      "slug": "ai-workflow-template-for-content-repurposing",
+      "ready_for_publish_batch_after_human_review": true,
+      "required_before_publish": [
+        "Human review before production publish",
+        "Copyright/IP review"
+      ],
+      "active_review_flags": [
+        "copyright_review_required"
+      ]
+    },
+    {
+      "opportunity_id": "pilot-001-page-005",
+      "slug": "ai-workflow-template-for-sales-follow-up-notes",
+      "ready_for_publish_batch_after_human_review": true,
+      "required_before_publish": [
+        "Human review before production publish",
+        "Privacy/data-handling review",
+        "Monetization/disclosure review"
+      ],
+      "active_review_flags": [
+        "privacy_review_required",
+        "monetization_review_required"
+      ]
+    }
+  ]
+}

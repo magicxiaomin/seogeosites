@@ -55,6 +55,9 @@ jobs:
       - name: Validate strategy artifacts
         run: npm run validate:strategy-artifacts
 
+      - name: Simulate production readiness without enabling publish
+        run: npm run factory:simulate-production-readiness
+
       - name: Build QA dashboard
         run: npm run factory:dashboard
 
