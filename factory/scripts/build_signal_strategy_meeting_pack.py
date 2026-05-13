@@ -29,6 +29,14 @@ def level(score):
     return "low"
 
 
+def credible_signal_count(candidate):
+    return sum(
+        1
+        for signal in candidate.get("observed_signals", [])
+        if signal.get("strength") in {"medium", "strong"}
+    )
+
+
 def classify(candidate):
     risk = candidate.get("risk", {})
     if risk.get("veto") in {"reject", "defer"}:
@@ -38,9 +46,12 @@ def classify(candidate):
     geo = candidate.get("geo_likelihood", {}).get("score", 0)
     evidence = candidate.get("evidence_availability", {}).get("score", 0)
     total = demand + capture + geo + evidence
-    if demand >= 3 and capture >= 3 and geo >= 3 and evidence >= 3:
+    credible = credible_signal_count(candidate)
+    # Do not recommend a production opportunity pool from weak/noisy public mentions alone.
+    # A candidate needs at least one credible observed signal plus good demand/capture/GEO/evidence scores.
+    if demand >= 4 and capture >= 3 and geo >= 3 and evidence >= 3 and credible >= 1:
         return "recommend_for_opportunity_pool"
-    if total >= 10:
+    if total >= 10 or credible >= 1:
         return "watch_or_research_more"
     return "defer"
 
@@ -139,7 +150,7 @@ def main():
         "target_site": data.get("target_site"),
         "target_region_language": data.get("target_region_language"),
         "signal_sources_to_use_next": data.get("signal_sources_to_use_next", []),
-        "decision_rule": "Only candidates with credible demand signals, capture likelihood, GEO fit, evidence path, and no risk veto should enter the opportunity pool. Staging examples remain research/watch items until external signals are attached.",
+        "decision_rule": "Only candidates with credible demand signals, capture likelihood, GEO fit, evidence path, and no risk veto should enter the opportunity pool. Public-signal scan candidates need at least one medium/strong observed signal; weak/noisy mentions stay in watch/research.",
         "ranked_candidates": ranked,
         "recommended_pool": [c for c in ranked if c["strategy_score"]["recommendation"] == "recommend_for_opportunity_pool"],
         "watch_or_research_more": [c for c in ranked if c["strategy_score"]["recommendation"] == "watch_or_research_more"],

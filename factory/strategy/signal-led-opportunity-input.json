@@ -1,123 +1,1029 @@
 {
   "run_type": "signal_led_strategy_meeting",
-  "status": "template_plus_staging_examples_not_external_signal_verified",
+  "status": "public_signal_scan_v1_partial",
   "target_site": "productivity-ai-pilot",
   "target_region_language": "en-US initially unless changed by human",
-  "strategy_goal": "Find traffic-capturable SEO/GEO opportunities from signals before creating content clusters or pages.",
+  "strategy_goal": "Find traffic-capturable SEO/GEO opportunities from public signals before creating content clusters or pages.",
   "signal_sources_to_use_next": [
-    "Google Trends / keyword tool exports",
-    "Search Console once production site exists",
-    "SERP sampling and People Also Ask",
-    "competitor URL/content-structure observations",
-    "community questions from Reddit, forums, YouTube, X, Hacker News, Product Hunt, app stores",
+    "Keyword tool exports / Google Trends for demand validation",
+    "SERP sampling and People Also Ask for capture likelihood",
+    "Competitor URL/content-structure observations",
+    "Community questions from Reddit, forums, YouTube, X, Hacker News, Product Hunt, app stores",
     "AI answer gap sampling from ChatGPT/Perplexity/Gemini prompts",
-    "official product docs, changelogs, standards, and public datasets"
+    "Official product docs, changelogs, standards, and public datasets"
   ],
   "candidates": [
     {
-      "candidate_id": "sig-2026-05-12-001",
-      "working_topic": "AI workflow template for onboarding new employees",
-      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "candidate_id": "sig-real-ai-browsers-and-agent-browsers",
+      "working_topic": "AI browsers and agent browsers",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
       "observed_signals": [
         {
-          "source": "pipeline validation batch",
-          "evidence": "Selected as low/medium-risk workflow-template hypothesis",
+          "source": "Hacker News search",
+          "evidence": "AI browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
           "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Game evolves itself with your wishes (2 points, 0 comments)",
+          "url": "https://aion.quest/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Ask HN: Is anyone still using the ChatGPT browser, Atlas? (4 points, 2 comments)",
+          "url": "https://news.ycombinator.com/item?id=47958267",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do (185 points, 77 comments)",
+          "url": "https://alash3al.github.io/stash?_v01",
+          "strength": "medium"
         }
       ],
       "query_patterns": [
-        "ai workflow template for onboarding new employees",
-        "onboarding new employees ai workflow template",
-        "new employee onboarding workflow checklist"
+        "AI browser",
+        "agent browser",
+        "ChatGPT Atlas",
+        "Perplexity Comet",
+        "browser agent"
       ],
-      "intent": "template and implementation guide",
+      "intent": "comparison and product decision",
       "demand_signal": {
-        "score": 2,
-        "rationale": "Plausible long-tail demand, but no external trend/volume data has been attached yet."
+        "score": 4,
+        "rationale": "Observed 15 HN items, 314 points, 143 comments, wiki_views=n/a."
       },
       "capture_likelihood": {
         "score": 3,
-        "rationale": "Specific long-tail intent is more capturable than a broad AI/HR head term."
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
       },
       "geo_likelihood": {
         "score": 4,
-        "rationale": "Workflow/checklist/template content is extractable for AI answers."
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
       },
       "evidence_availability": {
         "score": 3,
-        "rationale": "Official HR/workspace sources exist; production examples still need reviewer input."
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
       },
       "strategic_fit": {
-        "score": 3,
-        "rationale": "Fits a productivity/AI workflow pilot cluster."
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
       },
       "risk": {
         "veto": "pass",
-        "flags": [
-          "employee data privacy review required"
-        ]
+        "flags": []
       },
-      "recommended_action": "watch_or_research_more_before_publish_pool",
-      "why_now": "Useful only as a workflow-template hypothesis until real signal evidence is attached.",
-      "why_us": "Could win by providing privacy-aware implementation assets, but needs demand validation.",
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
       "next_research_tasks": [
-        "Validate query demand",
-        "Sample SERP difficulty",
-        "Check AI answer gaps",
-        "Collect official HRIS/workspace docs"
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
       ]
     },
     {
-      "candidate_id": "sig-2026-05-12-002",
-      "working_topic": "AI workflow template for invoice approval routing",
-      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "candidate_id": "sig-real-ai-meeting-recorders-and-meeting-not",
+      "working_topic": "AI meeting recorders and meeting notes",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
       "observed_signals": [
         {
-          "source": "pipeline validation batch",
-          "evidence": "Selected as finance-ops workflow-template hypothesis",
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: AI overlay that stays invisible to screen recorders (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48112504",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder (37 points, 11 comments)",
+          "url": "https://news.ycombinator.com/item?id=48110593",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: DualDoc – A text editor for the AI age (1 points, 0 comments)",
+          "url": "https://www.dualdoc.xyz",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Our keyboards are tracking us (11 points, 6 comments)",
+          "url": "https://news.ycombinator.com/item?id=48092999",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Scrivent: On-device voice recorder with transcription and speaker labeling (iOS) (2 points, 0 comments)",
+          "url": "https://apps.apple.com/us/app/scrivent-meeting-recorder/id6761007713",
           "strength": "weak"
         }
       ],
       "query_patterns": [
-        "ai workflow template for invoice approval routing",
-        "invoice approval routing workflow template",
-        "accounts payable ai workflow checklist"
+        "AI meeting recorder",
+        "AI meeting notes",
+        "meeting transcription AI",
+        "Granola AI",
+        "Fathom AI"
       ],
-      "intent": "workflow template",
+      "intent": "tool selection and workflow setup",
       "demand_signal": {
-        "score": 2,
-        "rationale": "Plausible long-tail operational need, but no real volume/trend evidence attached yet."
+        "score": 4,
+        "rationale": "Observed 15 HN items, 337 points, 136 comments, wiki_views=n/a."
       },
       "capture_likelihood": {
         "score": 3,
-        "rationale": "Specific operational workflow may be capturable if SERP lacks practical templates."
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
       },
       "geo_likelihood": {
         "score": 4,
-        "rationale": "Decision rules and checklist format are suitable for AI answer extraction."
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
       },
       "evidence_availability": {
         "score": 3,
-        "rationale": "Official invoice/AP platform docs exist; avoid financial advice."
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
       },
       "strategic_fit": {
-        "score": 3,
-        "rationale": "Fits business operations workflow cluster if demand is confirmed."
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
       },
       "risk": {
         "veto": "pass",
-        "flags": [
-          "vendor data privacy",
-          "avoid financial advice"
-        ]
+        "flags": []
       },
-      "recommended_action": "watch_or_research_more_before_publish_pool",
-      "why_now": "Use as a validation example, not as a confirmed traffic target yet.",
-      "why_us": "Could win with a clear routing/checklist asset if SERP is weak.",
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
       "next_research_tasks": [
-        "Validate query demand",
-        "Inspect SERP template quality",
-        "Attach official AP/invoicing sources"
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ]
+    },
+    {
+      "candidate_id": "sig-real-ai-coding-agents",
+      "working_topic": "AI coding agents",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: The Emotional Cost of AI-Assisted Coding (2 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114954",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs (1 points, 0 comments)",
+          "url": "https://gitglimpse.com",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: Prempti – Guardrails and observability for AI coding agents (2 points, 0 comments)",
+          "url": "https://falco.org/blog/introducing-prempti/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Source Claude Code Offer to Help (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48115222",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Vibe – an interactive web dev course in Claude Code (1 points, 1 comments)",
+          "url": "https://openvibe.sh/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Dexgram – Telegram to Codex Desktop Bridge for Windows (1 points, 0 comments)",
+          "url": "https://github.com/yashau/dexgram",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "AI coding agent",
+        "Claude Code",
+        "Codex CLI",
+        "OpenAI Codex",
+        "agentic coding"
+      ],
+      "intent": "tool comparison and implementation workflow",
+      "demand_signal": {
+        "score": 3,
+        "rationale": "Observed 15 HN items, 36 points, 5 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ]
+    },
+    {
+      "candidate_id": "sig-real-ai-search-and-answer-engines",
+      "working_topic": "AI search and answer engines",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Designing, Refining, and Maintaining Agent Skills at Perplexity (2 points, 0 comments)",
+          "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Show HN: Desktop Agent Center – Local AI Automation via Hotkeys (1 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48047444",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Perplexity Computer for Professional Finance (2 points, 0 comments)",
+          "url": "https://xcancel.com/perplexity_ai/status/2051693893473935372",
+          "strength": "weak"
+        },
+        {
+          "source": "Wikipedia pageviews proxy",
+          "evidence": "Perplexity AI had 120855 recent-window pageviews on matching Wikipedia page title",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: I trained a chess engine to play like humans (14 points, 3 comments)",
+          "url": "https://news.ycombinator.com/item?id=48088819",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: AniTroves – An anime database with a custom LLM-based discovery hub (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48057592",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: Gulugulu, an old-style client-side search engine for the old weird web (3 points, 2 comments)",
+          "url": "https://cbrincoveanu.github.io/gulugulu/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT search: Show HN: BotParty, a native macOS chat app where conversations are documents (2 points, 0 comments)",
+          "url": "https://botparty.com/",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "Perplexity AI",
+        "AI search engine",
+        "ChatGPT search",
+        "Google AI Mode",
+        "answer engine optimization"
+      ],
+      "intent": "explainers, comparisons, and strategy guides",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 42 points, 7 comments, wiki_views=120855."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ]
+    }
+  ],
+  "raw_observations": [
+    {
+      "seed": {
+        "theme": "AI browsers and agent browsers",
+        "queries": [
+          "AI browser",
+          "agent browser",
+          "ChatGPT Atlas",
+          "Perplexity Comet",
+          "browser agent"
+        ],
+        "default_intent": "comparison and product decision"
+      },
+      "observations": [
+        {
+          "source": "hn_algolia",
+          "query": "AI browser",
+          "items": [
+            {
+              "title": "Looking for design partners – Building Agent-mediated communication",
+              "url": "https://news.ycombinator.com/item?id=48114036",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T20:26:11Z"
+            },
+            {
+              "title": "Show HN: Game evolves itself with your wishes",
+              "url": "https://aion.quest/",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T18:24:57Z"
+            },
+            {
+              "title": "Show HN: Agentic interface for mainframes and COBOL",
+              "url": "https://www.hypercubic.ai/hopper",
+              "points": 46,
+              "comments": 30,
+              "created_at": "2026-05-12T17:10:22Z"
+            },
+            {
+              "title": "Show HN: How we made MCP development feel good",
+              "url": "https://manufact.com/blog/mcp-testing",
+              "points": 6,
+              "comments": 0,
+              "created_at": "2026-05-12T16:55:42Z"
+            },
+            {
+              "title": "Replacing browser-agent tool loops with eval() in a Chrome sandbox",
+              "url": "https://www.rtrvr.ai/blog/eval-is-all-you-need-agent-harness",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T16:11:43Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "AI browser",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "agent browser",
+          "items": [
+            {
+              "title": "Looking for design partners – Building Agent-mediated communication",
+              "url": "https://news.ycombinator.com/item?id=48114036",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T20:26:11Z"
+            },
+            {
+              "title": "Show HN: Agentic interface for mainframes and COBOL",
+              "url": "https://www.hypercubic.ai/hopper",
+              "points": 46,
+              "comments": 30,
+              "created_at": "2026-05-12T17:10:22Z"
+            },
+            {
+              "title": "Show HN: How we made MCP development feel good",
+              "url": "https://manufact.com/blog/mcp-testing",
+              "points": 6,
+              "comments": 0,
+              "created_at": "2026-05-12T16:55:42Z"
+            },
+            {
+              "title": "Replacing browser-agent tool loops with eval() in a Chrome sandbox",
+              "url": "https://www.rtrvr.ai/blog/eval-is-all-you-need-agent-harness",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T16:11:43Z"
+            },
+            {
+              "title": "Show HN: Browser-native replay of an AI agent governance incident",
+              "url": "https://slashlife.ai/agent-gate/demo",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T13:28:58Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "agent browser",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "ChatGPT Atlas",
+          "items": [
+            {
+              "title": "Ask HN: Is anyone still using the ChatGPT browser, Atlas?",
+              "url": "https://news.ycombinator.com/item?id=47958267",
+              "points": 4,
+              "comments": 2,
+              "created_at": "2026-04-30T04:53:30Z"
+            },
+            {
+              "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+              "url": "https://alash3al.github.io/stash?_v01",
+              "points": 185,
+              "comments": 77,
+              "created_at": "2026-04-25T01:24:40Z"
+            },
+            {
+              "title": "Delete ChatGPT Atlas Spyware",
+              "url": "https://news.ycombinator.com/item?id=47789191",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-04-16T05:56:44Z"
+            },
+            {
+              "title": "OpenAI Plans Launch of Desktop 'Superapp'",
+              "url": "https://www.neowin.net/news/openai-to-merge-atlas-browser-chatgpt-and-codex-into-a-single-desktop-super-app/",
+              "points": 7,
+              "comments": 2,
+              "created_at": "2026-03-21T00:02:41Z"
+            },
+            {
+              "title": "Show HN: Open-Source Perplexity Comet and ChatGPT Atlas",
+              "url": "https://github.com/copycat-main/browser-assistant",
+              "points": 4,
+              "comments": 2,
+              "created_at": "2026-03-13T22:27:55Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "ChatGPT Atlas",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        }
+      ]
+    },
+    {
+      "seed": {
+        "theme": "AI meeting recorders and meeting notes",
+        "queries": [
+          "AI meeting recorder",
+          "AI meeting notes",
+          "meeting transcription AI",
+          "Granola AI",
+          "Fathom AI"
+        ],
+        "default_intent": "tool selection and workflow setup"
+      },
+      "observations": [
+        {
+          "source": "hn_algolia",
+          "query": "AI meeting recorder",
+          "items": [
+            {
+              "title": "AI overlay that stays invisible to screen recorders",
+              "url": "https://news.ycombinator.com/item?id=48112504",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T18:42:51Z"
+            },
+            {
+              "title": "Show HN: How we made MCP development feel good",
+              "url": "https://manufact.com/blog/mcp-testing",
+              "points": 6,
+              "comments": 0,
+              "created_at": "2026-05-12T16:55:42Z"
+            },
+            {
+              "title": "Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder",
+              "url": "https://news.ycombinator.com/item?id=48110593",
+              "points": 37,
+              "comments": 11,
+              "created_at": "2026-05-12T16:32:54Z"
+            },
+            {
+              "title": "I built a bot-free local meeting recorder that automates Jira tickets",
+              "url": "https://blueberrybytes.com/en/blog/plan-ai-open-source-bot-free-meeting-recorder",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T12:09:55Z"
+            },
+            {
+              "title": "Show HN: Airlock – self-upgrading compiled AI agents",
+              "url": "https://github.com/airlockrun/airlock/",
+              "points": 4,
+              "comments": 2,
+              "created_at": "2026-05-07T17:10:24Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "AI meeting recorder",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "AI meeting notes",
+          "items": [
+            {
+              "title": "Show HN: DualDoc – A text editor for the AI age",
+              "url": "https://www.dualdoc.xyz",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T16:34:34Z"
+            },
+            {
+              "title": "Our keyboards are tracking us",
+              "url": "https://news.ycombinator.com/item?id=48092999",
+              "points": 11,
+              "comments": 6,
+              "created_at": "2026-05-11T09:58:57Z"
+            },
+            {
+              "title": "Show HN: Dikaletus – meeting recording and transcription using Mistral AI",
+              "url": "https://codeberg.org/MimosaDev/dikaletus",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-09T09:28:32Z"
+            },
+            {
+              "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+              "url": "https://github.com/nex-crm/wuphf",
+              "points": 260,
+              "comments": 115,
+              "created_at": "2026-04-25T08:53:53Z"
+            },
+            {
+              "title": "Show HN: I built a blogging platform (5 years in, struggling with distribution)",
+              "url": "https://blogmaker.app/",
+              "points": 3,
+              "comments": 0,
+              "created_at": "2026-04-21T14:17:47Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "AI meeting notes",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "meeting transcription AI",
+          "items": [
+            {
+              "title": "Show HN: Dikaletus – meeting recording and transcription using Mistral AI",
+              "url": "https://codeberg.org/MimosaDev/dikaletus",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-09T09:28:32Z"
+            },
+            {
+              "title": "Scrivent: On-device voice recorder with transcription and speaker labeling (iOS)",
+              "url": "https://apps.apple.com/us/app/scrivent-meeting-recorder/id6761007713",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-04-29T14:00:12Z"
+            },
+            {
+              "title": "Show HN: HushScribe – Self-contained local meeting transcription for macOS",
+              "url": "https://github.com/drcursor/HushScribe",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-04-09T14:22:23Z"
+            },
+            {
+              "title": "Show HN: Hoeren – Local-only meeting transcription and voice dictation",
+              "url": "https://news.ycombinator.com/item?id=47690846",
+              "points": 4,
+              "comments": 0,
+              "created_at": "2026-04-08T14:37:24Z"
+            },
+            {
+              "title": "Show HN: Migas – Meeting copilot with live speaker labels (no bot, no cloud STT)",
+              "url": "https://migas.ai/",
+              "points": 1,
+              "comments": 2,
+              "created_at": "2026-03-31T15:33:59Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "meeting transcription AI",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        }
+      ]
+    },
+    {
+      "seed": {
+        "theme": "AI coding agents",
+        "queries": [
+          "AI coding agent",
+          "Claude Code",
+          "Codex CLI",
+          "OpenAI Codex",
+          "agentic coding"
+        ],
+        "default_intent": "tool comparison and implementation workflow"
+      },
+      "observations": [
+        {
+          "source": "hn_algolia",
+          "query": "AI coding agent",
+          "items": [
+            {
+              "title": "The Emotional Cost of AI-Assisted Coding",
+              "url": "https://news.ycombinator.com/item?id=48114954",
+              "points": 2,
+              "comments": 1,
+              "created_at": "2026-05-12T21:37:58Z"
+            },
+            {
+              "title": "Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs",
+              "url": "https://gitglimpse.com",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T20:53:55Z"
+            },
+            {
+              "title": "Show HN: Prempti – Guardrails and observability for AI coding agents",
+              "url": "https://falco.org/blog/introducing-prempti/",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T19:04:54Z"
+            },
+            {
+              "title": "Lovable is the first coding agent platform to adopt AIUC-1 (SoC-2 for AI Agents)",
+              "url": "https://www.aiuc-1.com/research/setting-the-standard-for-agentic-development",
+              "points": 10,
+              "comments": 0,
+              "created_at": "2026-05-12T15:42:16Z"
+            },
+            {
+              "title": "Token \"Optimizers\" for AI Coding Agents Are Silently Dangerous",
+              "url": "https://old.reddit.com/r/ClaudeCode/comments/1spiy8t/token_optimizers_for_ai_coding_agents_are/",
+              "points": 3,
+              "comments": 0,
+              "created_at": "2026-05-12T15:36:21Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "AI coding agent",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "Claude Code",
+          "items": [
+            {
+              "title": "Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth",
+              "url": "https://display.dev/",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T23:36:16Z"
+            },
+            {
+              "title": "Open Source Claude Code Offer to Help",
+              "url": "https://news.ycombinator.com/item?id=48115222",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T22:05:30Z"
+            },
+            {
+              "title": "Open Vibe – an interactive web dev course in Claude Code",
+              "url": "https://openvibe.sh/",
+              "points": 1,
+              "comments": 1,
+              "created_at": "2026-05-12T21:05:26Z"
+            },
+            {
+              "title": "Ask HN: How to separate agent harness from code repo?",
+              "url": "https://news.ycombinator.com/item?id=48113536",
+              "points": 2,
+              "comments": 1,
+              "created_at": "2026-05-12T19:52:53Z"
+            },
+            {
+              "title": "CC-Ledger: Claude Code Cost Tracker (Per-Session and Per-PR)",
+              "url": "https://github.com/delta-hq/cc-ledger",
+              "points": 5,
+              "comments": 0,
+              "created_at": "2026-05-12T18:55:31Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "Claude Code",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "Codex CLI",
+          "items": [
+            {
+              "title": "Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth",
+              "url": "https://display.dev/",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T23:36:16Z"
+            },
+            {
+              "title": "Show HN: Dexgram – Telegram to Codex Desktop Bridge for Windows",
+              "url": "https://github.com/yashau/dexgram",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-05-12T22:52:19Z"
+            },
+            {
+              "title": "Open Source Claude Code Offer to Help",
+              "url": "https://news.ycombinator.com/item?id=48115222",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-12T22:05:30Z"
+            },
+            {
+              "title": "The Emotional Cost of AI-Assisted Coding",
+              "url": "https://news.ycombinator.com/item?id=48114954",
+              "points": 2,
+              "comments": 1,
+              "created_at": "2026-05-12T21:37:58Z"
+            },
+            {
+              "title": "Open Vibe – an interactive web dev course in Claude Code",
+              "url": "https://openvibe.sh/",
+              "points": 1,
+              "comments": 1,
+              "created_at": "2026-05-12T21:05:26Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "Codex CLI",
+          "error": "HTTP Error 404: Not Found",
+          "views_recent_window": null
+        }
+      ]
+    },
+    {
+      "seed": {
+        "theme": "AI search and answer engines",
+        "queries": [
+          "Perplexity AI",
+          "AI search engine",
+          "ChatGPT search",
+          "Google AI Mode",
+          "answer engine optimization"
+        ],
+        "default_intent": "explainers, comparisons, and strategy guides"
+      },
+      "observations": [
+        {
+          "source": "hn_algolia",
+          "query": "Perplexity AI",
+          "items": [
+            {
+              "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+              "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-10T14:33:02Z"
+            },
+            {
+              "title": "Show HN: Desktop Agent Center – Local AI Automation via Hotkeys",
+              "url": "https://news.ycombinator.com/item?id=48047444",
+              "points": 1,
+              "comments": 1,
+              "created_at": "2026-05-07T09:53:32Z"
+            },
+            {
+              "title": "Perplexity Computer for Professional Finance",
+              "url": "https://xcancel.com/perplexity_ai/status/2051693893473935372",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-05T21:40:12Z"
+            },
+            {
+              "title": "Show HN: Token Usage Meter 12 Providers and Coding Agent",
+              "url": "https://qlaud.ai",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-05T16:03:47Z"
+            },
+            {
+              "title": "Ask HN: Are you optimizing content for AI Search (GEO) vs. traditional",
+              "url": "https://news.ycombinator.com/item?id=48021462",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-05T12:17:58Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "Perplexity AI",
+          "page_title": "Perplexity_AI",
+          "views_recent_window": 120855
+        },
+        {
+          "source": "hn_algolia",
+          "query": "AI search engine",
+          "items": [
+            {
+              "title": "Show HN: I trained a chess engine to play like humans",
+              "url": "https://news.ycombinator.com/item?id=48088819",
+              "points": 14,
+              "comments": 3,
+              "created_at": "2026-05-10T22:31:29Z"
+            },
+            {
+              "title": "AniTroves – An anime database with a custom LLM-based discovery hub",
+              "url": "https://news.ycombinator.com/item?id=48057592",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-08T02:00:08Z"
+            },
+            {
+              "title": "Show HN: Gulugulu, an old-style client-side search engine for the old weird web",
+              "url": "https://cbrincoveanu.github.io/gulugulu/",
+              "points": 3,
+              "comments": 2,
+              "created_at": "2026-05-06T21:22:50Z"
+            },
+            {
+              "title": "Show HN: 10K English words traced to 4 foundations(Space, Time, Energy, Pattern)",
+              "url": "https://news.ycombinator.com/item?id=48016041",
+              "points": 6,
+              "comments": 0,
+              "created_at": "2026-05-04T22:55:57Z"
+            },
+            {
+              "title": "Zero: Search Engine for AI Agents",
+              "url": "https://www.zero.xyz/",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-04-29T17:33:14Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "AI search engine",
+          "error": "HTTP Error 429: Too Many Requests",
+          "views_recent_window": null
+        },
+        {
+          "source": "hn_algolia",
+          "query": "ChatGPT search",
+          "items": [
+            {
+              "title": "Show HN: BotParty, a native macOS chat app where conversations are documents",
+              "url": "https://botparty.com/",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-05-06T09:36:18Z"
+            },
+            {
+              "title": "Show HN: MAItion – Open-source RAG with pluggable connectors and chat UI",
+              "url": "https://github.com/WikiTeq/mAItion",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-04-29T22:26:13Z"
+            },
+            {
+              "title": "Show HN: PatchWork – A 5-pass dedup pipeline to merge N resumes into one profile",
+              "url": "https://usepatch.work/",
+              "points": 1,
+              "comments": 0,
+              "created_at": "2026-04-29T06:03:59Z"
+            },
+            {
+              "title": "Ask HN: How do you use AI at your regulated, restrictive company?",
+              "url": "https://news.ycombinator.com/item?id=47912605",
+              "points": 1,
+              "comments": 1,
+              "created_at": "2026-04-26T18:31:05Z"
+            },
+            {
+              "title": "ChatGPT ads expand to logged-out users",
+              "url": "https://searchengineland.com/chatgpt-ads-expand-to-logged-out-users-475377",
+              "points": 2,
+              "comments": 0,
+              "created_at": "2026-04-23T19:09:11Z"
+            }
+          ]
+        },
+        {
+          "source": "wikipedia_pageviews",
+          "query": "ChatGPT search",
+          "error": "HTTP Error 429: Too Many Requests",
+          "views_recent_window": null
+        }
       ]
     }
   ]

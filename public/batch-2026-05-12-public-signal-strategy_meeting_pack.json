@@ -1,0 +1,837 @@
+{
+  "status": "strategy_meeting_pack_not_content_production_approval",
+  "production_publish_allowed": false,
+  "purpose": "Find traffic-capturable SEO/GEO opportunities from public signals before creating content clusters or pages.",
+  "target_site": "productivity-ai-pilot",
+  "target_region_language": "en-US initially unless changed by human",
+  "signal_sources_to_use_next": [
+    "Keyword tool exports / Google Trends for demand validation",
+    "SERP sampling and People Also Ask for capture likelihood",
+    "Competitor URL/content-structure observations",
+    "Community questions from Reddit, forums, YouTube, X, Hacker News, Product Hunt, app stores",
+    "AI answer gap sampling from ChatGPT/Perplexity/Gemini prompts",
+    "Official product docs, changelogs, standards, and public datasets"
+  ],
+  "decision_rule": "Only candidates with credible demand signals, capture likelihood, GEO fit, evidence path, and no risk veto should enter the opportunity pool. Public-signal scan candidates need at least one medium/strong observed signal; weak/noisy mentions stay in watch/research.",
+  "ranked_candidates": [
+    {
+      "candidate_id": "sig-real-ai-browsers-and-agent-browsers",
+      "working_topic": "AI browsers and agent browsers",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Game evolves itself with your wishes (2 points, 0 comments)",
+          "url": "https://aion.quest/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Ask HN: Is anyone still using the ChatGPT browser, Atlas? (4 points, 2 comments)",
+          "url": "https://news.ycombinator.com/item?id=47958267",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do (185 points, 77 comments)",
+          "url": "https://alash3al.github.io/stash?_v01",
+          "strength": "medium"
+        }
+      ],
+      "query_patterns": [
+        "AI browser",
+        "agent browser",
+        "ChatGPT Atlas",
+        "Perplexity Comet",
+        "browser agent"
+      ],
+      "intent": "comparison and product decision",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 314 points, 143 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "recommend_for_opportunity_pool"
+      }
+    },
+    {
+      "candidate_id": "sig-real-ai-meeting-recorders-and-meeting-not",
+      "working_topic": "AI meeting recorders and meeting notes",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: AI overlay that stays invisible to screen recorders (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48112504",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder (37 points, 11 comments)",
+          "url": "https://news.ycombinator.com/item?id=48110593",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: DualDoc – A text editor for the AI age (1 points, 0 comments)",
+          "url": "https://www.dualdoc.xyz",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Our keyboards are tracking us (11 points, 6 comments)",
+          "url": "https://news.ycombinator.com/item?id=48092999",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Scrivent: On-device voice recorder with transcription and speaker labeling (iOS) (2 points, 0 comments)",
+          "url": "https://apps.apple.com/us/app/scrivent-meeting-recorder/id6761007713",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "AI meeting recorder",
+        "AI meeting notes",
+        "meeting transcription AI",
+        "Granola AI",
+        "Fathom AI"
+      ],
+      "intent": "tool selection and workflow setup",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 337 points, 136 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    },
+    {
+      "candidate_id": "sig-real-ai-search-and-answer-engines",
+      "working_topic": "AI search and answer engines",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Designing, Refining, and Maintaining Agent Skills at Perplexity (2 points, 0 comments)",
+          "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Show HN: Desktop Agent Center – Local AI Automation via Hotkeys (1 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48047444",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Perplexity Computer for Professional Finance (2 points, 0 comments)",
+          "url": "https://xcancel.com/perplexity_ai/status/2051693893473935372",
+          "strength": "weak"
+        },
+        {
+          "source": "Wikipedia pageviews proxy",
+          "evidence": "Perplexity AI had 120855 recent-window pageviews on matching Wikipedia page title",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: I trained a chess engine to play like humans (14 points, 3 comments)",
+          "url": "https://news.ycombinator.com/item?id=48088819",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: AniTroves – An anime database with a custom LLM-based discovery hub (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48057592",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: Gulugulu, an old-style client-side search engine for the old weird web (3 points, 2 comments)",
+          "url": "https://cbrincoveanu.github.io/gulugulu/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT search: Show HN: BotParty, a native macOS chat app where conversations are documents (2 points, 0 comments)",
+          "url": "https://botparty.com/",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "Perplexity AI",
+        "AI search engine",
+        "ChatGPT search",
+        "Google AI Mode",
+        "answer engine optimization"
+      ],
+      "intent": "explainers, comparisons, and strategy guides",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 42 points, 7 comments, wiki_views=120855."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "recommend_for_opportunity_pool"
+      }
+    },
+    {
+      "candidate_id": "sig-real-ai-coding-agents",
+      "working_topic": "AI coding agents",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: The Emotional Cost of AI-Assisted Coding (2 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114954",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs (1 points, 0 comments)",
+          "url": "https://gitglimpse.com",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: Prempti – Guardrails and observability for AI coding agents (2 points, 0 comments)",
+          "url": "https://falco.org/blog/introducing-prempti/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Source Claude Code Offer to Help (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48115222",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Vibe – an interactive web dev course in Claude Code (1 points, 1 comments)",
+          "url": "https://openvibe.sh/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Dexgram – Telegram to Codex Desktop Bridge for Windows (1 points, 0 comments)",
+          "url": "https://github.com/yashau/dexgram",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "AI coding agent",
+        "Claude Code",
+        "Codex CLI",
+        "OpenAI Codex",
+        "agentic coding"
+      ],
+      "intent": "tool comparison and implementation workflow",
+      "demand_signal": {
+        "score": 3,
+        "rationale": "Observed 15 HN items, 36 points, 5 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 17,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    }
+  ],
+  "recommended_pool": [
+    {
+      "candidate_id": "sig-real-ai-browsers-and-agent-browsers",
+      "working_topic": "AI browsers and agent browsers",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Game evolves itself with your wishes (2 points, 0 comments)",
+          "url": "https://aion.quest/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Looking for design partners – Building Agent-mediated communication (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114036",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: Agentic interface for mainframes and COBOL (46 points, 30 comments)",
+          "url": "https://www.hypercubic.ai/hopper",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "agent browser: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Ask HN: Is anyone still using the ChatGPT browser, Atlas? (4 points, 2 comments)",
+          "url": "https://news.ycombinator.com/item?id=47958267",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT Atlas: Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do (185 points, 77 comments)",
+          "url": "https://alash3al.github.io/stash?_v01",
+          "strength": "medium"
+        }
+      ],
+      "query_patterns": [
+        "AI browser",
+        "agent browser",
+        "ChatGPT Atlas",
+        "Perplexity Comet",
+        "browser agent"
+      ],
+      "intent": "comparison and product decision",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 314 points, 143 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "recommend_for_opportunity_pool"
+      }
+    },
+    {
+      "candidate_id": "sig-real-ai-search-and-answer-engines",
+      "working_topic": "AI search and answer engines",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Designing, Refining, and Maintaining Agent Skills at Perplexity (2 points, 0 comments)",
+          "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Show HN: Desktop Agent Center – Local AI Automation via Hotkeys (1 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48047444",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Perplexity AI: Perplexity Computer for Professional Finance (2 points, 0 comments)",
+          "url": "https://xcancel.com/perplexity_ai/status/2051693893473935372",
+          "strength": "weak"
+        },
+        {
+          "source": "Wikipedia pageviews proxy",
+          "evidence": "Perplexity AI had 120855 recent-window pageviews on matching Wikipedia page title",
+          "strength": "medium"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: I trained a chess engine to play like humans (14 points, 3 comments)",
+          "url": "https://news.ycombinator.com/item?id=48088819",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: AniTroves – An anime database with a custom LLM-based discovery hub (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48057592",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI search engine: Show HN: Gulugulu, an old-style client-side search engine for the old weird web (3 points, 2 comments)",
+          "url": "https://cbrincoveanu.github.io/gulugulu/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "ChatGPT search: Show HN: BotParty, a native macOS chat app where conversations are documents (2 points, 0 comments)",
+          "url": "https://botparty.com/",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "Perplexity AI",
+        "AI search engine",
+        "ChatGPT search",
+        "Google AI Mode",
+        "answer engine optimization"
+      ],
+      "intent": "explainers, comparisons, and strategy guides",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 42 points, 7 comments, wiki_views=120855."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "recommend_for_opportunity_pool"
+      }
+    }
+  ],
+  "watch_or_research_more": [
+    {
+      "candidate_id": "sig-real-ai-meeting-recorders-and-meeting-not",
+      "working_topic": "AI meeting recorders and meeting notes",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: AI overlay that stays invisible to screen recorders (1 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48112504",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: How we made MCP development feel good (6 points, 0 comments)",
+          "url": "https://manufact.com/blog/mcp-testing",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting recorder: Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder (37 points, 11 comments)",
+          "url": "https://news.ycombinator.com/item?id=48110593",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: DualDoc – A text editor for the AI age (1 points, 0 comments)",
+          "url": "https://www.dualdoc.xyz",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Our keyboards are tracking us (11 points, 6 comments)",
+          "url": "https://news.ycombinator.com/item?id=48092999",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI meeting notes: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Show HN: Dikaletus – meeting recording and transcription using Mistral AI (2 points, 0 comments)",
+          "url": "https://codeberg.org/MimosaDev/dikaletus",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "meeting transcription AI: Scrivent: On-device voice recorder with transcription and speaker labeling (iOS) (2 points, 0 comments)",
+          "url": "https://apps.apple.com/us/app/scrivent-meeting-recorder/id6761007713",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "AI meeting recorder",
+        "AI meeting notes",
+        "meeting transcription AI",
+        "Granola AI",
+        "Fathom AI"
+      ],
+      "intent": "tool selection and workflow setup",
+      "demand_signal": {
+        "score": 4,
+        "rationale": "Observed 15 HN items, 337 points, 136 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 18,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    },
+    {
+      "candidate_id": "sig-real-ai-coding-agents",
+      "working_topic": "AI coding agents",
+      "signal_status": "public_signal_scan_v1_partial_not_keyword_tool_verified",
+      "observed_signals": [
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: The Emotional Cost of AI-Assisted Coding (2 points, 1 comments)",
+          "url": "https://news.ycombinator.com/item?id=48114954",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs (1 points, 0 comments)",
+          "url": "https://gitglimpse.com",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "AI coding agent: Show HN: Prempti – Guardrails and observability for AI coding agents (2 points, 0 comments)",
+          "url": "https://falco.org/blog/introducing-prempti/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Source Claude Code Offer to Help (2 points, 0 comments)",
+          "url": "https://news.ycombinator.com/item?id=48115222",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Claude Code: Open Vibe – an interactive web dev course in Claude Code (1 points, 1 comments)",
+          "url": "https://openvibe.sh/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth (1 points, 0 comments)",
+          "url": "https://display.dev/",
+          "strength": "weak"
+        },
+        {
+          "source": "Hacker News search",
+          "evidence": "Codex CLI: Show HN: Dexgram – Telegram to Codex Desktop Bridge for Windows (1 points, 0 comments)",
+          "url": "https://github.com/yashau/dexgram",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "AI coding agent",
+        "Claude Code",
+        "Codex CLI",
+        "OpenAI Codex",
+        "agentic coding"
+      ],
+      "intent": "tool comparison and implementation workflow",
+      "demand_signal": {
+        "score": 3,
+        "rationale": "Observed 15 HN items, 36 points, 5 comments, wiki_views=n/a."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific comparison/workflow long-tail pages are more capturable than broad AI head terms; needs SERP difficulty sampling next."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Comparison, workflow, and decision-support content can be structured for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Likely official docs/product pages/changelogs exist; source resolution still required before content production."
+      },
+      "strategic_fit": {
+        "score": 4,
+        "rationale": "Fits a traffic-led AI tools/AI workflows pilot direction if human approves the opportunity pool."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": []
+      },
+      "recommended_action": "score_in_strategy_meeting_pack",
+      "why_now": "Fast-moving AI tooling/search behavior creates recurring comparison and workflow questions; public-signal strength determines priority.",
+      "why_us": "Win by producing source-backed, update-aware comparison/workflow assets rather than generic news recaps.",
+      "next_research_tasks": [
+        "Validate keyword/search volume",
+        "Sample SERP difficulty and result freshness",
+        "Sample AI answer gaps",
+        "Resolve official sources",
+        "Decide cluster vs single-page placement"
+      ],
+      "strategy_score": {
+        "total": 17,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    }
+  ],
+  "defer_or_reject": []
+}
