@@ -1,0 +1,255 @@
+{
+  "status": "strategy_meeting_pack_not_content_production_approval",
+  "production_publish_allowed": false,
+  "purpose": "Find traffic-capturable SEO/GEO opportunities from signals before creating content clusters or pages.",
+  "target_site": "productivity-ai-pilot",
+  "target_region_language": "en-US initially unless changed by human",
+  "signal_sources_to_use_next": [
+    "Google Trends / keyword tool exports",
+    "Search Console once production site exists",
+    "SERP sampling and People Also Ask",
+    "competitor URL/content-structure observations",
+    "community questions from Reddit, forums, YouTube, X, Hacker News, Product Hunt, app stores",
+    "AI answer gap sampling from ChatGPT/Perplexity/Gemini prompts",
+    "official product docs, changelogs, standards, and public datasets"
+  ],
+  "decision_rule": "Only candidates with credible demand signals, capture likelihood, GEO fit, evidence path, and no risk veto should enter the opportunity pool. Staging examples remain research/watch items until external signals are attached.",
+  "ranked_candidates": [
+    {
+      "candidate_id": "sig-2026-05-12-001",
+      "working_topic": "AI workflow template for onboarding new employees",
+      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "observed_signals": [
+        {
+          "source": "pipeline validation batch",
+          "evidence": "Selected as low/medium-risk workflow-template hypothesis",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "ai workflow template for onboarding new employees",
+        "onboarding new employees ai workflow template",
+        "new employee onboarding workflow checklist"
+      ],
+      "intent": "template and implementation guide",
+      "demand_signal": {
+        "score": 2,
+        "rationale": "Plausible long-tail demand, but no external trend/volume data has been attached yet."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific long-tail intent is more capturable than a broad AI/HR head term."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Workflow/checklist/template content is extractable for AI answers."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Official HR/workspace sources exist; production examples still need reviewer input."
+      },
+      "strategic_fit": {
+        "score": 3,
+        "rationale": "Fits a productivity/AI workflow pilot cluster."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": [
+          "employee data privacy review required"
+        ]
+      },
+      "recommended_action": "watch_or_research_more_before_publish_pool",
+      "why_now": "Useful only as a workflow-template hypothesis until real signal evidence is attached.",
+      "why_us": "Could win by providing privacy-aware implementation assets, but needs demand validation.",
+      "next_research_tasks": [
+        "Validate query demand",
+        "Sample SERP difficulty",
+        "Check AI answer gaps",
+        "Collect official HRIS/workspace docs"
+      ],
+      "strategy_score": {
+        "total": 15,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    },
+    {
+      "candidate_id": "sig-2026-05-12-002",
+      "working_topic": "AI workflow template for invoice approval routing",
+      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "observed_signals": [
+        {
+          "source": "pipeline validation batch",
+          "evidence": "Selected as finance-ops workflow-template hypothesis",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "ai workflow template for invoice approval routing",
+        "invoice approval routing workflow template",
+        "accounts payable ai workflow checklist"
+      ],
+      "intent": "workflow template",
+      "demand_signal": {
+        "score": 2,
+        "rationale": "Plausible long-tail operational need, but no real volume/trend evidence attached yet."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific operational workflow may be capturable if SERP lacks practical templates."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Decision rules and checklist format are suitable for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Official invoice/AP platform docs exist; avoid financial advice."
+      },
+      "strategic_fit": {
+        "score": 3,
+        "rationale": "Fits business operations workflow cluster if demand is confirmed."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": [
+          "vendor data privacy",
+          "avoid financial advice"
+        ]
+      },
+      "recommended_action": "watch_or_research_more_before_publish_pool",
+      "why_now": "Use as a validation example, not as a confirmed traffic target yet.",
+      "why_us": "Could win with a clear routing/checklist asset if SERP is weak.",
+      "next_research_tasks": [
+        "Validate query demand",
+        "Inspect SERP template quality",
+        "Attach official AP/invoicing sources"
+      ],
+      "strategy_score": {
+        "total": 15,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    }
+  ],
+  "recommended_pool": [],
+  "watch_or_research_more": [
+    {
+      "candidate_id": "sig-2026-05-12-001",
+      "working_topic": "AI workflow template for onboarding new employees",
+      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "observed_signals": [
+        {
+          "source": "pipeline validation batch",
+          "evidence": "Selected as low/medium-risk workflow-template hypothesis",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "ai workflow template for onboarding new employees",
+        "onboarding new employees ai workflow template",
+        "new employee onboarding workflow checklist"
+      ],
+      "intent": "template and implementation guide",
+      "demand_signal": {
+        "score": 2,
+        "rationale": "Plausible long-tail demand, but no external trend/volume data has been attached yet."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific long-tail intent is more capturable than a broad AI/HR head term."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Workflow/checklist/template content is extractable for AI answers."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Official HR/workspace sources exist; production examples still need reviewer input."
+      },
+      "strategic_fit": {
+        "score": 3,
+        "rationale": "Fits a productivity/AI workflow pilot cluster."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": [
+          "employee data privacy review required"
+        ]
+      },
+      "recommended_action": "watch_or_research_more_before_publish_pool",
+      "why_now": "Useful only as a workflow-template hypothesis until real signal evidence is attached.",
+      "why_us": "Could win by providing privacy-aware implementation assets, but needs demand validation.",
+      "next_research_tasks": [
+        "Validate query demand",
+        "Sample SERP difficulty",
+        "Check AI answer gaps",
+        "Collect official HRIS/workspace docs"
+      ],
+      "strategy_score": {
+        "total": 15,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    },
+    {
+      "candidate_id": "sig-2026-05-12-002",
+      "working_topic": "AI workflow template for invoice approval routing",
+      "signal_status": "staging_example_from_pipeline_validation_not_real_keyword_volume_verified",
+      "observed_signals": [
+        {
+          "source": "pipeline validation batch",
+          "evidence": "Selected as finance-ops workflow-template hypothesis",
+          "strength": "weak"
+        }
+      ],
+      "query_patterns": [
+        "ai workflow template for invoice approval routing",
+        "invoice approval routing workflow template",
+        "accounts payable ai workflow checklist"
+      ],
+      "intent": "workflow template",
+      "demand_signal": {
+        "score": 2,
+        "rationale": "Plausible long-tail operational need, but no real volume/trend evidence attached yet."
+      },
+      "capture_likelihood": {
+        "score": 3,
+        "rationale": "Specific operational workflow may be capturable if SERP lacks practical templates."
+      },
+      "geo_likelihood": {
+        "score": 4,
+        "rationale": "Decision rules and checklist format are suitable for AI answer extraction."
+      },
+      "evidence_availability": {
+        "score": 3,
+        "rationale": "Official invoice/AP platform docs exist; avoid financial advice."
+      },
+      "strategic_fit": {
+        "score": 3,
+        "rationale": "Fits business operations workflow cluster if demand is confirmed."
+      },
+      "risk": {
+        "veto": "pass",
+        "flags": [
+          "vendor data privacy",
+          "avoid financial advice"
+        ]
+      },
+      "recommended_action": "watch_or_research_more_before_publish_pool",
+      "why_now": "Use as a validation example, not as a confirmed traffic target yet.",
+      "why_us": "Could win with a clear routing/checklist asset if SERP is weak.",
+      "next_research_tasks": [
+        "Validate query demand",
+        "Inspect SERP template quality",
+        "Attach official AP/invoicing sources"
+      ],
+      "strategy_score": {
+        "total": 15,
+        "tier": "high",
+        "recommendation": "watch_or_research_more"
+      }
+    }
+  ],
+  "defer_or_reject": []
+}

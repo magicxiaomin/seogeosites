@@ -109,6 +109,12 @@ def main():
         public_strategy_review = public / "opportunity-strategy-review.md"
         public_strategy_review.write_text(strategy_review_path.read_text(encoding="utf-8"), encoding="utf-8")
         strategy_review_rel = public_strategy_review.relative_to(public)
+    signal_pack_rel = None
+    signal_pack_path = root / "factory/strategy/meetings/2026-05-12-signal-led-mvp/strategy_meeting_pack.md"
+    if signal_pack_path.exists():
+        public_signal_pack = public / "signal-led-strategy-meeting-pack.md"
+        public_signal_pack.write_text(signal_pack_path.read_text(encoding="utf-8"), encoding="utf-8")
+        signal_pack_rel = public_signal_pack.relative_to(public)
     rows = []
     for page in batch["generated_pages"]:
         oid = page["opportunity_id"]
@@ -150,7 +156,7 @@ code{{white-space:normal}} .status{{font-size:20px;font-weight:700}}
 <h1>SEO/GEO Factory QA Dashboard</h1>
 <p>Run: <code>{html.escape(str(run.relative_to(root)))}</code></p>
 <p class="status">Staging: {badge('Approved', 'pass') if staging.get('staging_approved') else badge('Pending', 'review')} · Batch publish-readiness: {status_badge(batch.get('status','unknown'))} · Content quality: {badge('Pass', 'pass') if quality.get('ok') else badge('Not checked', 'review')} · production publish_allowed: <code>{html.escape(str(batch.get('publish_allowed')))}</code></p>
-<p>{'<a href="' + html.escape(str(strategy_review_rel)) + '">Opportunity strategy review</a>' if strategy_review_rel else 'Opportunity strategy review has not been generated yet.'} · {'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'} · {'<a href="' + html.escape(str(review_pack_rel)) + '">Editorial review pack</a>' if review_pack_rel else 'Editorial review pack has not been generated yet.'} · {'<a href="' + html.escape(str(review_decision_input_rel)) + '">Review decisions input</a>' if review_decision_input_rel else 'Review decisions input has not been created yet.'} · {'<a href="' + html.escape(str(review_decision_rel)) + '">Review decision application</a>' if review_decision_rel else 'Review decisions have not been applied yet.'} · {'<a href="' + html.escape(str(launch_rel)) + '">Launch readiness pack</a>' if launch_rel else 'Launch readiness pack has not been generated yet.'} · {'<a href="' + html.escape(str(simulation_rel)) + '">Production readiness simulation</a>' if simulation_rel else 'Production readiness simulation has not been generated yet.'}</p>
+<p>{'<a href="' + html.escape(str(signal_pack_rel)) + '">Signal-led strategy meeting pack</a>' if signal_pack_rel else 'Signal-led strategy meeting pack has not been generated yet.'} · {'<a href="' + html.escape(str(strategy_review_rel)) + '">Opportunity strategy review</a>' if strategy_review_rel else 'Opportunity strategy review has not been generated yet.'} · {'<a href="' + html.escape(str(checklist_rel)) + '">Human review checklists</a>' if checklist_rel else 'Human review checklists have not been generated yet.'} · {'<a href="' + html.escape(str(review_pack_rel)) + '">Editorial review pack</a>' if review_pack_rel else 'Editorial review pack has not been generated yet.'} · {'<a href="' + html.escape(str(review_decision_input_rel)) + '">Review decisions input</a>' if review_decision_input_rel else 'Review decisions input has not been created yet.'} · {'<a href="' + html.escape(str(review_decision_rel)) + '">Review decision application</a>' if review_decision_rel else 'Review decisions have not been applied yet.'} · {'<a href="' + html.escape(str(launch_rel)) + '">Launch readiness pack</a>' if launch_rel else 'Launch readiness pack has not been generated yet.'} · {'<a href="' + html.escape(str(simulation_rel)) + '">Production readiness simulation</a>' if simulation_rel else 'Production readiness simulation has not been generated yet.'}</p>
 <h2>Batch summary</h2>
 <pre>{html.escape(json.dumps(summary, indent=2))}</pre>
 <h2>Pages</h2>

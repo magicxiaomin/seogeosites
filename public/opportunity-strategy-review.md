@@ -5,15 +5,19 @@ Production publish allowed: `false`
 
 This artifact answers: why make each page, what intent it targets, how SEO/GEO/risk were judged, why it sits in the current site/cluster, and what still needs human review.
 
+## Batch role correction
+
+This is a `pipeline_validation_batch_not_real_traffic_opportunity_pool`. It proves the factory can process a cluster, but future production candidates should come from a signal-led strategy meeting pack first.
+
 ## Cluster thesis
 
 Hub: `ai-workflow-templates-for-business-teams`
 
-Build a tightly scoped cluster of practical AI workflow templates for business teams before expanding to new sites or unrelated topics.
+This cluster is a low/medium-risk pipeline-validation fixture for exercising the factory. It is not yet the selected traffic-led strategy.
 
 Selection model: risk veto + SEO/GEO classification + evidence availability + existing-site placement fit
 
-Current limitation: This batch uses strategy-hypothesis long-tail topics; it does not yet include verified keyword volume or trend-source data.
+Current limitation: This batch uses strategy-hypothesis long-tail topics; it does not yet include verified keyword volume, trend-source data, SERP observations, competitor gaps, or AI-answer-gap sampling.
 
 ## AI workflow template for onboarding new employees
 

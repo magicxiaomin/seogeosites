@@ -3,11 +3,13 @@
   "status": "strategy_review_for_staging_batch_not_publish_approval",
   "production_publish_allowed": false,
   "note": "This explains why each staging page exists. Topic demand is a hypothesis unless external signal fields are later populated.",
+  "batch_role": "pipeline_validation_batch_not_real_traffic_opportunity_pool",
+  "upstream_strategy_requirement": "Before future content production, run signal-led opportunity discovery and a strategy meeting pack using demand, capture likelihood, GEO fit, evidence availability, and risk veto.",
   "cluster_strategy": {
     "hub": "ai-workflow-templates-for-business-teams",
-    "thesis": "Build a tightly scoped cluster of practical AI workflow templates for business teams before expanding to new sites or unrelated topics.",
+    "thesis": "This cluster is a low/medium-risk pipeline-validation fixture for exercising the factory. It is not yet the selected traffic-led strategy.",
     "selection_model": "risk veto + SEO/GEO classification + evidence availability + existing-site placement fit",
-    "current_limitation": "This batch uses strategy-hypothesis long-tail topics; it does not yet include verified keyword volume or trend-source data."
+    "current_limitation": "This batch uses strategy-hypothesis long-tail topics; it does not yet include verified keyword volume, trend-source data, SERP observations, competitor gaps, or AI-answer-gap sampling."
   },
   "opportunities": [
     {
