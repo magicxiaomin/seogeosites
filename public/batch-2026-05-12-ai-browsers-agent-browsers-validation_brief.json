@@ -1,0 +1,246 @@
+{
+  "candidate_id": "validated-ai-browsers-agent-browsers",
+  "topic": "AI browsers and agent browsers",
+  "status": "opportunity_validation_brief_not_content_approval",
+  "created_at": "2026-05-13T00:43:13.625393+00:00",
+  "production_publish_allowed": false,
+  "classification": "Balanced SEO+GEO",
+  "recommended_action": "approve_for_content_briefing_after_human_opportunity_pool_confirmation",
+  "why_this_opportunity": [
+    "It has visible public SERP evidence from the previous signal-led validation run.",
+    "It sits at the intersection of traditional search intent and AI-answer-engine explainability, making it suitable for Balanced SEO+GEO testing.",
+    "Official/primary sources are available enough to build evidence-backed briefs, but production claims still need editorial source acceptance."
+  ],
+  "traffic_intents": [
+    "definition",
+    "comparison",
+    "best/tools evaluation",
+    "implementation checklist",
+    "privacy/safety or trust caveat"
+  ],
+  "serp_gap_table": [
+    {
+      "query": "AI browser",
+      "sample_source": "duckduckgo_html",
+      "http_status": 200,
+      "observed_result_count": 8,
+      "dominant_result_domains": [
+        "en.wikipedia.org",
+        "usefulai.com",
+        "perplexity.ai",
+        "pcmag.com",
+        "testgrid.io",
+        "zapier.com",
+        "lifehacker.com",
+        "kripeshadwani.com"
+      ],
+      "official_or_primary_count": 1,
+      "comparison_or_review_count": 5,
+      "content_gap": "SERP has lists/reviews and official product pages, but fewer neutral workflow, privacy, and safety checklists with explicit claim sourcing.",
+      "capture_note": "Use official-source-grounded explainers and decision tables; do not rewrite competitor roundups."
+    },
+    {
+      "query": "agent browser",
+      "sample_source": "duckduckgo_html",
+      "http_status": 200,
+      "observed_result_count": 8,
+      "dominant_result_domains": [
+        "github.com",
+        "agent-browser.dev",
+        "skills.sh",
+        "medium.com",
+        "deepwiki.com",
+        "brightdata.com",
+        "clawhub.ai",
+        "scriptbyai.com"
+      ],
+      "official_or_primary_count": 1,
+      "comparison_or_review_count": 2,
+      "content_gap": "SERP has lists/reviews and official product pages, but fewer neutral workflow, privacy, and safety checklists with explicit claim sourcing.",
+      "capture_note": "Use official-source-grounded explainers and decision tables; do not rewrite competitor roundups."
+    },
+    {
+      "query": "ChatGPT Atlas",
+      "sample_source": "duckduckgo_html",
+      "http_status": 200,
+      "observed_result_count": 8,
+      "dominant_result_domains": [
+        "en.wikipedia.org",
+        "openai.com",
+        "chatgpt.com",
+        "openaiatlas.com",
+        "chatgptatlas.run",
+        "trustedreviews.com",
+        "datastudios.org",
+        "polarnotesai.com"
+      ],
+      "official_or_primary_count": 2,
+      "comparison_or_review_count": 0,
+      "content_gap": "SERP has mixed official, review, and glossary results; opportunity is a concise decision asset with evidence table and freshness policy.",
+      "capture_note": "Use official-source-grounded explainers and decision tables; do not rewrite competitor roundups."
+    },
+    {
+      "query": "Perplexity Comet",
+      "sample_source": "duckduckgo_html",
+      "http_status": 200,
+      "observed_result_count": 8,
+      "dominant_result_domains": [
+        "en.wikipedia.org",
+        "perplexity.ai",
+        "cybernews.com",
+        "tomsguide.com",
+        "makeuseof.com",
+        "techcrunch.com",
+        "theregister.com"
+      ],
+      "official_or_primary_count": 1,
+      "comparison_or_review_count": 1,
+      "content_gap": "SERP has mixed official, review, and glossary results; opportunity is a concise decision asset with evidence table and freshness policy.",
+      "capture_note": "Use official-source-grounded explainers and decision tables; do not rewrite competitor roundups."
+    },
+    {
+      "query": "browser agent",
+      "sample_source": "duckduckgo_html",
+      "http_status": 200,
+      "observed_result_count": 8,
+      "dominant_result_domains": [
+        "github.com",
+        "agent-browser.dev",
+        "browser-use.com",
+        "geekflare.com",
+        "browseros.com",
+        "chromewebstore.google.com",
+        "skills.sh",
+        "brightdata.com"
+      ],
+      "official_or_primary_count": 2,
+      "comparison_or_review_count": 1,
+      "content_gap": "SERP has lists/reviews and official product pages, but fewer neutral workflow, privacy, and safety checklists with explicit claim sourcing.",
+      "capture_note": "Use official-source-grounded explainers and decision tables; do not rewrite competitor roundups."
+    }
+  ],
+  "competitor_weakness_hypotheses": [
+    "Roundups often optimize for affiliate-style rankings rather than source-backed definitions and update policy.",
+    "Product-specific coverage can blur official status, review opinion, and speculative capability claims.",
+    "Many explainers lack extractable tables, concise direct-answer blocks, source notes, and dated freshness logic for AI answer engines."
+  ],
+  "official_source_map": [
+    {
+      "title": "Perplexity Comet official page",
+      "url": "https://www.perplexity.ai/comet",
+      "role": "official product source",
+      "reachability": {
+        "reachable": true,
+        "http_status": 403,
+        "note": "official URL exists but blocks automated access"
+      },
+      "production_use_policy": "candidate_official_source_needs_editorial_acceptance_before_publish"
+    },
+    {
+      "title": "OpenAI ChatGPT official site",
+      "url": "https://chatgpt.com/",
+      "role": "official product source",
+      "reachability": {
+        "reachable": true,
+        "http_status": 403,
+        "note": "official URL exists but blocks automated access"
+      },
+      "production_use_policy": "candidate_official_source_needs_editorial_acceptance_before_publish"
+    },
+    {
+      "title": "Google Search AI Mode announcement",
+      "url": "https://blog.google/products/search/ai-mode-search/",
+      "role": "official announcement / product status source",
+      "reachability": {
+        "reachable": true,
+        "http_status": 200,
+        "note": ""
+      },
+      "production_use_policy": "candidate_official_source_needs_editorial_acceptance_before_publish"
+    },
+    {
+      "title": "Microsoft Edge Copilot feature page",
+      "url": "https://www.microsoft.com/en-us/edge/features/copilot",
+      "role": "official product source",
+      "reachability": {
+        "reachable": true,
+        "http_status": 200,
+        "note": ""
+      },
+      "production_use_policy": "candidate_official_source_needs_editorial_acceptance_before_publish"
+    }
+  ],
+  "ai_answer_gap_sampling_checklist": [
+    {
+      "prompt": "What is an AI browser?",
+      "expected_gap_to_check": "Does the answer provide current product status, official-source distinctions, privacy/safety caveats, and a practical comparison/workflow table?",
+      "sampling_status": "prompt_prepared_manual_or_api_sampling_required"
+    },
+    {
+      "prompt": "AI browser vs AI search engine",
+      "expected_gap_to_check": "Does the answer provide current product status, official-source distinctions, privacy/safety caveats, and a practical comparison/workflow table?",
+      "sampling_status": "prompt_prepared_manual_or_api_sampling_required"
+    },
+    {
+      "prompt": "ChatGPT Atlas vs Perplexity Comet",
+      "expected_gap_to_check": "Does the answer provide current product status, official-source distinctions, privacy/safety caveats, and a practical comparison/workflow table?",
+      "sampling_status": "prompt_prepared_manual_or_api_sampling_required"
+    },
+    {
+      "prompt": "Best AI browsers for research",
+      "expected_gap_to_check": "Does the answer provide current product status, official-source distinctions, privacy/safety caveats, and a practical comparison/workflow table?",
+      "sampling_status": "prompt_prepared_manual_or_api_sampling_required"
+    },
+    {
+      "prompt": "What privacy risks do AI browsers create?",
+      "expected_gap_to_check": "Does the answer provide current product status, official-source distinctions, privacy/safety caveats, and a practical comparison/workflow table?",
+      "sampling_status": "prompt_prepared_manual_or_api_sampling_required"
+    }
+  ],
+  "recommended_cluster_shape": {
+    "placement_decision": "new_cluster_in_existing_pilot_site",
+    "cluster_or_hub": "AI browsers and agent browsers",
+    "why_not_new_site": "The opportunity fits the existing SEO/GEO factory pilot audience and does not require a separate brand, risk class, monetization model, or language/region.",
+    "why_not_immediate_draft": "The current artifact is an opportunity validation brief; content briefs and drafts should follow only after opportunity-pool confirmation and source acceptance.",
+    "first_candidate_pages_if_approved": [
+      {
+        "page": "What is an AI browser?",
+        "intent": "definition + buyer/research orientation",
+        "role": "pillar/supporting explainer",
+        "production_gate": "verify official product set and current names"
+      },
+      {
+        "page": "AI browser vs AI search engine",
+        "intent": "comparison/decision",
+        "role": "high-GEO comparison asset",
+        "production_gate": "source-backed definitions and examples"
+      },
+      {
+        "page": "Best AI browsers for research workflows",
+        "intent": "evaluation",
+        "role": "reviewable comparison page",
+        "production_gate": "hands-on or clearly disclosed non-hands-on evaluation policy"
+      },
+      {
+        "page": "AI browser privacy and safety checklist",
+        "intent": "risk checklist",
+        "role": "trust-building supporting page",
+        "production_gate": "privacy/security claims reviewed"
+      },
+      {
+        "page": "Perplexity Comet guide",
+        "intent": "product-specific guide",
+        "role": "supporting page",
+        "production_gate": "official docs and product access confirmed"
+      }
+    ]
+  },
+  "defer_or_reject_criteria": [
+    "No confirmed search demand or community/competitor signal beyond noisy public mentions.",
+    "Official sources cannot substantiate product status, feature claims, or safety/privacy statements.",
+    "SERP is dominated by high-authority pages with no clear angle for a more useful, evidence-backed asset.",
+    "The page would depend on copying competitor tests, unsupported claims, or rapidly stale speculation."
+  ],
+  "next_workflow_step": "human_confirm_opportunity_pool_then_generate_content_briefs_and_source_acceptance_queue",
+  "publish_readiness": "Needs Review"
+}
