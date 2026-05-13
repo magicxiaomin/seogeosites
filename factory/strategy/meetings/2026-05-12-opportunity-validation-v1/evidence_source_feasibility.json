@@ -1,0 +1,67 @@
+{
+  "validated-ai-browsers-agent-browsers": {
+    "official_sources": [
+      {
+        "title": "Perplexity Comet official page",
+        "url": "https://www.perplexity.ai/comet",
+        "reachable": true,
+        "http_status": 403,
+        "source_access_note": "official URL exists but blocks automated access"
+      },
+      {
+        "title": "OpenAI ChatGPT official site",
+        "url": "https://chatgpt.com/",
+        "reachable": true,
+        "http_status": 403,
+        "source_access_note": "official URL exists but blocks automated access"
+      },
+      {
+        "title": "Google Search AI Mode announcement",
+        "url": "https://blog.google/products/search/ai-mode-search/",
+        "reachable": true,
+        "http_status": 200
+      },
+      {
+        "title": "Microsoft Edge Copilot feature page",
+        "url": "https://www.microsoft.com/en-us/edge/features/copilot",
+        "reachable": true,
+        "http_status": 200
+      }
+    ],
+    "reachable_count": 4,
+    "confidence": "high"
+  },
+  "validated-ai-search-answer-engines": {
+    "official_sources": [
+      {
+        "title": "Perplexity official site",
+        "url": "https://www.perplexity.ai/",
+        "reachable": true,
+        "http_status": 403,
+        "source_access_note": "official URL exists but blocks automated access"
+      },
+      {
+        "title": "OpenAI ChatGPT search help",
+        "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+        "reachable": true,
+        "http_status": 403,
+        "source_access_note": "official URL exists but blocks automated access"
+      },
+      {
+        "title": "Google AI Mode help",
+        "url": "https://support.google.com/websearch/answer/14901683",
+        "reachable": true,
+        "http_status": 200,
+        "source_access_note": "direct_fetch_ok"
+      },
+      {
+        "title": "Google Search Central",
+        "url": "https://developers.google.com/search",
+        "reachable": true,
+        "http_status": 200
+      }
+    ],
+    "reachable_count": 4,
+    "confidence": "high"
+  }
+}

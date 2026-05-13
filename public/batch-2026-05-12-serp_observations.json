@@ -1,0 +1,297 @@
+{
+  "validated-ai-browsers-agent-browsers": [
+    {
+      "query": "AI browser",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "More at Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AI_browser"
+        },
+        {
+          "title": "8 Best Agentic AI Browsers in 2026",
+          "url": "https://usefulai.com/tools/ai-browsers"
+        },
+        {
+          "title": "Comet Browser: a Personal AI Assistant",
+          "url": "https://www.perplexity.ai/comet"
+        },
+        {
+          "title": "The Best AI Web Browsers We've Tested for 2026 | PCMag",
+          "url": "https://www.pcmag.com/picks/the-best-ai-web-browsers"
+        },
+        {
+          "title": "11 Best AI Browsers in 2026 (Tested & Compared) - testgrid.io",
+          "url": "https://testgrid.io/blog/ai-browsers/"
+        },
+        {
+          "title": "The 5 best AI browsers in 2026 - Zapier",
+          "url": "https://zapier.com/blog/best-ai-browser/"
+        },
+        {
+          "title": "I Tested the Four Biggest AI Browsers, and Here's What I Found",
+          "url": "https://lifehacker.com/tech/i-compared-the-biggest-ai-browsers"
+        },
+        {
+          "title": "6 Best AI Browsers (2026 Tested) - Stop Drowning in Browser Tabs",
+          "url": "https://kripeshadwani.com/best-ai-browsers/"
+        }
+      ]
+    },
+    {
+      "query": "agent browser",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "GitHub - vercel-labs/agent-browser: Browser automation CLI for AI ...",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "title": "agent-browser | Browser Automation for AI",
+          "url": "https://agent-browser.dev/"
+        },
+        {
+          "title": "agent-browser — vercel-labs/agent-browser - skills.sh",
+          "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser"
+        },
+        {
+          "title": "Best Agent Browsers for 2026 (Top 7 Reviewed) | Medium",
+          "url": "https://medium.com/@datajournal/best-agentic-browsers-for-2026-top-7-reviewed-7760b9609b80"
+        },
+        {
+          "title": "Getting Started | vercel-labs/agent-browser | DeepWiki",
+          "url": "https://deepwiki.com/vercel-labs/agent-browser/2-getting-started"
+        },
+        {
+          "title": "10 Best Agentic Browsers in 2026 (Ranked) - brightdata.com",
+          "url": "https://brightdata.com/blog/ai/best-agent-browsers"
+        },
+        {
+          "title": "Agent Browser — ClawHub",
+          "url": "https://clawhub.ai/matrixy/agent-browser-clawdbot"
+        },
+        {
+          "title": "agent-browser: Free Browser Automation CLI for AI Agents",
+          "url": "https://www.scriptbyai.com/agent-browser-automation-cli/"
+        }
+      ]
+    },
+    {
+      "query": "ChatGPT Atlas",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "ChatGPT Atlas",
+          "url": "https://en.wikipedia.org/wiki/ChatGPT_Atlas"
+        },
+        {
+          "title": "Introducing ChatGPT Atlas - OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/"
+        },
+        {
+          "title": "ChatGPT Atlas",
+          "url": "https://chatgpt.com/atlas/get-started/"
+        },
+        {
+          "title": "ChatGPT Atlas: Redefining the Future of Browsing",
+          "url": "https://www.openaiatlas.com/"
+        },
+        {
+          "title": "ChatGPT Atlas - OpenAI's AI Browser",
+          "url": "https://chatgptatlas.run/"
+        },
+        {
+          "title": "What is ChatGPT Atlas? OpenAI's web browser explained",
+          "url": "https://www.trustedreviews.com/explainer/what-is-chatgpt-atlas"
+        },
+        {
+          "title": "ChatGPT Atlas for Windows: release timeline, features, agent mode, and ...",
+          "url": "https://www.datastudios.org/post/chatgpt-atlas-for-windows-release-timeline-features-agent-mode-and-browser-memory"
+        },
+        {
+          "title": "Announcing ChatGPT Atlas (2026): Students & Teachers",
+          "url": "https://www.polarnotesai.com/news/ai-announcements/chatgpt-atlas/"
+        }
+      ]
+    },
+    {
+      "query": "Perplexity Comet",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "Perplexity Comet",
+          "url": "https://en.wikipedia.org/wiki/Perplexity_Comet"
+        },
+        {
+          "title": "Comet Browser: a Personal AI Assistant - perplexity.ai",
+          "url": "https://www.perplexity.ai/comet"
+        },
+        {
+          "title": "I Tried Perplexity Comet Browser 2026: Here's My Verdict - Cybernews",
+          "url": "https://cybernews.com/ai-tools/perplexity-comet-review/"
+        },
+        {
+          "title": "Perplexity's AI browser Comet is now free for everyone | Tom's Guide",
+          "url": "https://www.tomsguide.com/ai/perplexity/perplexitys-ai-browser-comet-is-now-free-for-everyone-heres-how-to-download-it"
+        },
+        {
+          "title": "It's been 7 months since Perplexity Comet - MUO",
+          "url": "https://www.makeuseof.com/perplexity-comet-review-after-7-months/"
+        },
+        {
+          "title": "Perplexity launches Comet, an AI-powered web browser",
+          "url": "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/"
+        },
+        {
+          "title": "Perplexity Comet hurtling toward Amazon ban - The Register",
+          "url": "https://www.theregister.com/software/2026/03/11/perplexity-comet-hurtling-toward-amazon-ban/5229679"
+        },
+        {
+          "title": "Comet (browser) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comet_(browser)"
+        }
+      ]
+    },
+    {
+      "query": "browser agent",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "GitHub - vercel-labs/agent-browser: Browser automation CLI for AI ...",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "title": "agent-browser | Browser Automation for AI",
+          "url": "https://agent-browser.dev/"
+        },
+        {
+          "title": "browser-use.com",
+          "url": "https://browser-use.com/"
+        },
+        {
+          "title": "Latest Browser User Agents (April 2026) - Geekflare",
+          "url": "https://geekflare.com/guides/latest-browser-user-agents/"
+        },
+        {
+          "title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative",
+          "url": "https://www.browseros.com/"
+        },
+        {
+          "title": "Browser Agent Extension - Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/browser-agent-extension/hcjmlgdocldojhdomgamocddbkoaibgo"
+        },
+        {
+          "title": "agent-browser — vercel-labs/agent-browser - skills.sh",
+          "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser"
+        },
+        {
+          "title": "10 Best Agentic Browsers in 2026 (Ranked) - brightdata.com",
+          "url": "https://brightdata.com/blog/ai/best-agent-browsers"
+        }
+      ]
+    }
+  ],
+  "validated-ai-search-answer-engines": [
+    {
+      "query": "Perplexity AI",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "Perplexity AI",
+          "url": "https://en.wikipedia.org/wiki/Perplexity_AI"
+        },
+        {
+          "title": "Perplexity AI",
+          "url": "https://www.perplexity.ai/"
+        },
+        {
+          "title": "What Is Perplexity? Here's Everything You Need to Know About This AI ...",
+          "url": "https://www.cnet.com/tech/services-and-software/what-is-perplexity-heres-everything-you-need-to-know-about-this-ai-chatbot/"
+        },
+        {
+          "title": "Perplexity AI App",
+          "url": "https://www.perplexityai.app/"
+        },
+        {
+          "title": "Perplexity - Download and install on Windows | Microsoft Store",
+          "url": "https://apps.microsoft.com/detail/xp8jnqfbqh6pvf"
+        },
+        {
+          "title": "Want Perplexity Pro for free? 4 ways to get a year of access ... - ZDNET",
+          "url": "https://www.zdnet.com/article/want-perplexity-pro-for-free-4-ways-to-get-a-year-of-access-for-0-a-200-value/"
+        },
+        {
+          "title": "My In-Depth Perplexity AI Review: Is Pro Worth It in 2026? - G2",
+          "url": "https://learn.g2.com/perplexity-ai-review"
+        },
+        {
+          "title": "Perplexity AI: Exploring AI-powered search beyond Google",
+          "url": "https://searchengineland.com/perplexity-ai-exploring-ai-powered-search-beyond-google-439879"
+        }
+      ]
+    },
+    {
+      "query": "AI search engine",
+      "source": "duckduckgo_html",
+      "http_status": 200,
+      "results": [
+        {
+          "title": "Perplexity AI",
+          "url": "https://www.perplexity.ai/"
+        },
+        {
+          "title": "The Best AI Search Engines We've Tested for 2026 | PCMag",
+          "url": "https://www.pcmag.com/picks/the-best-ai-search-engines"
+        },
+        {
+          "title": "Top AI Search Engines for 2026 (Expert Picks) - deskday.com",
+          "url": "https://deskday.com/ai-search-engines/"
+        },
+        {
+          "title": "Ask AI Questions · Question AI Answer Engine · Free AI Homework Helper ...",
+          "url": "https://iask.ai/"
+        },
+        {
+          "title": "8 Best AI Search Engines for 2026",
+          "url": "https://usefulai.com/tools/ai-search-engines"
+        },
+        {
+          "title": "Top 10 AI Search Engines For 2026 (Ranked By Popularity)",
+          "url": "https://www.reliablesoft.net/ai-search-engines/"
+        },
+        {
+          "title": "Best AI Search Engines To Try Right Now",
+          "url": "https://www.searchenginejournal.com/ai-search-engines/497061/"
+        },
+        {
+          "title": "The 4 best AI search engines - Zapier",
+          "url": "https://zapier.com/blog/best-ai-search-engine/"
+        }
+      ]
+    },
+    {
+      "query": "ChatGPT search",
+      "source": "duckduckgo_html",
+      "http_status": 202,
+      "results": []
+    },
+    {
+      "query": "Google AI Mode",
+      "source": "duckduckgo_html",
+      "http_status": 202,
+      "results": []
+    },
+    {
+      "query": "answer engine optimization",
+      "source": "duckduckgo_html",
+      "http_status": 202,
+      "results": []
+    }
+  ]
+}
